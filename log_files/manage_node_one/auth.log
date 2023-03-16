@@ -1,0 +1,969 @@
+Mar 14 10:58:03 ubuntu systemd-logind[517]: New seat seat0.
+Mar 14 10:58:03 ubuntu systemd-logind[517]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar 14 10:58:03 ubuntu systemd-logind[517]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar 14 10:58:03 ubuntu systemd-logind[517]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar 14 10:58:04 ubuntu gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Mar 14 10:58:04 ubuntu systemd-logind[517]: New session c1 of user gdm.
+Mar 14 10:58:04 ubuntu systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Mar 14 10:58:05 ubuntu gnome-keyring-daemon[771]: couldn't access control socket: /run/user/121/keyring/control: No such file or directory
+Mar 14 10:58:07 ubuntu polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.30 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar 14 10:58:20 ubuntu gdm-password]: pam_unix(gdm-password:session): session opened for user piolo by (uid=0)
+Mar 14 10:58:20 ubuntu systemd: pam_unix(systemd-user:session): session opened for user piolo by (uid=0)
+Mar 14 10:58:20 ubuntu systemd-logind[517]: New session 2 of user piolo.
+Mar 14 10:58:22 ubuntu gnome-keyring-daemon[1336]: The Secret Service was already initialized
+Mar 14 10:58:23 ubuntu polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.76 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar 14 10:58:31 ubuntu dbus-daemon[530]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar 14 10:58:56 ubuntu su[3480]: Successful su for root by piolo
+Mar 14 10:58:56 ubuntu su[3480]: + /dev/pts/0 piolo:root
+Mar 14 10:58:56 ubuntu su[3480]: pam_unix(su:session): session opened for user root by (uid=1000)
+Mar 14 10:58:56 ubuntu su[3480]: pam_systemd(su:session): Cannot create session: Already occupied by a session
+Mar 14 10:59:54 ubuntu su[3480]: pam_unix(su:session): session closed for user root
+Mar 14 11:00:22 ubuntu sudo:    piolo : TTY=pts/0 ; PWD=/home/piolo ; USER=root ; COMMAND=/usr/bin/apt upgrade -y
+Mar 14 11:00:22 ubuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 14 11:06:25 ubuntu gnome-keyring-daemon[1336]: couldn't initialize slot with master password: The password or PIN is incorrect
+Mar 14 11:06:25 ubuntu gdm-password]: gkr-pam: unlocked login keyring
+Mar 14 11:12:15 ubuntu gnome-keyring-daemon[1336]: couldn't initialize slot with master password: The password or PIN is incorrect
+Mar 14 11:12:15 ubuntu gdm-password]: gkr-pam: unlocked login keyring
+Mar 14 11:17:01 ubuntu CRON[4436]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 14 11:17:01 ubuntu CRON[4436]: pam_unix(cron:session): session closed for user root
+Mar 14 11:18:09 ubuntu gnome-keyring-daemon[1336]: couldn't initialize slot with master password: The password or PIN is incorrect
+Mar 14 11:18:09 ubuntu gdm-password]: gkr-pam: unlocked login keyring
+Mar 14 11:26:01 ubuntu polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.76 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar 14 11:26:01 ubuntu polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.30 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar 14 11:26:01 ubuntu polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.30 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar 14 11:26:01 ubuntu polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.76 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar 14 11:29:21 ubuntu systemd-logind[517]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar 14 11:29:21 ubuntu systemd-logind[517]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar 14 11:29:21 ubuntu systemd-logind[517]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar 14 11:30:26 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 14 11:31:01 ubuntu CRON[19977]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 14 11:31:01 ubuntu CRON[19977]: pam_unix(cron:session): session closed for user root
+Mar 14 11:31:11 ubuntu sudo:    piolo : TTY=pts/0 ; PWD=/home/piolo ; USER=root ; COMMAND=/usr/bin/apt-get update -y
+Mar 14 11:31:11 ubuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 14 11:31:16 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 14 11:32:08 ubuntu sudo:    piolo : TTY=pts/0 ; PWD=/home/piolo ; USER=root ; COMMAND=/usr/bin/apt-get upgrade -y
+Mar 14 11:32:08 ubuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 14 11:32:09 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 14 11:32:14 ubuntu systemd-logind[517]: System is powering down.
+Mar 14 11:32:39 ubuntu systemd-logind[678]: New seat seat0.
+Mar 14 11:32:39 ubuntu systemd-logind[678]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar 14 11:32:39 ubuntu systemd-logind[678]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar 14 11:32:39 ubuntu systemd-logind[678]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar 14 11:32:40 ubuntu gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Mar 14 11:32:40 ubuntu systemd-logind[678]: New session c1 of user gdm.
+Mar 14 11:32:40 ubuntu systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Mar 14 11:32:42 ubuntu polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.29 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar 14 11:32:52 ubuntu gdm-password]: pam_unix(gdm-password:session): session opened for user piolo by (uid=0)
+Mar 14 11:32:52 ubuntu systemd: pam_unix(systemd-user:session): session opened for user piolo by (uid=0)
+Mar 14 11:32:52 ubuntu systemd-logind[678]: New session 2 of user piolo.
+Mar 14 11:32:54 ubuntu polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.77 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar 14 11:33:06 ubuntu dbus-daemon[652]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar 14 11:41:45 ubuntu systemd-logind[678]: System is powering down.
+Mar 14 11:49:25 ubuntu systemd-logind[631]: New seat seat0.
+Mar 14 11:49:25 ubuntu systemd-logind[631]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar 14 11:49:25 ubuntu systemd-logind[631]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar 14 11:49:25 ubuntu systemd-logind[631]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar 14 11:49:26 ubuntu gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Mar 14 11:49:26 ubuntu systemd-logind[631]: New session c1 of user gdm.
+Mar 14 11:49:26 ubuntu systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Mar 14 11:49:28 ubuntu polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.31 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar 14 11:49:52 ubuntu dbus-daemon[634]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar 14 11:49:54 ubuntu gdm-password]: pam_unix(gdm-password:session): session opened for user piolo by (uid=0)
+Mar 14 11:49:54 ubuntu systemd-logind[631]: New session 2 of user piolo.
+Mar 14 11:49:54 ubuntu systemd: pam_unix(systemd-user:session): session opened for user piolo by (uid=0)
+Mar 14 11:54:36 ubuntu polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.77 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar 14 11:55:00 ubuntu dbus-daemon[634]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar 14 11:55:12 ubuntu sudo:    piolo : TTY=pts/0 ; PWD=/home/piolo ; USER=root ; COMMAND=/usr/sbin/useradd server_1
+Mar 14 11:55:12 ubuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 14 11:55:12 ubuntu useradd[1716]: new group: name=server_1, GID=1001
+Mar 14 11:55:12 ubuntu useradd[1716]: new user: name=server_1, UID=1001, GID=1001, home=/home/server_1, shell=/bin/sh
+Mar 14 11:55:12 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 14 11:55:19 ubuntu sudo:    piolo : TTY=pts/0 ; PWD=/home/piolo ; USER=root ; COMMAND=/usr/bin/passwd server_1
+Mar 14 11:55:19 ubuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 14 11:55:29 ubuntu passwd[1723]: pam_unix(passwd:chauthtok): password changed for server_1
+Mar 14 11:55:29 ubuntu passwd[1723]: gkr-pam: couldn't update the login keyring password: no old password was entered
+Mar 14 11:55:29 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 14 11:56:11 ubuntu sudo:    piolo : TTY=pts/0 ; PWD=/home/piolo ; USER=root ; COMMAND=/usr/sbin/deluser server_1
+Mar 14 11:56:11 ubuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 14 11:56:12 ubuntu userdel[1749]: delete user 'server_1'
+Mar 14 11:56:12 ubuntu userdel[1749]: removed group 'server_1' owned by 'server_1'
+Mar 14 11:56:12 ubuntu userdel[1749]: removed shadow group 'server_1' owned by 'server_1'
+Mar 14 11:56:12 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 14 11:56:29 ubuntu sudo:    piolo : TTY=pts/0 ; PWD=/home/piolo ; USER=root ; COMMAND=/usr/sbin/adduser server_one
+Mar 14 11:56:29 ubuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 14 11:56:29 ubuntu groupadd[1756]: group added to /etc/group: name=server_one, GID=1001
+Mar 14 11:56:29 ubuntu groupadd[1756]: group added to /etc/gshadow: name=server_one
+Mar 14 11:56:29 ubuntu groupadd[1756]: new group: name=server_one, GID=1001
+Mar 14 11:56:29 ubuntu useradd[1760]: new user: name=server_one, UID=1001, GID=1001, home=/home/server_one, shell=/bin/bash
+Mar 14 11:56:49 ubuntu passwd[1768]: pam_unix(passwd:chauthtok): password changed for server_one
+Mar 14 11:56:49 ubuntu passwd[1768]: gkr-pam: couldn't update the login keyring password: no old password was entered
+Mar 14 11:57:04 ubuntu chfn[1778]: changed user 'server_one' information
+Mar 14 11:57:05 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 14 11:57:25 ubuntu sudo:    piolo : TTY=pts/0 ; PWD=/home/piolo ; USER=root ; COMMAND=/usr/sbin/usermod -aG sudo server_one
+Mar 14 11:57:25 ubuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 14 11:57:25 ubuntu usermod[1784]: add 'server_one' to group 'sudo'
+Mar 14 11:57:25 ubuntu usermod[1784]: add 'server_one' to shadow group 'sudo'
+Mar 14 11:57:25 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 14 11:57:38 ubuntu systemd-logind[631]: System is rebooting.
+Mar 14 11:57:47 ubuntu systemd-logind[495]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar 14 11:57:47 ubuntu systemd-logind[495]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar 14 11:57:47 ubuntu systemd-logind[495]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar 14 11:57:47 ubuntu systemd-logind[495]: New seat seat0.
+Mar 14 11:57:48 ubuntu gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Mar 14 11:57:48 ubuntu systemd-logind[495]: New session c1 of user gdm.
+Mar 14 11:57:48 ubuntu systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Mar 14 11:57:49 ubuntu polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.27 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar 14 11:58:14 ubuntu dbus-daemon[480]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar 14 11:58:21 ubuntu gdm-password]: pam_unix(gdm-password:session): session opened for user server_one by (uid=0)
+Mar 14 11:58:21 ubuntu systemd-logind[495]: New session 2 of user server_one.
+Mar 14 11:58:21 ubuntu systemd: pam_unix(systemd-user:session): session opened for user server_one by (uid=0)
+Mar 14 11:58:22 ubuntu gnome-keyring-daemon[1071]: The Secret Service was already initialized
+Mar 14 11:58:22 ubuntu polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.77 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar 14 11:58:47 ubuntu dbus-daemon[480]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar 14 11:58:50 ubuntu sudo: server_one : TTY=pts/0 ; PWD=/home/server_one ; USER=root ; COMMAND=/usr/bin/apt upgrade
+Mar 14 11:58:50 ubuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 14 11:58:51 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 14 12:00:11 ubuntu systemd-logind[495]: System is powering down.
+Mar 14 12:00:11 ubuntu gdm-password]: pam_unix(gdm-password:session): session closed for user server_one
+Mar 14 12:00:11 ubuntu polkitd(authority=local): Unregistered Authentication Agent for unix-session:2 (system bus name :1.77, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8) (disconnected from bus)
+Mar 14 12:00:12 ubuntu systemd-logind[553]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar 14 12:00:12 ubuntu systemd-logind[553]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar 14 12:00:12 ubuntu systemd-logind[553]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar 14 12:00:12 ubuntu systemd-logind[553]: New seat seat0.
+Mar 14 12:00:12 ubuntu gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Mar 14 12:00:12 ubuntu systemd-logind[553]: New session c1 of user gdm.
+Mar 14 12:00:12 ubuntu systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Mar 14 12:00:15 ubuntu polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.27 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar 14 12:00:39 ubuntu dbus-daemon[517]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar 14 12:02:56 ubuntu gdm-password]: pam_unix(gdm-password:session): session opened for user server_one by (uid=0)
+Mar 14 12:02:56 ubuntu systemd: pam_unix(systemd-user:session): session opened for user server_one by (uid=0)
+Mar 14 12:02:56 ubuntu systemd-logind[553]: New session 2 of user server_one.
+Mar 14 12:02:57 ubuntu polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.77 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar 14 12:03:22 ubuntu dbus-daemon[517]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar 14 12:17:01 ubuntu CRON[1875]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 14 12:17:01 ubuntu CRON[1875]: pam_unix(cron:session): session closed for user root
+Mar 14 12:21:59 ubuntu gdm-password]: gkr-pam: unlocked login keyring
+Mar 14 12:30:58 ubuntu sudo: server_one : TTY=pts/0 ; PWD=/home/server_one ; USER=root ; COMMAND=/bin/systemctl start ssh
+Mar 14 12:30:58 ubuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 14 12:30:58 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 14 12:31:02 ubuntu sudo: server_one : TTY=pts/0 ; PWD=/home/server_one ; USER=root ; COMMAND=/bin/systemctl start sshd
+Mar 14 12:31:02 ubuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 14 12:31:02 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 14 12:31:12 ubuntu sudo: server_one : TTY=pts/0 ; PWD=/home/server_one ; USER=root ; COMMAND=/usr/bin/apt install ssh
+Mar 14 12:31:12 ubuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 14 12:31:19 ubuntu useradd[2193]: new user: name=sshd, UID=122, GID=65534, home=/run/sshd, shell=/usr/sbin/nologin
+Mar 14 12:31:20 ubuntu usermod[2199]: change user 'sshd' password
+Mar 14 12:31:20 ubuntu chage[2204]: changed password expiry for sshd
+Mar 14 12:31:20 ubuntu sshd[2298]: Server listening on 0.0.0.0 port 22.
+Mar 14 12:31:20 ubuntu sshd[2298]: Server listening on :: port 22.
+Mar 14 12:31:23 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 14 12:31:27 ubuntu sudo: server_one : TTY=pts/0 ; PWD=/home/server_one ; USER=root ; COMMAND=/bin/systemctl start sshd
+Mar 14 12:31:27 ubuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 14 12:31:27 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 14 12:31:32 ubuntu sudo: server_one : TTY=pts/0 ; PWD=/home/server_one ; USER=root ; COMMAND=/bin/systemctl enable sshd
+Mar 14 12:31:32 ubuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 14 12:31:32 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 14 12:31:36 ubuntu sudo: server_one : TTY=pts/0 ; PWD=/home/server_one ; USER=root ; COMMAND=/bin/systemctl enable ssh
+Mar 14 12:31:36 ubuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 14 12:31:36 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 14 12:32:06 ubuntu sshd[3424]: Connection closed by authenticating user server_one 192.168.56.103 port 56968 [preauth]
+Mar 14 12:32:06 ubuntu sshd[3426]: Connection closed by authenticating user server_one 192.168.56.103 port 56982 [preauth]
+Mar 14 12:32:08 ubuntu sshd[3428]: Accepted password for server_one from 192.168.56.103 port 56988 ssh2
+Mar 14 12:32:08 ubuntu sshd[3428]: pam_unix(sshd:session): session opened for user server_one by (uid=0)
+Mar 14 12:32:08 ubuntu systemd-logind[553]: New session 5 of user server_one.
+Mar 14 12:32:09 ubuntu sshd[3499]: Received disconnect from 192.168.56.103 port 56988:11: disconnected by user
+Mar 14 12:32:09 ubuntu sshd[3499]: Disconnected from user server_one 192.168.56.103 port 56988
+Mar 14 12:32:09 ubuntu sshd[3428]: pam_unix(sshd:session): session closed for user server_one
+Mar 14 12:32:10 ubuntu systemd-logind[553]: Removed session 5.
+Mar 14 12:32:13 ubuntu sshd[3509]: Accepted publickey for server_one from 192.168.56.103 port 57004 ssh2: RSA SHA256:JmQxikTybS7WHnP948zlBOZUDa87q3H0cOA6m++WCrc
+Mar 14 12:32:13 ubuntu sshd[3509]: pam_unix(sshd:session): session opened for user server_one by (uid=0)
+Mar 14 12:32:13 ubuntu systemd-logind[553]: New session 6 of user server_one.
+Mar 14 12:32:15 ubuntu sshd[3556]: Received disconnect from 192.168.56.103 port 57004:11: disconnected by user
+Mar 14 12:32:15 ubuntu sshd[3556]: Disconnected from user server_one 192.168.56.103 port 57004
+Mar 14 12:32:15 ubuntu sshd[3509]: pam_unix(sshd:session): session closed for user server_one
+Mar 14 12:32:15 ubuntu systemd-logind[553]: Removed session 6.
+Mar 14 12:34:28 ubuntu systemd-logind[553]: System is powering down.
+Mar 14 13:06:07 ubuntu systemd-logind[514]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar 14 13:06:07 ubuntu systemd-logind[514]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar 14 13:06:07 ubuntu systemd-logind[514]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar 14 13:06:07 ubuntu systemd-logind[514]: New seat seat0.
+Mar 14 13:06:07 ubuntu sshd[618]: Server listening on 0.0.0.0 port 22.
+Mar 14 13:06:07 ubuntu sshd[618]: Server listening on :: port 22.
+Mar 14 13:06:08 ubuntu gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Mar 14 13:06:08 ubuntu systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Mar 14 13:06:08 ubuntu systemd-logind[514]: New session c1 of user gdm.
+Mar 14 13:06:08 ubuntu sshd[618]: Received SIGHUP; restarting.
+Mar 14 13:06:08 ubuntu sshd[618]: Server listening on 0.0.0.0 port 22.
+Mar 14 13:06:08 ubuntu sshd[618]: Server listening on :: port 22.
+Mar 14 13:06:08 ubuntu sshd[618]: Received SIGHUP; restarting.
+Mar 14 13:06:08 ubuntu sshd[618]: Server listening on 0.0.0.0 port 22.
+Mar 14 13:06:08 ubuntu sshd[618]: Server listening on :: port 22.
+Mar 14 13:06:10 ubuntu polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.27 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar 14 13:06:10 ubuntu sshd[618]: Received SIGHUP; restarting.
+Mar 14 13:06:10 ubuntu sshd[618]: Server listening on 0.0.0.0 port 22.
+Mar 14 13:06:10 ubuntu sshd[618]: Server listening on :: port 22.
+Mar 14 13:06:10 ubuntu sshd[618]: Received SIGHUP; restarting.
+Mar 14 13:06:10 ubuntu sshd[618]: Server listening on 0.0.0.0 port 22.
+Mar 14 13:06:10 ubuntu sshd[618]: Server listening on :: port 22.
+Mar 14 13:06:34 ubuntu dbus-daemon[519]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar 14 13:12:45 ubuntu gdm-password]: pam_unix(gdm-password:session): session opened for user server_one by (uid=0)
+Mar 14 13:12:45 ubuntu systemd: pam_unix(systemd-user:session): session opened for user server_one by (uid=0)
+Mar 14 13:12:45 ubuntu systemd-logind[514]: New session 2 of user server_one.
+Mar 14 13:12:47 ubuntu polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.77 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar 14 13:13:13 ubuntu dbus-daemon[519]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar 14 13:13:16 ubuntu sudo: server_one : TTY=pts/0 ; PWD=/home/server_one ; USER=root ; COMMAND=/usr/sbin/adduser
+Mar 14 13:13:16 ubuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 14 13:13:16 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 14 13:13:25 ubuntu sudo: server_one : TTY=pts/0 ; PWD=/home/server_one ; USER=root ; COMMAND=/usr/sbin/adduser managed_node_one
+Mar 14 13:13:25 ubuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 14 13:13:25 ubuntu groupadd[1666]: group added to /etc/group: name=managed_node_one, GID=1002
+Mar 14 13:13:25 ubuntu groupadd[1666]: group added to /etc/gshadow: name=managed_node_one
+Mar 14 13:13:25 ubuntu groupadd[1666]: new group: name=managed_node_one, GID=1002
+Mar 14 13:13:25 ubuntu useradd[1670]: new user: name=managed_node_one, UID=1002, GID=1002, home=/home/managed_node_one, shell=/bin/bash
+Mar 14 13:13:31 ubuntu passwd[1678]: pam_unix(passwd:chauthtok): password changed for managed_node_one
+Mar 14 13:13:31 ubuntu passwd[1678]: gkr-pam: couldn't update the login keyring password: no old password was entered
+Mar 14 13:13:38 ubuntu chfn[1679]: changed user 'managed_node_one' information
+Mar 14 13:13:39 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 14 13:14:02 ubuntu sudo: server_one : TTY=pts/0 ; PWD=/home/server_one ; USER=root ; COMMAND=/usr/sbin/userdel server_one
+Mar 14 13:14:02 ubuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 14 13:14:02 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 14 13:14:07 ubuntu systemd-logind[514]: System is powering down.
+Mar 14 13:14:08 ubuntu systemd-logind[476]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar 14 13:14:08 ubuntu systemd-logind[476]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar 14 13:14:08 ubuntu systemd-logind[476]: New seat seat0.
+Mar 14 13:14:08 ubuntu systemd-logind[476]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar 14 13:14:09 ubuntu sshd[613]: Server listening on 0.0.0.0 port 22.
+Mar 14 13:14:09 ubuntu sshd[613]: Server listening on :: port 22.
+Mar 14 13:14:09 ubuntu sshd[613]: Received SIGHUP; restarting.
+Mar 14 13:14:09 ubuntu sshd[613]: Server listening on 0.0.0.0 port 22.
+Mar 14 13:14:09 ubuntu sshd[613]: Server listening on :: port 22.
+Mar 14 13:14:09 ubuntu sshd[613]: Received SIGHUP; restarting.
+Mar 14 13:14:09 ubuntu sshd[613]: Server listening on 0.0.0.0 port 22.
+Mar 14 13:14:09 ubuntu sshd[613]: Server listening on :: port 22.
+Mar 14 13:14:10 ubuntu gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Mar 14 13:14:10 ubuntu systemd-logind[476]: New session c1 of user gdm.
+Mar 14 13:14:10 ubuntu systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Mar 14 13:14:11 ubuntu sshd[613]: Received SIGHUP; restarting.
+Mar 14 13:14:11 ubuntu sshd[613]: Server listening on 0.0.0.0 port 22.
+Mar 14 13:14:11 ubuntu sshd[613]: Server listening on :: port 22.
+Mar 14 13:14:11 ubuntu sshd[613]: Received SIGHUP; restarting.
+Mar 14 13:14:11 ubuntu sshd[613]: Server listening on 0.0.0.0 port 22.
+Mar 14 13:14:11 ubuntu sshd[613]: Server listening on :: port 22.
+Mar 14 13:14:12 ubuntu polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.27 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar 14 13:14:22 ubuntu gdm-password]: pam_unix(gdm-password:session): session opened for user managed_node_one by (uid=0)
+Mar 14 13:14:22 ubuntu systemd: pam_unix(systemd-user:session): session opened for user managed_node_one by (uid=0)
+Mar 14 13:14:22 ubuntu systemd-logind[476]: New session 2 of user managed_node_one.
+Mar 14 13:14:23 ubuntu gnome-keyring-daemon[1138]: The Secret Service was already initialized
+Mar 14 13:14:24 ubuntu polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.77 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar 14 13:14:36 ubuntu dbus-daemon[529]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar 14 13:15:25 ubuntu sudo: managed_node_one : user NOT in sudoers ; TTY=pts/0 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/usr/sbin/userdel server_one
+Mar 14 13:15:33 ubuntu su[2075]: Successful su for root by managed_node_one
+Mar 14 13:15:33 ubuntu su[2075]: + /dev/pts/0 managed_node_one:root
+Mar 14 13:15:33 ubuntu su[2075]: pam_unix(su:session): session opened for user root by (uid=1002)
+Mar 14 13:15:33 ubuntu systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Mar 14 13:15:33 ubuntu systemd-logind[476]: New session 3 of user root.
+Mar 14 13:15:43 ubuntu sudo:     root : TTY=pts/0 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/nano /etc/sudoers
+Mar 14 13:15:43 ubuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 14 13:15:59 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 14 13:16:01 ubuntu su[2075]: pam_unix(su:session): session closed for user root
+Mar 14 13:16:01 ubuntu systemd-logind[476]: Removed session 3.
+Mar 14 13:16:05 ubuntu sudo: managed_node_one : TTY=pts/0 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/usr/sbin/userdel server_one
+Mar 14 13:16:05 ubuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 14 13:16:05 ubuntu userdel[2140]: delete user 'server_one'
+Mar 14 13:16:05 ubuntu userdel[2140]: delete 'server_one' from group 'sudo'
+Mar 14 13:16:05 ubuntu userdel[2140]: removed group 'server_one' owned by 'server_one'
+Mar 14 13:16:05 ubuntu userdel[2140]: removed shadow group 'server_one' owned by 'server_one'
+Mar 14 13:16:05 ubuntu userdel[2140]: delete 'server_one' from shadow group 'sudo'
+Mar 14 13:16:05 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 14 13:16:16 ubuntu systemd-logind[476]: System is powering down.
+Mar 14 13:16:16 ubuntu sshd[613]: Received signal 15; terminating.
+Mar 16 10:25:28 ubuntu systemd-logind[483]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar 16 10:25:28 ubuntu systemd-logind[483]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar 16 10:25:28 ubuntu systemd-logind[483]: New seat seat0.
+Mar 16 10:25:28 ubuntu systemd-logind[483]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar 16 10:25:29 ubuntu sshd[637]: Server listening on 0.0.0.0 port 22.
+Mar 16 10:25:29 ubuntu sshd[637]: Server listening on :: port 22.
+Mar 16 10:25:29 ubuntu sshd[637]: Received SIGHUP; restarting.
+Mar 16 10:25:29 ubuntu sshd[637]: Server listening on 0.0.0.0 port 22.
+Mar 16 10:25:29 ubuntu sshd[637]: Server listening on :: port 22.
+Mar 16 10:25:29 ubuntu sshd[637]: Received SIGHUP; restarting.
+Mar 16 10:25:29 ubuntu sshd[637]: Server listening on 0.0.0.0 port 22.
+Mar 16 10:25:29 ubuntu sshd[637]: Server listening on :: port 22.
+Mar 16 10:25:29 ubuntu gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Mar 16 10:25:29 ubuntu systemd-logind[483]: New session c1 of user gdm.
+Mar 16 10:25:29 ubuntu systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Mar 16 10:25:32 ubuntu sshd[637]: Received SIGHUP; restarting.
+Mar 16 10:25:32 ubuntu sshd[637]: Server listening on 0.0.0.0 port 22.
+Mar 16 10:25:32 ubuntu sshd[637]: Server listening on :: port 22.
+Mar 16 10:25:32 ubuntu sshd[637]: Received SIGHUP; restarting.
+Mar 16 10:25:32 ubuntu sshd[637]: Server listening on 0.0.0.0 port 22.
+Mar 16 10:25:32 ubuntu sshd[637]: Server listening on :: port 22.
+Mar 16 10:25:32 ubuntu polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.31 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar 16 10:25:56 ubuntu dbus-daemon[499]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar 16 10:31:37 ubuntu gdm-password]: pam_unix(gdm-password:session): session opened for user managed_node_one by (uid=0)
+Mar 16 10:31:37 ubuntu systemd: pam_unix(systemd-user:session): session opened for user managed_node_one by (uid=0)
+Mar 16 10:31:37 ubuntu systemd-logind[483]: New session 2 of user managed_node_one.
+Mar 16 10:31:39 ubuntu polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.89 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar 16 10:32:04 ubuntu dbus-daemon[499]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar 16 10:44:49 ubuntu gdm-password]: gkr-pam: unlocked login keyring
+Mar 16 10:50:13 ubuntu sshd[4679]: Accepted password for managed_node_one from 192.168.56.103 port 49308 ssh2
+Mar 16 10:50:13 ubuntu sshd[4679]: pam_unix(sshd:session): session opened for user managed_node_one by (uid=0)
+Mar 16 10:50:13 ubuntu systemd-logind[483]: New session 4 of user managed_node_one.
+Mar 16 10:50:18 ubuntu sshd[4754]: Received disconnect from 192.168.56.103 port 49308:11: disconnected by user
+Mar 16 10:50:18 ubuntu sshd[4754]: Disconnected from user managed_node_one 192.168.56.103 port 49308
+Mar 16 10:50:18 ubuntu systemd-logind[483]: Removed session 4.
+Mar 16 10:50:18 ubuntu sshd[4679]: pam_unix(sshd:session): session closed for user managed_node_one
+Mar 16 10:50:29 ubuntu sshd[4776]: Connection closed by authenticating user managed_node_one 192.168.56.103 port 36854 [preauth]
+Mar 16 10:50:29 ubuntu sshd[4778]: Connection closed by authenticating user managed_node_one 192.168.56.103 port 36864 [preauth]
+Mar 16 10:50:32 ubuntu sshd[4780]: Accepted password for managed_node_one from 192.168.56.103 port 36868 ssh2
+Mar 16 10:50:32 ubuntu sshd[4780]: pam_unix(sshd:session): session opened for user managed_node_one by (uid=0)
+Mar 16 10:50:32 ubuntu systemd-logind[483]: New session 5 of user managed_node_one.
+Mar 16 10:50:32 ubuntu sshd[4827]: Received disconnect from 192.168.56.103 port 36868:11: disconnected by user
+Mar 16 10:50:32 ubuntu sshd[4827]: Disconnected from user managed_node_one 192.168.56.103 port 36868
+Mar 16 10:50:32 ubuntu sshd[4780]: pam_unix(sshd:session): session closed for user managed_node_one
+Mar 16 10:50:32 ubuntu systemd-logind[483]: Removed session 5.
+Mar 16 10:50:46 ubuntu sshd[4833]: Accepted publickey for managed_node_one from 192.168.56.103 port 38142 ssh2: RSA SHA256:JmQxikTybS7WHnP948zlBOZUDa87q3H0cOA6m++WCrc
+Mar 16 10:50:46 ubuntu sshd[4833]: pam_unix(sshd:session): session opened for user managed_node_one by (uid=0)
+Mar 16 10:50:46 ubuntu systemd-logind[483]: New session 6 of user managed_node_one.
+Mar 16 10:52:59 ubuntu sshd[4880]: Received disconnect from 192.168.56.103 port 38142:11: disconnected by user
+Mar 16 10:52:59 ubuntu sshd[4880]: Disconnected from user managed_node_one 192.168.56.103 port 38142
+Mar 16 10:52:59 ubuntu sshd[4833]: pam_unix(sshd:session): session closed for user managed_node_one
+Mar 16 10:52:59 ubuntu systemd-logind[483]: Removed session 6.
+Mar 16 11:05:23 ubuntu gdm-password]: gkr-pam: unlocked login keyring
+Mar 16 11:17:01 ubuntu CRON[5001]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 16 11:17:01 ubuntu CRON[5001]: pam_unix(cron:session): session closed for user root
+Mar 16 11:17:24 ubuntu sshd[5014]: Accepted publickey for managed_node_one from 192.168.56.103 port 56112 ssh2: RSA SHA256:JmQxikTybS7WHnP948zlBOZUDa87q3H0cOA6m++WCrc
+Mar 16 11:17:24 ubuntu sshd[5014]: pam_unix(sshd:session): session opened for user managed_node_one by (uid=0)
+Mar 16 11:17:24 ubuntu systemd-logind[483]: New session 8 of user managed_node_one.
+Mar 16 11:18:25 ubuntu sshd[5061]: Received disconnect from 192.168.56.103 port 56112:11: disconnected by user
+Mar 16 11:18:25 ubuntu sshd[5061]: Disconnected from user managed_node_one 192.168.56.103 port 56112
+Mar 16 11:18:25 ubuntu sshd[5014]: pam_unix(sshd:session): session closed for user managed_node_one
+Mar 16 11:18:25 ubuntu systemd-logind[483]: Removed session 8.
+Mar 16 11:31:01 ubuntu CRON[5127]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 16 11:31:01 ubuntu CRON[5127]: pam_unix(cron:session): session closed for user root
+Mar 16 11:35:27 ubuntu sshd[5153]: Accepted publickey for managed_node_one from 192.168.56.103 port 47416 ssh2: RSA SHA256:JmQxikTybS7WHnP948zlBOZUDa87q3H0cOA6m++WCrc
+Mar 16 11:35:27 ubuntu sshd[5153]: pam_unix(sshd:session): session opened for user managed_node_one by (uid=0)
+Mar 16 11:35:27 ubuntu systemd-logind[483]: New session 10 of user managed_node_one.
+Mar 16 11:35:28 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-phbfujcmqbswlirtmnadtvlvfudaemwv ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678937728.0454698-8049-162567994862097/AnsiballZ_setup.py
+Mar 16 11:35:28 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 11:35:28 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 11:35:28 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-vdkajgwknnphvzbdvbotonhwpatqukqm ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678937728.8323925-8065-22740475850688/AnsiballZ_command.py
+Mar 16 11:35:28 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 11:35:29 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 11:35:29 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-voxulmbpahxkyymqribittixqjsavzlh ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678937729.1417983-8074-259998130640671/AnsiballZ_apt.py
+Mar 16 11:35:29 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 11:35:32 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 11:35:32 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ydggxktrdptfriposjihzafsoukvxjlb ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678937732.6920311-8085-235906118589328/AnsiballZ_setup.py
+Mar 16 11:35:32 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 11:35:33 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 11:36:33 ubuntu sshd[5200]: Received disconnect from 192.168.56.103 port 47416:11: disconnected by user
+Mar 16 11:36:33 ubuntu sshd[5200]: Disconnected from user managed_node_one 192.168.56.103 port 47416
+Mar 16 11:36:33 ubuntu sshd[5153]: pam_unix(sshd:session): session closed for user managed_node_one
+Mar 16 11:36:33 ubuntu systemd-logind[483]: Removed session 10.
+Mar 16 11:39:03 ubuntu sshd[5795]: Accepted publickey for managed_node_one from 192.168.56.103 port 42780 ssh2: RSA SHA256:JmQxikTybS7WHnP948zlBOZUDa87q3H0cOA6m++WCrc
+Mar 16 11:39:03 ubuntu sshd[5795]: pam_unix(sshd:session): session opened for user managed_node_one by (uid=0)
+Mar 16 11:39:03 ubuntu systemd-logind[483]: New session 11 of user managed_node_one.
+Mar 16 11:39:03 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-rcqglecbdioweuqwenjfdujmlybeyhbc ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678937943.508495-8269-12028134624512/AnsiballZ_setup.py
+Mar 16 11:39:03 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 11:39:04 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 11:39:04 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-psffrjlulbmgpulpslwcipsnjbgemuwu ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678937944.1903589-8284-109660183742967/AnsiballZ_command.py
+Mar 16 11:39:04 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 11:39:04 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 11:39:04 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-lxpvhwuuozrxsfzcrqdcojfrtlimuthn ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678937944.478606-8293-62651156586527/AnsiballZ_apt.py
+Mar 16 11:39:04 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 11:39:07 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 11:39:07 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-xwpvcxgjvmzedszhpuhuunstycktnsui ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678937947.5349948-8304-224477812112366/AnsiballZ_setup.py
+Mar 16 11:39:07 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 11:39:07 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 11:39:55 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-olixwtbacafddavzxsgbvheqwzndkbhr ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678937995.1154623-8356-166480802026440/AnsiballZ_setup.py
+Mar 16 11:39:55 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 11:39:55 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 11:39:55 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-xahyuezubcngoxbogjzqifsrnamrywmz ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678937995.820752-8367-225478747182035/AnsiballZ_command.py
+Mar 16 11:39:55 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 11:39:56 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 11:39:56 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-beduagzoefjlftkaazwzypifzmldstus ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678937996.1424284-8376-189811514656989/AnsiballZ_apt.py
+Mar 16 11:39:56 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 11:39:59 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 11:39:59 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-fgxdsnvrwgvatmuesfkynmvijummwrlw ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678937999.2931225-8387-170860744163475/AnsiballZ_setup.py
+Mar 16 11:39:59 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 11:39:59 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 11:39:59 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-cvyuzepzclqadmlntuaecdqztcptncvs ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678937999.8324628-8396-194866547522015/AnsiballZ_slurp.py
+Mar 16 11:39:59 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 11:40:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 11:40:39 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-etbwohcuxlyewrnepuqiqghjrwmmecor ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678938038.96997-8425-15724719552816/AnsiballZ_setup.py
+Mar 16 11:40:39 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 11:40:39 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 11:40:39 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ssjlfbbadbhushzyerhouqmicfjxhmil ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678938039.6500359-8436-52867441957632/AnsiballZ_command.py
+Mar 16 11:40:39 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 11:40:39 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 11:40:40 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-tfsoddjwaufevcbtadrrlsllmejwwoko ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678938039.9552474-8445-18100184589677/AnsiballZ_apt.py
+Mar 16 11:40:40 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 11:40:42 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 11:40:43 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-inzqxragevubbeviuoevatennjglhecf ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678938042.9281588-8456-239073204169405/AnsiballZ_setup.py
+Mar 16 11:40:43 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 11:40:43 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 11:40:43 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-akmwkdsnwskdghxzpgersxbqiulcyfnu ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678938043.4671643-8465-219550306693584/AnsiballZ_slurp.py
+Mar 16 11:40:43 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 11:40:43 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 11:41:43 ubuntu sshd[5846]: Received disconnect from 192.168.56.103 port 42780:11: disconnected by user
+Mar 16 11:41:43 ubuntu sshd[5846]: Disconnected from user managed_node_one 192.168.56.103 port 42780
+Mar 16 11:41:43 ubuntu sshd[5795]: pam_unix(sshd:session): session closed for user managed_node_one
+Mar 16 11:41:43 ubuntu systemd-logind[483]: Removed session 11.
+Mar 16 11:45:32 ubuntu gdm-password]: gkr-pam: unlocked login keyring
+Mar 16 11:49:11 ubuntu sshd[7694]: Accepted publickey for managed_node_one from 192.168.56.103 port 57942 ssh2: RSA SHA256:JmQxikTybS7WHnP948zlBOZUDa87q3H0cOA6m++WCrc
+Mar 16 11:49:11 ubuntu sshd[7694]: pam_unix(sshd:session): session opened for user managed_node_one by (uid=0)
+Mar 16 11:49:11 ubuntu systemd-logind[483]: New session 12 of user managed_node_one.
+Mar 16 11:49:11 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-mhndqzcbjicqyvtghoygdabcagojqrye ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678938551.652247-8583-128211882478755/AnsiballZ_setup.py
+Mar 16 11:49:11 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 11:49:12 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 11:49:12 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-wvoxegbrilthpwhoibsvebmuobhaixlw ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678938552.3564413-8598-264763247737537/AnsiballZ_command.py
+Mar 16 11:49:12 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 11:49:12 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 11:49:12 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-utjfkpvxgbilusfsyscpzczslcrvjamg ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678938552.6504366-8607-217251036781132/AnsiballZ_apt.py
+Mar 16 11:49:12 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 11:49:21 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 11:49:21 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-wltksrhsfckqkddncgkfbkqtxcvotomn ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678938561.583716-8618-165244397304079/AnsiballZ_setup.py
+Mar 16 11:49:21 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 11:49:22 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 11:49:22 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-jahtiuslfmzojcngtlhoigntprzskxto ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678938562.2868397-8627-219951956964454/AnsiballZ_slurp.py
+Mar 16 11:49:22 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 11:49:22 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 11:49:22 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-cvpkaregrkmdiwkmmyyhdsvkcmoymtwl ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678938562.5716016-8636-101717589990291/AnsiballZ_slurp.py
+Mar 16 11:49:22 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 11:49:22 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 11:50:22 ubuntu sshd[7745]: Received disconnect from 192.168.56.103 port 57942:11: disconnected by user
+Mar 16 11:50:22 ubuntu sshd[7745]: Disconnected from user managed_node_one 192.168.56.103 port 57942
+Mar 16 11:50:22 ubuntu sshd[7694]: pam_unix(sshd:session): session closed for user managed_node_one
+Mar 16 11:50:22 ubuntu systemd-logind[483]: Removed session 12.
+Mar 16 11:53:35 ubuntu sshd[8452]: Accepted publickey for managed_node_one from 192.168.56.103 port 57722 ssh2: RSA SHA256:JmQxikTybS7WHnP948zlBOZUDa87q3H0cOA6m++WCrc
+Mar 16 11:53:35 ubuntu sshd[8452]: pam_unix(sshd:session): session opened for user managed_node_one by (uid=0)
+Mar 16 11:53:35 ubuntu systemd-logind[483]: New session 13 of user managed_node_one.
+Mar 16 11:53:36 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-vovpwczrdzbcchrrgsnmpsntbyaeufkv ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678938815.7747114-8783-178705732816027/AnsiballZ_setup.py
+Mar 16 11:53:36 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 11:53:36 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 11:53:36 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-drteyfewldjuzeslmrdfqexwtibvvdne ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678938816.470353-8798-105438592265544/AnsiballZ_command.py
+Mar 16 11:53:36 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 11:53:36 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 11:53:36 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-svjogrccdkaybljgjpskdrwlgucnwptz ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678938816.7874572-8807-142019103061799/AnsiballZ_apt.py
+Mar 16 11:53:36 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 11:53:40 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 11:53:40 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-izgrivlxsbjtalufcvngbdbwwwqyzdzx ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678938820.3247685-8845-8580046472986/AnsiballZ_setup.py
+Mar 16 11:53:40 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 11:53:41 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 11:53:42 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-xpcpfdzdgwrnowvfpjzxvvdtlaehjubu ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678938821.9350677-8854-48118398357518/AnsiballZ_slurp.py
+Mar 16 11:53:42 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 11:53:42 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 11:53:42 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-skgtsixomkpwtuaqbkrmlffggvzwdebc ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678938822.200093-8864-50605986768170/AnsiballZ_slurp.py
+Mar 16 11:53:42 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 11:53:42 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 11:54:42 ubuntu sshd[8525]: Received disconnect from 192.168.56.103 port 57722:11: disconnected by user
+Mar 16 11:54:42 ubuntu sshd[8525]: Disconnected from user managed_node_one 192.168.56.103 port 57722
+Mar 16 11:54:42 ubuntu sshd[8452]: pam_unix(sshd:session): session closed for user managed_node_one
+Mar 16 11:54:42 ubuntu systemd-logind[483]: Removed session 13.
+Mar 16 11:56:11 ubuntu gdm-password]: gkr-pam: unlocked login keyring
+Mar 16 11:58:23 ubuntu sshd[9191]: Accepted publickey for managed_node_one from 192.168.56.103 port 37162 ssh2: RSA SHA256:JmQxikTybS7WHnP948zlBOZUDa87q3H0cOA6m++WCrc
+Mar 16 11:58:23 ubuntu sshd[9191]: pam_unix(sshd:session): session opened for user managed_node_one by (uid=0)
+Mar 16 11:58:23 ubuntu systemd-logind[483]: New session 14 of user managed_node_one.
+Mar 16 11:58:24 ubuntu sudo: pam_unix(sudo:auth): authentication failure; logname=managed_node_one uid=1002 euid=0 tty=/dev/pts/2 ruser=managed_node_one rhost=  user=managed_node_one
+Mar 16 11:58:26 ubuntu sudo: pam_unix(sudo:auth): conversation failed
+Mar 16 11:58:26 ubuntu sudo: pam_unix(sudo:auth): auth could not identify password for [managed_node_one]
+Mar 16 11:58:26 ubuntu sudo: managed_node_one : 1 incorrect password attempt ; TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-kmwhqgpajmeuosfyocmgkfmttsmmlsdq ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678939103.9524193-8997-155143446647697/AnsiballZ_setup.py
+Mar 16 11:58:30 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-jbdjhaxxcnvuvdwlkoalnrxoiirfdjqp ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678939110.3155808-9021-260428894346015/AnsiballZ_setup.py
+Mar 16 11:58:30 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 11:58:30 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 11:58:31 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-fjmqaefpagctyslgjfhjzvtkcbhzridy ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678939110.9896386-9032-275119678714084/AnsiballZ_command.py
+Mar 16 11:58:31 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 11:58:31 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 11:58:31 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-xaktfmaazaopimwrcyqfcxghmfxczjul ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678939111.2824295-9041-62732380905962/AnsiballZ_apt.py
+Mar 16 11:58:31 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 11:58:36 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 11:58:36 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-yawjkeiprjnqaakalzxmxduwjydhgnmo ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678939116.603988-9052-232791705867473/AnsiballZ_setup.py
+Mar 16 11:58:36 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 11:58:37 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 11:58:37 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-wfkhueoqmgejbvxsvssgexfhisljfglu ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678939117.1396487-9061-259923494133948/AnsiballZ_slurp.py
+Mar 16 11:58:37 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 11:58:37 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 11:58:37 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-orgjtwaxsvtswchhqkzreysmyqnobkpa ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678939117.4004655-9070-274421296929463/AnsiballZ_slurp.py
+Mar 16 11:58:37 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 11:58:37 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 11:59:37 ubuntu sshd[9242]: Received disconnect from 192.168.56.103 port 37162:11: disconnected by user
+Mar 16 11:59:37 ubuntu sshd[9242]: Disconnected from user managed_node_one 192.168.56.103 port 37162
+Mar 16 11:59:37 ubuntu sshd[9191]: pam_unix(sshd:session): session closed for user managed_node_one
+Mar 16 11:59:37 ubuntu systemd-logind[483]: Removed session 14.
+Mar 16 12:04:32 ubuntu gdm-password]: gkr-pam: unlocked login keyring
+Mar 16 12:13:17 ubuntu sshd[9975]: Accepted publickey for managed_node_one from 192.168.56.103 port 45934 ssh2: RSA SHA256:JmQxikTybS7WHnP948zlBOZUDa87q3H0cOA6m++WCrc
+Mar 16 12:13:17 ubuntu sshd[9975]: pam_unix(sshd:session): session opened for user managed_node_one by (uid=0)
+Mar 16 12:13:17 ubuntu systemd-logind[483]: New session 15 of user managed_node_one.
+Mar 16 12:13:18 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-rbtjqahvjmnqmlnwfezsqiuwcivbuzsg ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678939997.7559292-9231-92262216695536/AnsiballZ_setup.py
+Mar 16 12:13:18 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:13:18 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:13:18 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-asjfyghpekwvbprgzffxrpfrtrzpvzdy ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678939998.452191-9246-276350768728649/AnsiballZ_command.py
+Mar 16 12:13:18 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:13:18 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:13:18 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ooprqalwbuoispwnfqilnudyajzfpuxj ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678939998.7831974-9255-44781669591598/AnsiballZ_apt.py
+Mar 16 12:13:18 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:13:22 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:13:22 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-qscwlkkbuotxshomhamplpooqoggmnky ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678940002.6137283-9266-74996150368107/AnsiballZ_setup.py
+Mar 16 12:13:22 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:13:23 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:13:23 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-nbxcqdmlgfoiqsnamldkfcyxixvsnbsb ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678940003.1547616-9275-174519407315197/AnsiballZ_slurp.py
+Mar 16 12:13:23 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:13:23 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:14:19 ubuntu gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty2 ruser= rhost=  user=managed_node_one
+Mar 16 12:14:23 ubuntu sshd[10026]: Received disconnect from 192.168.56.103 port 45934:11: disconnected by user
+Mar 16 12:14:23 ubuntu sshd[10026]: Disconnected from user managed_node_one 192.168.56.103 port 45934
+Mar 16 12:14:23 ubuntu sshd[9975]: pam_unix(sshd:session): session closed for user managed_node_one
+Mar 16 12:14:23 ubuntu systemd-logind[483]: Removed session 15.
+Mar 16 12:14:34 ubuntu gdm-password]: gkr-pam: unlocked login keyring
+Mar 16 12:17:01 ubuntu CRON[10675]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 16 12:17:01 ubuntu CRON[10675]: pam_unix(cron:session): session closed for user root
+Mar 16 12:20:44 ubuntu gdm-password]: gkr-pam: unlocked login keyring
+Mar 16 12:25:13 ubuntu sshd[10723]: Accepted publickey for managed_node_one from 192.168.56.103 port 53280 ssh2: RSA SHA256:JmQxikTybS7WHnP948zlBOZUDa87q3H0cOA6m++WCrc
+Mar 16 12:25:13 ubuntu sshd[10723]: pam_unix(sshd:session): session opened for user managed_node_one by (uid=0)
+Mar 16 12:25:13 ubuntu systemd-logind[483]: New session 17 of user managed_node_one.
+Mar 16 12:25:13 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-wvjrheqghmurnjxpckobpnpcwjpxptte ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678940713.427415-9744-260203290990573/AnsiballZ_setup.py
+Mar 16 12:25:13 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:25:14 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:25:14 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ababmgwhaivwvmkgpkeknqvjywguugrd ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678940714.1751554-9759-166409736094195/AnsiballZ_command.py
+Mar 16 12:25:14 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:25:14 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:25:14 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-nihqbixhwlxenxqayqfybjnqolkfirzl ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678940714.4756193-9768-167390704136349/AnsiballZ_apt.py
+Mar 16 12:25:14 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:25:21 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:25:21 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-qbrfflpvzcxwgydegvxujtgzcoulwtyr ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678940721.5936158-9779-119610738475822/AnsiballZ_setup.py
+Mar 16 12:25:21 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:25:22 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:25:22 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-afiotbzixnhiovrypmkhuhiggnygwiob ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678940722.2239742-9788-148633728656442/AnsiballZ_file.py
+Mar 16 12:25:22 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:25:22 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:25:22 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-lqyrrvcjzsmhkaezjjwukumahviuainj ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678940722.5203643-9797-77499489815075/AnsiballZ_slurp.py
+Mar 16 12:25:22 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:25:22 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:25:22 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-lweixixibxvdfuctnuanuunbbeqxiqpc ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678940722.7502089-9797-57812347435722/AnsiballZ_slurp.py
+Mar 16 12:25:22 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:25:22 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:25:23 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-lzhdpchiqxcgxcxotpaunrffetvkrhip ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678940722.9343138-9797-188236777754298/AnsiballZ_slurp.py
+Mar 16 12:25:23 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:25:23 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:25:23 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-dvpvdgedlvsotuymqyptaauqgujsackw ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678940723.113851-9797-194206968582381/AnsiballZ_slurp.py
+Mar 16 12:25:23 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:25:23 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:25:23 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-vhfouvazhjsnsynjsyiuqlxcbdqctuom ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678940723.3487134-9797-95313388602489/AnsiballZ_slurp.py
+Mar 16 12:25:23 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:25:23 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:25:23 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-rkdivaiwcmvhryzeuzqlomefogzxybcq ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678940723.57686-9797-265871162377841/AnsiballZ_slurp.py
+Mar 16 12:25:23 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:25:23 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:25:23 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-sgtgklysfntziyrcbsjsmlzcoadmsauj ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678940723.7709086-9797-237834023421913/AnsiballZ_slurp.py
+Mar 16 12:25:23 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:25:23 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:25:24 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-pajavpmccaemouisusiqttzdfkxctouz ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678940723.9564807-9797-100793673266392/AnsiballZ_slurp.py
+Mar 16 12:25:24 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:25:24 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:25:24 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-bfbtsgzduuqhrgqlnjrvzljemoydbwun ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678940724.1343095-9797-272819426243940/AnsiballZ_slurp.py
+Mar 16 12:25:24 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:25:24 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:25:24 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-oyyrwlpkcuyfifucbbozyzkswrfhasyf ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678940724.3121085-9797-14218299077133/AnsiballZ_slurp.py
+Mar 16 12:25:24 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:25:24 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:25:24 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-xnwjoivlmekpzhxucaqhpnadagiptcbv ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678940724.5002835-9797-135930768098051/AnsiballZ_slurp.py
+Mar 16 12:25:24 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:25:24 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:25:24 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-dkeuzikpfqdnjstpkvqraevfltdqwvxl ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678940724.6814947-9797-228892246233155/AnsiballZ_slurp.py
+Mar 16 12:25:24 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:25:24 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:25:24 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-shwbzqfrkusqzxquxckealpuomhcqqih ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678940724.885409-9797-271915032973623/AnsiballZ_slurp.py
+Mar 16 12:25:24 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:25:25 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:25:25 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ffipfgsucpshcwedvucuizooxymveisf ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678940725.1047363-9797-110944816374387/AnsiballZ_slurp.py
+Mar 16 12:25:25 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:25:25 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:25:25 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ejuluwxpgfiqwlnfxazwygtqquztvbxu ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678940725.2896395-9797-34944984024892/AnsiballZ_slurp.py
+Mar 16 12:25:25 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:25:25 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:25:25 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-rglbdhpayyuccveszhvshbpfqdzlgvga ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678940725.5280693-9797-70188719386567/AnsiballZ_slurp.py
+Mar 16 12:25:25 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:25:25 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:25:25 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ewpyoldqjfgwpqzuddbvzeebddhtnzui ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678940725.7063425-9797-29504978759764/AnsiballZ_slurp.py
+Mar 16 12:25:25 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:25:25 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:26:25 ubuntu sshd[10774]: Received disconnect from 192.168.56.103 port 53280:11: disconnected by user
+Mar 16 12:26:25 ubuntu sshd[10774]: Disconnected from user managed_node_one 192.168.56.103 port 53280
+Mar 16 12:26:25 ubuntu sshd[10723]: pam_unix(sshd:session): session closed for user managed_node_one
+Mar 16 12:26:25 ubuntu systemd-logind[483]: Removed session 17.
+Mar 16 12:28:19 ubuntu sshd[11824]: Accepted publickey for managed_node_one from 192.168.56.103 port 45186 ssh2: RSA SHA256:JmQxikTybS7WHnP948zlBOZUDa87q3H0cOA6m++WCrc
+Mar 16 12:28:19 ubuntu sshd[11824]: pam_unix(sshd:session): session opened for user managed_node_one by (uid=0)
+Mar 16 12:28:19 ubuntu systemd-logind[483]: New session 18 of user managed_node_one.
+Mar 16 12:28:20 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-lotyjxaekgqlrupprkfacmqjxqkttule ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678940900.203707-10008-88782305051144/AnsiballZ_setup.py
+Mar 16 12:28:20 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:28:20 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:28:21 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-gyphqtgjbbsjstfkknihuufurqtexqth ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678940900.8938498-10023-180311112461194/AnsiballZ_command.py
+Mar 16 12:28:21 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:28:21 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:28:21 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-zeumowtscxjmdbdyepsflbpysbikszfr ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678940901.1938703-10032-218086650543221/AnsiballZ_apt.py
+Mar 16 12:28:21 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:28:24 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:28:24 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-pwtimcejxnyuphmghuzwrwzsezxqwfyq ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678940904.4479585-10043-25792080279441/AnsiballZ_setup.py
+Mar 16 12:28:24 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:28:24 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:28:25 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ztznrsgzcgbcpsvvifxtryvctnyvsutp ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678940904.9778903-10052-171457697061895/AnsiballZ_file.py
+Mar 16 12:28:25 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:28:25 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:28:25 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-xbpbakgxyilfrapsaysitiphoyeufyyi ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678940905.2825892-10061-37224489860285/AnsiballZ_slurp.py
+Mar 16 12:28:25 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:28:25 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:28:25 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-sgzcwdjmiibbttgxhcwrkqgrlphzucne ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678940905.523929-10061-161471502187195/AnsiballZ_slurp.py
+Mar 16 12:28:25 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:28:25 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:28:25 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-kepakeieywvpxemiorutvxuwfshdzziw ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678940905.7024856-10061-147585999227917/AnsiballZ_slurp.py
+Mar 16 12:28:25 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:28:25 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:28:25 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-onfrkmqlxyofzgzxyqmlzoovclryssmq ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678940905.8767128-10061-159869054797620/AnsiballZ_slurp.py
+Mar 16 12:28:25 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:28:26 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:28:26 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-riduwbqrdmddjtxjdkbqubkiomgzxfat ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678940906.056289-10061-107826068603401/AnsiballZ_slurp.py
+Mar 16 12:28:26 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:28:26 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:28:26 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-lfhvtxvxkezvzbwismzcmiigdxvlpeom ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678940906.2381809-10061-92842729493465/AnsiballZ_slurp.py
+Mar 16 12:28:26 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:28:26 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:28:26 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-zhxxtqujpzoamcpadmspwoyaesxudgli ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678940906.4364102-10061-40157236626505/AnsiballZ_slurp.py
+Mar 16 12:28:26 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:28:26 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:28:26 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-xzfyfcnpshdwwfqsxwdibgyzxcjbooza ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678940906.6210203-10061-243333989624772/AnsiballZ_slurp.py
+Mar 16 12:28:26 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:28:26 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:28:26 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-nmgjtzbyhxcxkllzblnzvgfutijqymtc ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678940906.8042428-10061-250739883108077/AnsiballZ_slurp.py
+Mar 16 12:28:26 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:28:26 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:28:27 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-wjkdpmflipmiklklrwsofealzsyukkgr ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678940906.98593-10061-19914279910121/AnsiballZ_slurp.py
+Mar 16 12:28:27 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:28:27 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:28:27 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-npjpbpajqohoxjtglvshtrlvksxxfneb ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678940907.1925294-10061-134883648060261/AnsiballZ_slurp.py
+Mar 16 12:28:27 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:28:27 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:28:27 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-aglwozjkbihlobjiujrzsczlddmvsdah ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678940907.3783646-10061-264533103468111/AnsiballZ_slurp.py
+Mar 16 12:28:27 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:28:27 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:28:27 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-xnsvczkkhtsjboqwboflovtwkfmvkvuw ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678940907.561335-10061-72925314938367/AnsiballZ_slurp.py
+Mar 16 12:28:27 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:28:27 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:28:27 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-eqpebddqxsankgulyljrowdcolyrazfc ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678940907.7365046-10061-116599329629820/AnsiballZ_slurp.py
+Mar 16 12:28:27 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:28:27 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:28:28 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-xjvfpdkvktcbqfjhxjhqsiewmyfsknns ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678940907.9320748-10061-169389889183720/AnsiballZ_slurp.py
+Mar 16 12:28:28 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:28:28 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:28:28 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-bqojkqvmywmwnylfpatraaghsxdhowwa ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678940908.1177933-10061-22331923032404/AnsiballZ_slurp.py
+Mar 16 12:28:28 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:28:28 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:28:28 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-oowuuznmwafrpbjxhlrdibwvneeqouhg ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678940908.2951486-10061-273404105309/AnsiballZ_slurp.py
+Mar 16 12:28:28 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:28:28 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:29:28 ubuntu sshd[11875]: Received disconnect from 192.168.56.103 port 45186:11: disconnected by user
+Mar 16 12:29:28 ubuntu sshd[11875]: Disconnected from user managed_node_one 192.168.56.103 port 45186
+Mar 16 12:29:28 ubuntu sshd[11824]: pam_unix(sshd:session): session closed for user managed_node_one
+Mar 16 12:29:28 ubuntu systemd-logind[483]: Removed session 18.
+Mar 16 12:30:18 ubuntu sshd[12861]: Accepted publickey for managed_node_one from 192.168.56.103 port 50774 ssh2: RSA SHA256:JmQxikTybS7WHnP948zlBOZUDa87q3H0cOA6m++WCrc
+Mar 16 12:30:18 ubuntu sshd[12861]: pam_unix(sshd:session): session opened for user managed_node_one by (uid=0)
+Mar 16 12:30:18 ubuntu systemd-logind[483]: New session 19 of user managed_node_one.
+Mar 16 12:30:18 ubuntu sudo: pam_unix(sudo:auth): authentication failure; logname=managed_node_one uid=1002 euid=0 tty=/dev/pts/2 ruser=managed_node_one rhost=  user=managed_node_one
+Mar 16 12:30:20 ubuntu sudo: pam_unix(sudo:auth): conversation failed
+Mar 16 12:30:20 ubuntu sudo: pam_unix(sudo:auth): auth could not identify password for [managed_node_one]
+Mar 16 12:30:20 ubuntu sudo: managed_node_one : 1 incorrect password attempt ; TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-xpfilcmlnyabkdxucwiblpfnekofsewx ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941018.276534-10227-217597572484211/AnsiballZ_setup.py
+Mar 16 12:30:26 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-uwjmxtuukeahodbtvtbvzfehhzyepkap ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941026.6222088-10252-39845712707835/AnsiballZ_setup.py
+Mar 16 12:30:26 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:30:27 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:30:27 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-inbkydxqsjmggliwfnzurljqbvpucxbm ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941027.3301923-10263-75965379824699/AnsiballZ_command.py
+Mar 16 12:30:27 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:30:27 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:30:27 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ncomvoispuzvmbfiuqwsbkwqsrqikoen ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941027.6208265-10272-166743387775075/AnsiballZ_apt.py
+Mar 16 12:30:27 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:30:30 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:30:30 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-bqnwwwxjawnxljgtizciwkedtmfazztm ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941030.8860912-10283-195819780081248/AnsiballZ_setup.py
+Mar 16 12:30:30 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:30:31 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:30:31 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-waagwzqirekqklfcbpqtlwpdzptoldul ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941031.4353225-10292-153425486741352/AnsiballZ_file.py
+Mar 16 12:30:31 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:30:31 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:31:31 ubuntu sshd[12912]: Received disconnect from 192.168.56.103 port 50774:11: disconnected by user
+Mar 16 12:31:31 ubuntu sshd[12912]: Disconnected from user managed_node_one 192.168.56.103 port 50774
+Mar 16 12:31:31 ubuntu sshd[12861]: pam_unix(sshd:session): session closed for user managed_node_one
+Mar 16 12:31:31 ubuntu systemd-logind[483]: Removed session 19.
+Mar 16 12:31:47 ubuntu sshd[13558]: Accepted publickey for managed_node_one from 192.168.56.103 port 37314 ssh2: RSA SHA256:JmQxikTybS7WHnP948zlBOZUDa87q3H0cOA6m++WCrc
+Mar 16 12:31:47 ubuntu sshd[13558]: pam_unix(sshd:session): session opened for user managed_node_one by (uid=0)
+Mar 16 12:31:47 ubuntu systemd-logind[483]: New session 20 of user managed_node_one.
+Mar 16 12:31:48 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-gtkxqcddktmfbuuoghdarphlusaumvde ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941107.8478534-10328-6453819448595/AnsiballZ_setup.py
+Mar 16 12:31:48 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:31:48 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:31:48 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-mshqbmiqciuulwdkhadffqjhzwxtwvbo ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941108.5666723-10343-113851132532653/AnsiballZ_command.py
+Mar 16 12:31:48 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:31:48 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:31:49 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-lzhvcfnwukapvuarufuotrdlieghgvob ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941108.8865836-10352-81686956811446/AnsiballZ_apt.py
+Mar 16 12:31:49 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:31:51 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:31:51 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-rlnwrdnqthwoedcycqpgxxwpakgrfyrb ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941111.8491905-10363-143947067051818/AnsiballZ_setup.py
+Mar 16 12:31:51 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:31:52 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:31:52 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-mnrjjdsyvgofvcyufupwbwivgntjklgp ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941112.4330816-10372-265974694911670/AnsiballZ_file.py
+Mar 16 12:31:52 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:31:52 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:32:52 ubuntu sshd[13609]: Received disconnect from 192.168.56.103 port 37314:11: disconnected by user
+Mar 16 12:32:52 ubuntu sshd[13609]: Disconnected from user managed_node_one 192.168.56.103 port 37314
+Mar 16 12:32:52 ubuntu sshd[13558]: pam_unix(sshd:session): session closed for user managed_node_one
+Mar 16 12:32:52 ubuntu systemd-logind[483]: Removed session 20.
+Mar 16 12:34:57 ubuntu sshd[14220]: Accepted publickey for managed_node_one from 192.168.56.103 port 35990 ssh2: RSA SHA256:JmQxikTybS7WHnP948zlBOZUDa87q3H0cOA6m++WCrc
+Mar 16 12:34:57 ubuntu sshd[14220]: pam_unix(sshd:session): session opened for user managed_node_one by (uid=0)
+Mar 16 12:34:57 ubuntu systemd-logind[483]: New session 21 of user managed_node_one.
+Mar 16 12:34:58 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-bdqddoyjuprtrfalwhidqcvaaiuymgac ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941298.040708-10596-276337179627072/AnsiballZ_setup.py
+Mar 16 12:34:58 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:34:58 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:34:58 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-qksggggsxlwmhzubrxkkjzzrlgnjwxda ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941298.7658007-10611-207389600379555/AnsiballZ_command.py
+Mar 16 12:34:58 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:34:59 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:34:59 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-insizqumzwprrenaamxjovpeufuhkxzb ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941299.082996-10620-103059993026577/AnsiballZ_apt.py
+Mar 16 12:34:59 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:35:01 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:35:02 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-abwazddndvroutsbknmpupvslmpngplt ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941301.9952996-10631-277826140483598/AnsiballZ_setup.py
+Mar 16 12:35:02 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:35:02 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:35:02 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-biafeqnkdavlpgsoopbutqiztvprkpgq ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941302.5607398-10640-229628359289257/AnsiballZ_file.py
+Mar 16 12:35:02 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:35:02 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:35:37 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-imqedosvzejtklrqotxmxurkbocanxlf ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941337.7397664-10664-96722976944332/AnsiballZ_setup.py
+Mar 16 12:35:37 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:35:38 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:35:38 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-tvybylshbaizmlulzryfbkrrgvevhayy ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941338.4397256-10675-167388570209472/AnsiballZ_command.py
+Mar 16 12:35:38 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:35:38 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:35:38 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-sfetujbuymzxrplbkiguungwwqzqvkbi ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941338.7523-10684-44390731914174/AnsiballZ_apt.py
+Mar 16 12:35:38 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:35:41 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:35:41 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-lgeablisoohxsfmzxzcvjxzheyiqoxoa ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941341.7957711-10695-205949072544733/AnsiballZ_setup.py
+Mar 16 12:35:41 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:35:42 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:35:42 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-blinkimfpkfyvmdyzmhrbxydnsckiekf ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941342.3469236-10704-208902998550914/AnsiballZ_file.py
+Mar 16 12:35:42 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:35:42 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:35:42 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-muiuebxcncacfpgcezotjbmyrgbvxqti ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941342.6151354-10713-117300859428427/AnsiballZ_slurp.py
+Mar 16 12:35:42 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:35:42 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:35:42 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-yejnjwgkvcxpfhqgvwvsowmbueauwktu ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941342.886386-10713-258228008348756/AnsiballZ_slurp.py
+Mar 16 12:35:42 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:35:43 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:35:43 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-nsmhyibbmofhnyzdpkvlfhecjcbbzubi ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941343.1098928-10713-64427201474867/AnsiballZ_slurp.py
+Mar 16 12:35:43 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:35:43 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:35:43 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-qglzhudobzocwmbjjwlqiowbvezlssde ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941343.318457-10713-19997360407573/AnsiballZ_slurp.py
+Mar 16 12:35:43 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:35:43 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:35:43 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-coazvnjzvcuamjzexxwjupldensahzyc ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941343.5212293-10713-147673381746889/AnsiballZ_slurp.py
+Mar 16 12:35:43 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:35:43 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:35:44 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-cygivxvhedtlmqlngwtojjnonrdqvkmf ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941344.012604-10713-147165309898712/AnsiballZ_slurp.py
+Mar 16 12:35:44 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:35:44 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:35:44 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-tciehfntrvkznsakoepkhllbrderjygk ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941344.2175357-10713-6650099674095/AnsiballZ_slurp.py
+Mar 16 12:35:44 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:35:44 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:35:44 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-jjctooxtapkqpwgtsirgtpjeynwhjqgc ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941344.4263983-10713-258631636087942/AnsiballZ_slurp.py
+Mar 16 12:35:44 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:35:44 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:35:44 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-lmnlqynbyuczdeqenqeazhjupnmkscwz ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941344.6236792-10713-162096920680344/AnsiballZ_slurp.py
+Mar 16 12:35:44 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:35:44 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:35:44 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-yxbodncohvbwjfkhqxawvqdbziyxdwgn ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941344.880984-10713-75343838789790/AnsiballZ_slurp.py
+Mar 16 12:35:44 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:35:45 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:35:45 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-hkldlpenlynkdzuiavjfgstdkjgdgmxx ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941345.1072655-10713-50015413352307/AnsiballZ_slurp.py
+Mar 16 12:35:45 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:35:45 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:35:45 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-yuunrielkfenvifdhyhdlcfwspeqetgb ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941345.3432782-10713-114174646905337/AnsiballZ_slurp.py
+Mar 16 12:35:45 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:35:45 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:35:45 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-cdzwzlqootmtrqtdpkhiudryjlbamimg ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941345.7850618-10713-213904067531990/AnsiballZ_slurp.py
+Mar 16 12:35:45 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:35:45 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:35:46 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ezcpiwjgbqfblakgaeqmpmgigcwckvsv ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941346.0018294-10713-224031967046907/AnsiballZ_slurp.py
+Mar 16 12:35:46 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:35:46 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:35:46 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-scbstxvamlvfivqanvyapunphyaeyqal ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941346.2075481-10713-234896163050349/AnsiballZ_slurp.py
+Mar 16 12:35:46 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:35:46 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:35:46 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-zwoxswjfstwivdvtrtutxifgganyrktf ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941346.3971012-10713-266519115687366/AnsiballZ_slurp.py
+Mar 16 12:35:46 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:35:46 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:35:46 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-qcwavpkquuonxgtjxltrzemzeshvxbpz ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941346.6070857-10713-175360903706722/AnsiballZ_slurp.py
+Mar 16 12:35:46 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:35:46 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:36:31 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-vckchbenzolbrtfojhxfpgycclriyaai ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941390.9525342-10866-202254601513087/AnsiballZ_setup.py
+Mar 16 12:36:31 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:36:31 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:36:31 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-qbpsygghyiqjhslnwvbcxrmjarlfpwkm ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941391.638854-10877-152265141557455/AnsiballZ_command.py
+Mar 16 12:36:31 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:36:31 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:36:32 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-wkufseziwgslvqomxtmvsfmuaudsmoww ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941391.9470167-10886-147078143250470/AnsiballZ_apt.py
+Mar 16 12:36:32 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:36:42 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:36:42 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-erooyrfrzgkueclvhimvcxkfkruoertg ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941402.3180022-10897-176953701437934/AnsiballZ_setup.py
+Mar 16 12:36:42 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:36:42 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:36:43 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-txrhihqykykzpciqqttcozysvraaxcpb ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941402.887202-10906-110942381094217/AnsiballZ_file.py
+Mar 16 12:36:43 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:36:43 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:36:43 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-rowumvublixrwpdojleytavrppnvmbom ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941403.184795-10915-167052155235218/AnsiballZ_slurp.py
+Mar 16 12:36:43 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:36:43 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:36:43 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-mwidhwufdtaetkwxzduhszwhtbjgsuox ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941403.416789-10915-239274926649268/AnsiballZ_slurp.py
+Mar 16 12:36:43 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:36:43 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:36:43 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ygaewhgtwqwknptmzrxidtcrdbxmlbte ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941403.6186929-10915-139344002346458/AnsiballZ_slurp.py
+Mar 16 12:36:43 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:36:43 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:36:43 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-rtkexqheorfamibdpzgxzhwmtexogbnr ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941403.803748-10915-131128627886067/AnsiballZ_slurp.py
+Mar 16 12:36:43 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:36:43 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:36:44 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-dkarybzboedijzxiiagydjkbhwoqvibn ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941404.0001805-10915-84450379516555/AnsiballZ_slurp.py
+Mar 16 12:36:44 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:36:44 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:36:44 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-dwzgxzkrjvpzdtekgqbyebmmonbxtiws ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941404.339061-10915-200289954049091/AnsiballZ_slurp.py
+Mar 16 12:36:44 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:36:44 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:36:44 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-toihtunlyyzivttgjdphxekqhuundzsq ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941404.5431137-10915-85799519074138/AnsiballZ_slurp.py
+Mar 16 12:36:44 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:36:44 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:36:44 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-dnlpqzyiywhwrukaxtiipzjgkvcypypv ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941404.7319074-10915-274035696252123/AnsiballZ_slurp.py
+Mar 16 12:36:44 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:36:44 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:36:44 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-xvkaptjevdokkkrwbtwtrexginqqmgmi ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941404.910634-10915-4541977245764/AnsiballZ_slurp.py
+Mar 16 12:36:44 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:36:45 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:36:45 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-heyfmwntwkwzfxmukiftkadfuzwjoera ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941405.1710896-10915-172419574188683/AnsiballZ_slurp.py
+Mar 16 12:36:45 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:36:45 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:36:45 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-fjhwfiigdqredrxzvrttpxlkxjmkdftl ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941405.3884125-10915-230595363212280/AnsiballZ_slurp.py
+Mar 16 12:36:45 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:36:45 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:36:45 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-tawpefmcmiktljnikfovybwwtveobcvm ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941405.5825274-10915-221030048949571/AnsiballZ_slurp.py
+Mar 16 12:36:45 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:36:45 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:36:45 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-aurnwrriljjaczgiunpuchdmlnmgauko ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941405.8827643-10915-254351495465258/AnsiballZ_slurp.py
+Mar 16 12:36:45 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:36:46 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:36:46 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-narkwsxtlocclroxlknlgslqmrgdxslg ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941406.0700002-10915-148451496586890/AnsiballZ_slurp.py
+Mar 16 12:36:46 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:36:46 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:36:46 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-eccckncyaictctkchaabqrnxtkxufrxo ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941406.252669-10915-255403749313368/AnsiballZ_slurp.py
+Mar 16 12:36:46 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:36:46 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:36:46 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-lmosthtjvbclylwfaiurtgatlchzhvpj ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941406.4493666-10915-265461079891385/AnsiballZ_slurp.py
+Mar 16 12:36:46 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:36:46 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:36:46 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-xesepcizyaucaxtthaiuzlvasuwawotg ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678941406.6353915-10915-70425461127906/AnsiballZ_slurp.py
+Mar 16 12:36:46 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:36:46 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:37:46 ubuntu sshd[14271]: Received disconnect from 192.168.56.103 port 35990:11: disconnected by user
+Mar 16 12:37:46 ubuntu sshd[14271]: Disconnected from user managed_node_one 192.168.56.103 port 35990
+Mar 16 12:37:46 ubuntu sshd[14220]: pam_unix(sshd:session): session closed for user managed_node_one
+Mar 16 12:37:46 ubuntu systemd-logind[483]: Removed session 21.
+Mar 16 12:44:45 ubuntu gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty2 ruser= rhost=  user=managed_node_one
+Mar 16 12:44:48 ubuntu gdm-password]: gkr-pam: unlocked login keyring
+Mar 16 12:47:00 ubuntu sshd[16946]: Accepted publickey for managed_node_one from 192.168.56.103 port 52390 ssh2: RSA SHA256:JmQxikTybS7WHnP948zlBOZUDa87q3H0cOA6m++WCrc
+Mar 16 12:47:00 ubuntu sshd[16946]: pam_unix(sshd:session): session opened for user managed_node_one by (uid=0)
+Mar 16 12:47:00 ubuntu systemd-logind[483]: New session 22 of user managed_node_one.
+Mar 16 12:47:01 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ggdmylenyeugqdbdcrgsidegkhzqsuoj ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678942021.0485692-11991-154164261317265/AnsiballZ_setup.py
+Mar 16 12:47:01 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:47:01 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:47:02 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-cemlyqkjrqciuyqepwgchgwsgtotgihe ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678942021.8760824-12006-30195766469452/AnsiballZ_command.py
+Mar 16 12:47:02 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:47:02 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:47:02 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ovfpjvipdrnkqwovpieypqfcwtduawnm ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678942022.195879-12015-81596547909215/AnsiballZ_apt.py
+Mar 16 12:47:02 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:47:06 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:47:06 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ejrcyhoxhrugozcmtvirdyagieawchxf ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678942026.8886678-12026-181717424281046/AnsiballZ_setup.py
+Mar 16 12:47:06 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:47:07 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:47:07 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ixlzsejyozrhoqhbnicrenlikakeczxp ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678942027.458466-12035-178936102803951/AnsiballZ_file.py
+Mar 16 12:47:07 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:47:07 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:47:07 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-zlymfsczeoflynumefdbgapfavaparmq ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678942027.7841923-12044-130195811978512/AnsiballZ_slurp.py
+Mar 16 12:47:07 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:47:08 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:47:08 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-nghwaeqxbgjpjqygomylmcucfdgkwylm ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678942028.0385756-12044-1564506849923/AnsiballZ_slurp.py
+Mar 16 12:47:08 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:47:08 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:47:08 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-irwkabkkdfztixhznmcnndnaynbcyxkd ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678942028.260522-12044-117285939804863/AnsiballZ_slurp.py
+Mar 16 12:47:08 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:47:08 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:47:08 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-qjmttwriilouayssshunxnbowmvrzjou ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678942028.4704113-12044-100743928946574/AnsiballZ_slurp.py
+Mar 16 12:47:08 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:47:08 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:47:08 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-dumquwfrxcgpcprikotlegvopcpvbyti ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678942028.6822183-12044-202330683052153/AnsiballZ_slurp.py
+Mar 16 12:47:08 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:47:09 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:47:09 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-amotktkthnpiejashsaxyoeceazqcnpk ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678942029.1708508-12044-30925869955155/AnsiballZ_slurp.py
+Mar 16 12:47:09 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:47:09 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:47:09 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-bkniayjvpennrfdbfcxyfyionkejhvhi ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678942029.3864508-12044-95965252298560/AnsiballZ_slurp.py
+Mar 16 12:47:09 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:47:09 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:47:09 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-brddsavjvowebogdsfivolfotambeqlm ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678942029.58207-12044-93173331108954/AnsiballZ_slurp.py
+Mar 16 12:47:09 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:47:09 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:47:09 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-bwiieglrvjpwtaiippxkzfpneuslwyhg ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678942029.775819-12044-212784143643226/AnsiballZ_slurp.py
+Mar 16 12:47:09 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:47:09 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:47:10 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ctyvocahkchdlpcnytqdwmkpfcdjintq ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678942030.0354443-12044-254684555245908/AnsiballZ_slurp.py
+Mar 16 12:47:10 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:47:10 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:47:10 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-tpbmmvxlqxcnegvhzdhseoxmxgbwoyrt ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678942030.2739286-12044-268306935941398/AnsiballZ_slurp.py
+Mar 16 12:47:10 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:47:10 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:47:10 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-xtanvqttpjupaqydscdcgrwtgrqhjvfk ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678942030.4973037-12044-147825983014542/AnsiballZ_slurp.py
+Mar 16 12:47:10 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:47:10 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:47:11 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-kdooijebsrbaqqpbvjiggiifuxagmzzn ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678942030.9545324-12044-9579759702182/AnsiballZ_slurp.py
+Mar 16 12:47:11 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:47:11 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:47:11 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-bvmdosrhvldomailfaozkadstqjkiswa ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678942031.1790938-12044-266159516919449/AnsiballZ_slurp.py
+Mar 16 12:47:11 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:47:11 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:47:11 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-hkolmqzacrpzqqbmjvhmqtjhgmtblfcj ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678942031.3806293-12044-50972897998228/AnsiballZ_slurp.py
+Mar 16 12:47:11 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:47:11 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:47:11 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-tjymqflsiizlzwxjicvtqwvuqmvtuoxt ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678942031.567263-12044-185969423581615/AnsiballZ_slurp.py
+Mar 16 12:47:11 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:47:11 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:47:11 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-owrwbcksucoybagwhpjzigcxmtxqabgn ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678942031.787794-12044-101153228686516/AnsiballZ_slurp.py
+Mar 16 12:47:11 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:47:11 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:47:12 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-fnprmtqviddnvvthhrstuvmvfamudryg ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678942031.9977374-12044-11647127753260/AnsiballZ_slurp.py
+Mar 16 12:47:12 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:47:12 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:48:12 ubuntu sshd[16997]: Received disconnect from 192.168.56.103 port 52390:11: disconnected by user
+Mar 16 12:48:12 ubuntu sshd[16997]: Disconnected from user managed_node_one 192.168.56.103 port 52390
+Mar 16 12:48:12 ubuntu sshd[16946]: pam_unix(sshd:session): session closed for user managed_node_one
+Mar 16 12:48:12 ubuntu systemd-logind[483]: Removed session 22.
+Mar 16 12:57:44 ubuntu sshd[18055]: Accepted publickey for managed_node_one from 192.168.56.103 port 43372 ssh2: RSA SHA256:JmQxikTybS7WHnP948zlBOZUDa87q3H0cOA6m++WCrc
+Mar 16 12:57:44 ubuntu sshd[18055]: pam_unix(sshd:session): session opened for user managed_node_one by (uid=0)
+Mar 16 12:57:44 ubuntu systemd-logind[483]: New session 23 of user managed_node_one.
+Mar 16 12:57:44 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-enhmcptpjtsgaxywqngzxkqayuhniejl ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678942664.2333624-12247-57279473995168/AnsiballZ_setup.py
+Mar 16 12:57:44 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:57:44 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:57:45 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-dpbwhfreslcxcgwfzgoteahmqlhyjrxt ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678942664.9229136-12262-91608990260196/AnsiballZ_command.py
+Mar 16 12:57:45 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:57:45 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:57:45 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ozmnmzdeyxciwhqyglnopcimmwezggha ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678942665.2220213-12271-103415966559965/AnsiballZ_apt.py
+Mar 16 12:57:45 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:57:50 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:57:50 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-gurumdzqjxgubnxaasffnztzicyvjzpx ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678942670.5156112-12282-268729368857200/AnsiballZ_setup.py
+Mar 16 12:57:50 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:57:51 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:57:51 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-qzljkyfdaiesvmdkdkeptzfamhxwtvux ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678942671.1438258-12291-167456004567202/AnsiballZ_file.py
+Mar 16 12:57:51 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:57:51 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:57:51 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-tmfhzqlbnailgvsrenmefqjrejejcttj ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678942671.449264-12300-123918562570351/AnsiballZ_slurp.py
+Mar 16 12:57:51 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)
+Mar 16 12:57:51 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar 16 12:57:51 ubuntu sudo: managed_node_one : TTY=pts/2 ; PWD=/home/managed_node_one ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-qkhsmpgmaeqilusfmtplvymxwtlpfvvj ; /usr/bin/python3 /home/managed_node_one/.ansible/tmp/ansible-tmp-1678942671.7272913-12300-29864725713329/AnsiballZ_slurp.py
+Mar 16 12:57:51 ubuntu sudo: pam_unix(sudo:session): session opened for user root by managed_node_one(uid=0)

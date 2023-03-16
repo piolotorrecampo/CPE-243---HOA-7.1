@@ -1,0 +1,1390 @@
+Mar 16 10:35:24 ubuntu rsyslogd:  [origin software="rsyslogd" swVersion="8.32.0" x-pid="521" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+Mar 16 10:35:25 ubuntu dbus-daemon[499]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.26' (uid=0 pid=549 comm="/usr/lib/snapd/snapd " label="unconfined")
+Mar 16 10:35:25 ubuntu systemd[1]: Starting Time & Date Service...
+Mar 16 10:35:25 ubuntu dbus-daemon[499]: [system] Successfully activated service 'org.freedesktop.timedate1'
+Mar 16 10:35:25 ubuntu systemd[1]: Started Time & Date Service.
+Mar 16 10:35:31 ubuntu anacron[538]: Job `cron.daily' terminated
+Mar 16 10:35:31 ubuntu anacron[538]: Normal exit (1 job run)
+Mar 16 10:35:47 ubuntu NetworkManager[537]: <info>  [1678934147.4565] manager: NetworkManager state is now CONNECTED_GLOBAL
+Mar 16 10:35:47 ubuntu dbus-daemon[499]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.17' (uid=0 pid=537 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 16 10:35:47 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar 16 10:35:47 ubuntu whoopsie[918]: [10:35:47] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/2
+Mar 16 10:35:47 ubuntu whoopsie[918]: [10:35:47] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/2
+Mar 16 10:35:47 ubuntu whoopsie[918]: [10:35:47] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/2
+Mar 16 10:35:47 ubuntu dbus-daemon[499]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar 16 10:35:47 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar 16 10:35:47 ubuntu nm-dispatcher: req:1 'connectivity-change': new request (1 scripts)
+Mar 16 10:35:47 ubuntu nm-dispatcher: req:1 'connectivity-change': start running ordered scripts...
+Mar 16 10:35:49 ubuntu whoopsie[918]: [10:35:49] online
+Mar 16 10:36:49 ubuntu systemd[1]: Reloading.
+Mar 16 10:36:49 ubuntu systemd[1]: Mounting Mount unit for core, revision 14784...
+Mar 16 10:36:49 ubuntu systemd[1]: Mounted Mount unit for core, revision 14784.
+Mar 16 10:36:49 ubuntu kernel: [  389.066894] kauditd_printk_skb: 40 callbacks suppressed
+Mar 16 10:36:49 ubuntu kernel: [  389.066965] audit: type=1400 audit(1678934209.841:51): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/core/14784/usr/lib/snapd/snap-confine" pid=2620 comm="apparmor_parser"
+Mar 16 10:36:49 ubuntu kernel: [  389.069431] audit: type=1400 audit(1678934209.877:52): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/core/14784/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=2620 comm="apparmor_parser"
+Mar 16 10:36:50 ubuntu kernel: [  389.196476] audit: type=1400 audit(1678934209.957:53): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.core.hook.configure" pid=2622 comm="apparmor_parser"
+Mar 16 10:36:50 ubuntu kernel: [  389.237311] audit: type=1400 audit(1678934210.009:54): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.gnome-calculator" pid=2623 comm="apparmor_parser"
+Mar 16 10:36:50 ubuntu kernel: [  389.312246] audit: type=1400 audit(1678934210.045:55): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.gnome-characters" pid=2624 comm="apparmor_parser"
+Mar 16 10:36:50 ubuntu kernel: [  389.342028] audit: type=1400 audit(1678934210.121:56): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.gnome-logs" pid=2625 comm="apparmor_parser"
+Mar 16 10:36:50 ubuntu kernel: [  389.417335] audit: type=1400 audit(1678934210.153:57): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.gnome-system-monitor" pid=2626 comm="apparmor_parser"
+Mar 16 10:36:50 ubuntu kernel: [  389.431681] audit: type=1400 audit(1678934210.237:58): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.core" pid=2628 comm="apparmor_parser"
+Mar 16 10:36:50 ubuntu kernel: [  389.443011] audit: type=1400 audit(1678934210.249:59): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.gnome-characters.gnome-characters" pid=2630 comm="apparmor_parser"
+Mar 16 10:36:50 ubuntu kernel: [  389.454467] audit: type=1400 audit(1678934210.257:60): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.gnome-logs.gnome-logs" pid=2631 comm="apparmor_parser"
+Mar 16 10:36:54 ubuntu dhclient[668]: DHCPREQUEST of 192.168.56.102 on enp0s3 to 192.168.56.100 port 67 (xid=0x79a16cbf)
+Mar 16 10:36:54 ubuntu dhclient[668]: DHCPACK of 192.168.56.102 from 192.168.56.100
+Mar 16 10:36:54 ubuntu NetworkManager[537]: <info>  [1678934214.0112] dhcp4 (enp0s3):   address 192.168.56.102
+Mar 16 10:36:54 ubuntu NetworkManager[537]: <info>  [1678934214.0112] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Mar 16 10:36:54 ubuntu NetworkManager[537]: <info>  [1678934214.0112] dhcp4 (enp0s3):   lease time 600
+Mar 16 10:36:54 ubuntu NetworkManager[537]: <info>  [1678934214.0113] dhcp4 (enp0s3): state changed bound -> bound
+Mar 16 10:36:54 ubuntu dbus-daemon[499]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.17' (uid=0 pid=537 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 16 10:36:54 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar 16 10:36:54 ubuntu dbus-daemon[499]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar 16 10:36:54 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar 16 10:36:54 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Mar 16 10:36:54 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Mar 16 10:36:54 ubuntu dhclient[668]: bound to 192.168.56.102 -- renewal in 300 seconds.
+Mar 16 10:36:59 ubuntu snapd[549]: daemon.go:521: gracefully waiting for running hooks
+Mar 16 10:36:59 ubuntu snapd[549]: daemon.go:523: done waiting for running hooks
+Mar 16 10:36:59 ubuntu snapd[549]: overlord.go:512: Released state lock file
+Mar 16 10:36:59 ubuntu systemd[1]: snapd.service: Service hold-off time over, scheduling restart.
+Mar 16 10:36:59 ubuntu systemd[1]: snapd.service: Scheduled restart job, restart counter is at 1.
+Mar 16 10:36:59 ubuntu systemd[1]: Stopped Snap Daemon.
+Mar 16 10:36:59 ubuntu systemd[1]: Starting Snap Daemon...
+Mar 16 10:37:00 ubuntu snapd[2644]: overlord.go:268: Acquiring state lock file
+Mar 16 10:37:00 ubuntu snapd[2644]: overlord.go:273: Acquired state lock file
+Mar 16 10:37:00 ubuntu snapd[2644]: patch.go:64: Patching system state level 6 to sublevel 1...
+Mar 16 10:37:00 ubuntu snapd[2644]: patch.go:64: Patching system state level 6 to sublevel 2...
+Mar 16 10:37:00 ubuntu snapd[2644]: patch.go:64: Patching system state level 6 to sublevel 3...
+Mar 16 10:37:00 ubuntu snapd[2644]: daemon.go:247: started snapd/2.58.2 (series 16; classic) ubuntu/18.04 (amd64) linux/5.4.0-144-generic.
+Mar 16 10:37:00 ubuntu snapd[2644]: daemon.go:340: adjusting startup timeout by 1m5s (pessimistic estimate of 30s plus 5s per snap)
+Mar 16 10:37:00 ubuntu snapd[2644]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+Mar 16 10:37:00 ubuntu kernel: [  400.015407] kauditd_printk_skb: 2 callbacks suppressed
+Mar 16 10:37:00 ubuntu kernel: [  400.015408] audit: type=1400 audit(1678934220.821:63): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/snap/core/14784/usr/lib/snapd/snap-confine" pid=2727 comm="apparmor_parser"
+Mar 16 10:37:00 ubuntu kernel: [  400.038047] audit: type=1400 audit(1678934220.845:64): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/snap/core/14784/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=2727 comm="apparmor_parser"
+Mar 16 10:37:01 ubuntu kernel: [  400.209744] audit: type=1400 audit(1678934220.925:65): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.gnome-characters" pid=2730 comm="apparmor_parser"
+Mar 16 10:37:01 ubuntu kernel: [  400.213091] audit: type=1400 audit(1678934221.017:66): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.gnome-calculator" pid=2729 comm="apparmor_parser"
+Mar 16 10:37:01 ubuntu kernel: [  400.314126] audit: type=1400 audit(1678934221.061:67): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.gnome-logs" pid=2731 comm="apparmor_parser"
+Mar 16 10:37:01 ubuntu kernel: [  400.339787] audit: type=1400 audit(1678934221.133:68): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.gnome-system-monitor" pid=2732 comm="apparmor_parser"
+Mar 16 10:37:01 ubuntu kernel: [  400.625715] audit: type=1400 audit(1678934221.149:69): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.gnome-system-monitor.gnome-system-monitor" pid=2733 comm="apparmor_parser"
+Mar 16 10:37:01 ubuntu kernel: [  400.636000] audit: type=1400 audit(1678934221.441:70): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.core" pid=2735 comm="apparmor_parser"
+Mar 16 10:37:01 ubuntu kernel: [  400.636813] audit: type=1400 audit(1678934221.441:71): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.core.hook.configure" pid=2736 comm="apparmor_parser"
+Mar 16 10:37:01 ubuntu kernel: [  400.639771] audit: type=1400 audit(1678934221.445:72): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.gnome-calculator.gnome-calculator" pid=2737 comm="apparmor_parser"
+Mar 16 10:37:01 ubuntu systemd[1]: Started Snap Daemon.
+Mar 16 10:37:01 ubuntu dbus-daemon[499]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.133' (uid=0 pid=2644 comm="/usr/lib/snapd/snapd " label="unconfined")
+Mar 16 10:37:01 ubuntu systemd[1]: Starting Time & Date Service...
+Mar 16 10:37:01 ubuntu dbus-daemon[499]: [system] Successfully activated service 'org.freedesktop.timedate1'
+Mar 16 10:37:01 ubuntu systemd[1]: Started Time & Date Service.
+Mar 16 10:37:11 ubuntu kernel: [  410.319188] kauditd_printk_skb: 2 callbacks suppressed
+Mar 16 10:37:11 ubuntu kernel: [  410.319189] audit: type=1400 audit(1678934231.121:75): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.core" pid=2753 comm="apparmor_parser"
+Mar 16 10:37:11 ubuntu kernel: [  410.423913] audit: type=1400 audit(1678934231.161:76): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.gnome-calculator" pid=2754 comm="apparmor_parser"
+Mar 16 10:37:11 ubuntu kernel: [  410.529364] audit: type=1400 audit(1678934231.317:77): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.gnome-characters" pid=2755 comm="apparmor_parser"
+Mar 16 10:37:11 ubuntu kernel: [  410.545806] audit: type=1400 audit(1678934231.349:78): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/snap/core/14784/usr/lib/snapd/snap-confine" pid=2752 comm="apparmor_parser"
+Mar 16 10:37:11 ubuntu kernel: [  410.554990] audit: type=1400 audit(1678934231.365:79): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/snap/core/14784/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=2752 comm="apparmor_parser"
+Mar 16 10:37:11 ubuntu kernel: [  410.636374] audit: type=1400 audit(1678934231.441:80): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.gnome-logs" pid=2756 comm="apparmor_parser"
+Mar 16 10:37:11 ubuntu kernel: [  410.672522] audit: type=1400 audit(1678934231.461:81): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.gnome-system-monitor" pid=2757 comm="apparmor_parser"
+Mar 16 10:37:11 ubuntu kernel: [  410.701812] audit: type=1400 audit(1678934231.505:82): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.core.hook.configure" pid=2759 comm="apparmor_parser"
+Mar 16 10:37:11 ubuntu kernel: [  410.965872] audit: type=1400 audit(1678934231.533:83): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.gnome-calculator.gnome-calculator" pid=2760 comm="apparmor_parser"
+Mar 16 10:37:11 ubuntu kernel: [  410.985002] audit: type=1400 audit(1678934231.777:84): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.gnome-characters.gnome-characters" pid=2761 comm="apparmor_parser"
+Mar 16 10:38:40 ubuntu systemd[1]: Reloading.
+Mar 16 10:38:40 ubuntu systemd[1]: Mounting Mount unit for core22, revision 522...
+Mar 16 10:38:40 ubuntu systemd[1]: Mounted Mount unit for core22, revision 522.
+Mar 16 10:38:50 ubuntu systemd[1]: Reloading.
+Mar 16 10:38:50 ubuntu systemd[1]: Mounting Mount unit for bare, revision 5...
+Mar 16 10:38:50 ubuntu systemd[1]: Mounted Mount unit for bare, revision 5.
+Mar 16 10:40:40 ubuntu gnome-software[2218]: no app for changed ubuntu-dock@ubuntu.com
+Mar 16 10:40:40 ubuntu gnome-shell[1888]: Object .Gjs_AppIndicatorIconActor__1 (0x55b0ef238640), has been already finalized. Impossible to set any property to it.
+Mar 16 10:40:40 ubuntu org.gnome.Shell.desktop[1888]: == Stack trace for context 0x55b0eb014320 ==
+Mar 16 10:40:40 ubuntu org.gnome.Shell.desktop[1888]: #0 0x7ffe85f522b0 b   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7f48083b5de0 @ 87)
+Mar 16 10:40:40 ubuntu org.gnome.Shell.desktop[1888]: #1 0x55b0eb426798 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7f47ca3c1780 @ 58)
+Mar 16 10:40:40 ubuntu org.gnome.Shell.desktop[1888]: #2 0x7ffe85f53610 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 10:40:40 ubuntu org.gnome.Shell.desktop[1888]: #3 0x7ffe85f536d0 b   self-hosted:916 (0x7f48083f12b8 @ 367)
+Mar 16 10:40:40 ubuntu org.gnome.Shell.desktop[1888]: #4 0x7ffe85f537c0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f48083d2230 @ 386)
+Mar 16 10:40:40 ubuntu org.gnome.Shell.desktop[1888]: #5 0x55b0eb426710 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7f47ca3b1450 @ 22)
+Mar 16 10:40:40 ubuntu org.gnome.Shell.desktop[1888]: #6 0x7ffe85f54b20 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 10:40:40 ubuntu org.gnome.Shell.desktop[1888]: #7 0x55b0eb426668 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7f47ca3aea28 @ 225)
+Mar 16 10:40:40 ubuntu org.gnome.Shell.desktop[1888]: #8 0x7ffe85f55e80 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 10:40:40 ubuntu org.gnome.Shell.desktop[1888]: #9 0x55b0eb4265f0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7f47ca383bc0 @ 37)
+Mar 16 10:40:40 ubuntu org.gnome.Shell.desktop[1888]: #10 0x55b0eb426530 i   resource:///org/gnome/shell/ui/extensionSystem.js:83 (0x7f48082592b8 @ 441)
+Mar 16 10:40:40 ubuntu org.gnome.Shell.desktop[1888]: #11 0x55b0eb4264b0 i   resource:///org/gnome/shell/ui/extensionSystem.js:354 (0x7f4808259d58 @ 13)
+Mar 16 10:40:40 ubuntu org.gnome.Shell.desktop[1888]: #12 0x7ffe85f56bf0 b   self-hosted:251 (0x7f48083c4ab0 @ 223)
+Mar 16 10:40:40 ubuntu org.gnome.Shell.desktop[1888]: #13 0x55b0eb426430 i   resource:///org/gnome/shell/ui/extensionSystem.js:353 (0x7f4808259cd0 @ 64)
+Mar 16 10:40:40 ubuntu org.gnome.Shell.desktop[1888]: #14 0x55b0eb4263b0 i   resource:///org/gnome/shell/ui/extensionSystem.js:371 (0x7f4808259de0 @ 87)
+Mar 16 10:40:40 ubuntu org.gnome.Shell.desktop[1888]: #15 0x7ffe85f580f0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f48083d2230 @ 386)
+Mar 16 10:40:40 ubuntu org.gnome.Shell.desktop[1888]: #16 0x7ffe85f58900 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7f480816e5e8 @ 254)
+Mar 16 10:40:40 ubuntu org.gnome.Shell.desktop[1888]: #17 0x7ffe85f59cf0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 10:40:40 ubuntu org.gnome.Shell.desktop[1888]: #18 0x55b0eb426270 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7f480816e3c8 @ 40)
+Mar 16 10:40:40 ubuntu org.gnome.Shell.desktop[1888]: #19 0x7ffe85f5b050 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 10:40:40 ubuntu org.gnome.Shell.desktop[1888]: #20 0x55b0eb4261c8 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7f4808153a28 @ 188)
+Mar 16 10:40:40 ubuntu org.gnome.Shell.desktop[1888]: #21 0x7ffe85f5c3b0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 10:40:40 ubuntu org.gnome.Shell.desktop[1888]: #22 0x55b0eb426140 i   resource:///org/gnome/shell/ui/screenShield.js:902 (0x7f4808151b38 @ 18)
+Mar 16 10:40:40 ubuntu org.gnome.Shell.desktop[1888]: #23 0x7ffe85f5d710 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 10:40:40 ubuntu org.gnome.Shell.desktop[1888]: #24 0x7ffe85f5df20 b   self-hosted:916 (0x7f48083f12b8 @ 367)
+Mar 16 10:40:40 ubuntu org.gnome.Shell.desktop[1888]: #25 0x7ffe85f5ed70 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f48083d2230 @ 386)
+Mar 16 10:40:40 ubuntu org.gnome.Shell.desktop[1888]: #26 0x55b0eb4260c0 i   resource:///org/gnome/shell/ui/lightbox.js:186 (0x7f4808238a28 @ 29)
+Mar 16 10:40:40 ubuntu org.gnome.Shell.desktop[1888]: #27 0x55b0eb426038 i   resource:///org/gnome/shell/ui/tweener.js:112 (0x7f48083c8e68 @ 37)
+Mar 16 10:40:40 ubuntu org.gnome.Shell.desktop[1888]: #28 0x55b0eb425f98 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:208 (0x7f48083d2b38 @ 54)
+Mar 16 10:40:40 ubuntu org.gnome.Shell.desktop[1888]: #29 0x55b0eb425e78 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:337 (0x7f48083d2bc0 @ 1626)
+Mar 16 10:40:40 ubuntu org.gnome.Shell.desktop[1888]: #30 0x55b0eb425de8 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:350 (0x7f48083d2c48 @ 100)
+Mar 16 10:40:40 ubuntu org.gnome.Shell.desktop[1888]: #31 0x55b0eb425d70 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:365 (0x7f48083d2cd0 @ 10)
+Mar 16 10:40:40 ubuntu org.gnome.Shell.desktop[1888]: #32 0x7ffe85f61d10 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f48083d2230 @ 386)
+Mar 16 10:40:40 ubuntu org.gnome.Shell.desktop[1888]: #33 0x55b0eb425ce0 i   resource:///org/gnome/shell/ui/tweener.js:244 (0x7f48083cf808 @ 159)
+Mar 16 10:40:40 ubuntu org.gnome.Shell.desktop[1888]: #34 0x7ffe85f63070 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 10:40:40 ubuntu org.gnome.Shell.desktop[1888]: #35 0x55b0eb425c60 i   resource:///org/gnome/shell/ui/tweener.js:219 (0x7f48083cf780 @ 15)
+Mar 16 10:40:40 ubuntu gnome-software[2218]: no app for changed ubuntu-appindicators@ubuntu.com
+Mar 16 10:40:56 ubuntu systemd[1]: Reloading.
+Mar 16 10:40:56 ubuntu systemd[1]: Mounting Mount unit for core20, revision 1828...
+Mar 16 10:40:56 ubuntu systemd[1]: Mounted Mount unit for core20, revision 1828.
+Mar 16 10:40:57 ubuntu systemd[1]: Reloading.
+Mar 16 10:40:57 ubuntu systemd[1]: Mounting Mount unit for gnome-system-monitor, revision 181...
+Mar 16 10:40:57 ubuntu systemd[1]: Mounted Mount unit for gnome-system-monitor, revision 181.
+Mar 16 10:40:57 ubuntu systemd[1]: Reloading.
+Mar 16 10:40:58 ubuntu systemd[1]: Mounting Mount unit for gnome-characters, revision 781...
+Mar 16 10:40:58 ubuntu systemd[1]: Mounted Mount unit for gnome-characters, revision 781.
+Mar 16 10:40:58 ubuntu systemd[1]: Reloading.
+Mar 16 10:40:58 ubuntu systemd[1]: Mounting Mount unit for gnome-logs, revision 115...
+Mar 16 10:40:58 ubuntu kernel: [  637.441399] kauditd_printk_skb: 4 callbacks suppressed
+Mar 16 10:40:58 ubuntu kernel: [  637.441400] audit: type=1400 audit(1678934458.240:89): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/snap/core/14784/usr/lib/snapd/snap-confine" pid=3377 comm="apparmor_parser"
+Mar 16 10:40:58 ubuntu kernel: [  637.457449] audit: type=1400 audit(1678934458.256:90): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/snap/core/14784/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=3377 comm="apparmor_parser"
+Mar 16 10:40:58 ubuntu systemd[1]: Mounted Mount unit for gnome-logs, revision 115.
+Mar 16 10:40:58 ubuntu kernel: [  637.830022] audit: type=1400 audit(1678934458.628:91): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap-update-ns.gnome-system-monitor" pid=3383 comm="apparmor_parser"
+Mar 16 10:40:58 ubuntu kernel: [  637.963610] audit: type=1400 audit(1678934458.732:92): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.gnome-system-monitor.gnome-system-monitor" pid=3384 comm="apparmor_parser"
+Mar 16 10:40:58 ubuntu kernel: [  637.977498] audit: type=1400 audit(1678934458.772:93): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.gnome-system-monitor.hook.configure" pid=3389 comm="apparmor_parser"
+Mar 16 10:40:58 ubuntu kernel: [  637.986262] audit: type=1400 audit(1678934458.784:94): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.core" pid=3393 comm="apparmor_parser"
+Mar 16 10:40:58 ubuntu kernel: [  638.002278] audit: type=1400 audit(1678934458.800:95): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.core.hook.configure" pid=3394 comm="apparmor_parser"
+Mar 16 10:40:59 ubuntu kernel: [  638.235735] audit: type=1400 audit(1678934459.032:96): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/core/14784/usr/lib/snapd/snap-confine" pid=3414 comm="apparmor_parser"
+Mar 16 10:40:59 ubuntu kernel: [  638.235738] audit: type=1400 audit(1678934459.032:97): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/core/14784/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=3414 comm="apparmor_parser"
+Mar 16 10:40:59 ubuntu kernel: [  638.404407] audit: type=1400 audit(1678934459.064:98): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap-update-ns.gnome-characters" pid=3422 comm="apparmor_parser"
+Mar 16 10:41:00 ubuntu systemd[1]: Reloading.
+Mar 16 10:41:00 ubuntu systemd[1]: Mounting Mount unit for gnome-3-26-1604, revision 104...
+Mar 16 10:41:00 ubuntu systemd[1]: Mounted Mount unit for gnome-3-26-1604, revision 104.
+Mar 16 10:41:18 ubuntu systemd[1]: Reloading.
+Mar 16 10:41:19 ubuntu systemd[1]: Mounting Mount unit for gnome-calculator, revision 920...
+Mar 16 10:41:19 ubuntu systemd[1]: Mounted Mount unit for gnome-calculator, revision 920.
+Mar 16 10:41:19 ubuntu kernel: [  658.788442] kauditd_printk_skb: 13 callbacks suppressed
+Mar 16 10:41:19 ubuntu kernel: [  658.788443] audit: type=1400 audit(1678934479.583:112): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/core/14784/usr/lib/snapd/snap-confine" pid=3668 comm="apparmor_parser"
+Mar 16 10:41:19 ubuntu kernel: [  658.788444] audit: type=1400 audit(1678934479.583:113): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/core/14784/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=3668 comm="apparmor_parser"
+Mar 16 10:41:19 ubuntu kernel: [  658.982538] audit: type=1400 audit(1678934479.779:114): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap-update-ns.gnome-calculator" pid=3670 comm="apparmor_parser"
+Mar 16 10:41:19 ubuntu kernel: [  659.026622] audit: type=1400 audit(1678934479.823:115): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.gnome-calculator.gnome-calculator" pid=3671 comm="apparmor_parser"
+Mar 16 10:41:19 ubuntu kernel: [  659.087786] audit: type=1400 audit(1678934479.883:116): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.gnome-calculator.hook.configure" pid=3672 comm="apparmor_parser"
+Mar 16 10:41:19 ubuntu kernel: [  659.092207] audit: type=1400 audit(1678934479.887:117): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.core" pid=3674 comm="apparmor_parser"
+Mar 16 10:41:19 ubuntu kernel: [  659.093394] audit: type=1400 audit(1678934479.891:118): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.core.hook.configure" pid=3675 comm="apparmor_parser"
+Mar 16 10:41:54 ubuntu dhclient[668]: DHCPREQUEST of 192.168.56.102 on enp0s3 to 192.168.56.100 port 67 (xid=0x79a16cbf)
+Mar 16 10:41:54 ubuntu dhclient[668]: DHCPACK of 192.168.56.102 from 192.168.56.100
+Mar 16 10:41:54 ubuntu NetworkManager[537]: <info>  [1678934514.8609] dhcp4 (enp0s3):   address 192.168.56.102
+Mar 16 10:41:54 ubuntu NetworkManager[537]: <info>  [1678934514.8609] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Mar 16 10:41:54 ubuntu NetworkManager[537]: <info>  [1678934514.8609] dhcp4 (enp0s3):   lease time 600
+Mar 16 10:41:54 ubuntu NetworkManager[537]: <info>  [1678934514.8609] dhcp4 (enp0s3): state changed bound -> bound
+Mar 16 10:41:54 ubuntu dbus-daemon[499]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.17' (uid=0 pid=537 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 16 10:41:54 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar 16 10:41:54 ubuntu dhclient[668]: bound to 192.168.56.102 -- renewal in 298 seconds.
+Mar 16 10:41:54 ubuntu dbus-daemon[499]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar 16 10:41:54 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar 16 10:41:54 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Mar 16 10:41:54 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Mar 16 10:42:30 ubuntu systemd[1]: Reloading.
+Mar 16 10:42:30 ubuntu systemd[1]: Mounting Mount unit for gtk-common-themes, revision 1535...
+Mar 16 10:42:30 ubuntu systemd[1]: Mounted Mount unit for gtk-common-themes, revision 1535.
+Mar 16 10:42:31 ubuntu kernel: [  730.303845] audit: type=1400 audit(1678934550.913:119): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.gnome-calculator.gnome-calculator" pid=3792 comm="apparmor_parser"
+Mar 16 10:42:31 ubuntu kernel: [  730.422521] audit: type=1400 audit(1678934551.121:120): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.gnome-calculator.hook.configure" pid=3793 comm="apparmor_parser"
+Mar 16 10:42:31 ubuntu kernel: [  730.633337] audit: type=1400 audit(1678934551.428:121): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap-update-ns.gnome-calculator" pid=3791 comm="apparmor_parser"
+Mar 16 10:42:31 ubuntu kernel: [  730.827768] audit: type=1400 audit(1678934551.616:122): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.gnome-characters.gnome-characters" pid=3795 comm="apparmor_parser"
+Mar 16 10:42:31 ubuntu kernel: [  730.898570] audit: type=1400 audit(1678934551.688:123): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap-update-ns.gnome-characters" pid=3794 comm="apparmor_parser"
+Mar 16 10:42:31 ubuntu kernel: [  730.937776] audit: type=1400 audit(1678934551.720:124): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.gnome-characters.hook.configure" pid=3796 comm="apparmor_parser"
+Mar 16 10:42:31 ubuntu kernel: [  731.133794] audit: type=1400 audit(1678934551.784:125): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.gnome-logs.gnome-logs" pid=3798 comm="apparmor_parser"
+Mar 16 10:42:32 ubuntu kernel: [  731.256408] audit: type=1400 audit(1678934552.016:126): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.gnome-logs.hook.configure" pid=3799 comm="apparmor_parser"
+Mar 16 10:42:32 ubuntu kernel: [  731.295641] audit: type=1400 audit(1678934552.080:127): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap-update-ns.gnome-logs" pid=3797 comm="apparmor_parser"
+Mar 16 10:42:32 ubuntu kernel: [  731.610031] audit: type=1400 audit(1678934552.168:128): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.gnome-system-monitor.gnome-system-monitor" pid=3801 comm="apparmor_parser"
+Mar 16 10:44:49 ubuntu gnome-software[2218]: no app for changed ubuntu-dock@ubuntu.com
+Mar 16 10:44:49 ubuntu gnome-software[2218]: no app for changed ubuntu-appindicators@ubuntu.com
+Mar 16 10:44:49 ubuntu gnome-shell[1888]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.63/org/ayatana/NotificationItem/livepatch
+Mar 16 10:44:50 ubuntu gvfsd-metadata[2184]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Mar 16 10:44:50 ubuntu gvfsd-metadata[2184]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Mar 16 10:44:58 ubuntu gnome-shell[1888]: JS WARNING: [resource:///org/gnome/shell/ui/search.js 506]: reference to undefined property "_searchCancelTimeoutId"
+Mar 16 10:44:58 ubuntu gnome-shell[1888]: JS WARNING: [resource:///org/gnome/shell/ui/search.js 599]: reference to undefined property "_searchCancelTimeoutId"
+Mar 16 10:44:59 ubuntu dbus-daemon[1734]: [session uid=1002 pid=1734] Activating service name='org.gnome.ControlCenter.SearchProvider' requested by ':1.15' (uid=1002 pid=1888 comm="/usr/bin/gnome-shell " label="unconfined")
+Mar 16 10:44:59 ubuntu dbus-daemon[1734]: [session uid=1002 pid=1734] Activating service name='org.gnome.Nautilus' requested by ':1.15' (uid=1002 pid=1888 comm="/usr/bin/gnome-shell " label="unconfined")
+Mar 16 10:44:59 ubuntu dbus-daemon[1734]: [session uid=1002 pid=1734] Activating service name='org.gnome.Calendar' requested by ':1.15' (uid=1002 pid=1888 comm="/usr/bin/gnome-shell " label="unconfined")
+Mar 16 10:44:59 ubuntu dbus-daemon[1734]: [session uid=1002 pid=1734] Activating service name='org.gnome.seahorse.Application' requested by ':1.15' (uid=1002 pid=1888 comm="/usr/bin/gnome-shell " label="unconfined")
+Mar 16 10:44:59 ubuntu dbus-daemon[1734]: [session uid=1002 pid=1734] Successfully activated service 'org.gnome.ControlCenter.SearchProvider'
+Mar 16 10:44:59 ubuntu dbus-daemon[1734]: [session uid=1002 pid=1734] Successfully activated service 'org.gnome.Nautilus'
+Mar 16 10:44:59 ubuntu dbus-daemon[1734]: [session uid=1002 pid=1734] Successfully activated service 'org.gnome.seahorse.Application'
+Mar 16 10:44:59 ubuntu nautilus[3852]: g_key_file_load_from_file: assertion 'file != NULL' failed
+Mar 16 10:44:59 ubuntu nautilus[3852]: Could not establish a connection to Tracker: Failed to load SPARQL backend: Key file does not have group “DomainOntology”
+Mar 16 10:44:59 ubuntu dbus-daemon[1734]: [session uid=1002 pid=1734] Successfully activated service 'org.gnome.Calendar'
+Mar 16 10:44:59 ubuntu nautilus[3852]: g_queue_pop_head: assertion 'queue != NULL' failed
+Mar 16 10:44:59 ubuntu nautilus[3852]: g_queue_foreach: assertion 'queue != NULL' failed
+Mar 16 10:44:59 ubuntu nautilus[3852]: g_queue_free: assertion 'queue != NULL' failed
+Mar 16 10:44:59 ubuntu nautilus[3852]: g_queue_pop_head: assertion 'queue != NULL' failed
+Mar 16 10:45:00 ubuntu nautilus[3852]: g_queue_foreach: assertion 'queue != NULL' failed
+Mar 16 10:45:00 ubuntu nautilus[3852]: g_queue_free: assertion 'queue != NULL' failed
+Mar 16 10:45:08 ubuntu nautilus[3852]: g_queue_pop_head: assertion 'queue != NULL' failed
+Mar 16 10:45:08 ubuntu nautilus[3852]: g_queue_foreach: assertion 'queue != NULL' failed
+Mar 16 10:45:08 ubuntu nautilus[3852]: g_queue_free: assertion 'queue != NULL' failed
+Mar 16 10:45:08 ubuntu nautilus[3852]: g_queue_pop_head: assertion 'queue != NULL' failed
+Mar 16 10:45:08 ubuntu nautilus[3852]: g_queue_foreach: assertion 'queue != NULL' failed
+Mar 16 10:45:08 ubuntu nautilus[3852]: g_queue_free: assertion 'queue != NULL' failed
+Mar 16 10:45:09 ubuntu nautilus[3852]: g_queue_pop_head: assertion 'queue != NULL' failed
+Mar 16 10:45:09 ubuntu nautilus[3852]: g_queue_foreach: assertion 'queue != NULL' failed
+Mar 16 10:45:09 ubuntu nautilus[3852]: g_queue_free: assertion 'queue != NULL' failed
+Mar 16 10:45:10 ubuntu nautilus[3852]: g_queue_pop_head: assertion 'queue != NULL' failed
+Mar 16 10:45:10 ubuntu nautilus[3852]: g_queue_foreach: assertion 'queue != NULL' failed
+Mar 16 10:45:10 ubuntu nautilus[3852]: g_queue_free: assertion 'queue != NULL' failed
+Mar 16 10:45:10 ubuntu nautilus[3852]: g_queue_pop_head: assertion 'queue != NULL' failed
+Mar 16 10:45:10 ubuntu nautilus[3852]: g_queue_foreach: assertion 'queue != NULL' failed
+Mar 16 10:45:10 ubuntu nautilus[3852]: g_queue_free: assertion 'queue != NULL' failed
+Mar 16 10:45:17 ubuntu /usr/lib/gdm3/gdm-x-session[1725]: (EE) No surface to present from.
+Mar 16 10:45:17 ubuntu /usr/lib/gdm3/gdm-x-session[1725]: (II) event6  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+Mar 16 10:45:17 ubuntu /usr/lib/gdm3/gdm-x-session[1725]: (EE) No surface to present from.
+Mar 16 10:45:17 ubuntu gsd-color[2023]: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+Mar 16 10:45:18 ubuntu gsd-color[2023]: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+Mar 16 10:45:22 ubuntu systemd[1]: Starting Cleanup of Temporary Directories...
+Mar 16 10:45:22 ubuntu systemd[1]: Started Cleanup of Temporary Directories.
+Mar 16 10:46:52 ubuntu dhclient[668]: DHCPREQUEST of 192.168.56.102 on enp0s3 to 192.168.56.100 port 67 (xid=0x79a16cbf)
+Mar 16 10:46:52 ubuntu dhclient[668]: DHCPACK of 192.168.56.102 from 192.168.56.100
+Mar 16 10:46:52 ubuntu NetworkManager[537]: <info>  [1678934812.9501] dhcp4 (enp0s3):   address 192.168.56.102
+Mar 16 10:46:52 ubuntu NetworkManager[537]: <info>  [1678934812.9501] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Mar 16 10:46:52 ubuntu NetworkManager[537]: <info>  [1678934812.9501] dhcp4 (enp0s3):   lease time 600
+Mar 16 10:46:52 ubuntu NetworkManager[537]: <info>  [1678934812.9502] dhcp4 (enp0s3): state changed bound -> bound
+Mar 16 10:46:52 ubuntu dbus-daemon[499]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.17' (uid=0 pid=537 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 16 10:46:52 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar 16 10:46:52 ubuntu dhclient[668]: bound to 192.168.56.102 -- renewal in 262 seconds.
+Mar 16 10:46:52 ubuntu dbus-daemon[499]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar 16 10:46:52 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar 16 10:46:52 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Mar 16 10:46:52 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Mar 16 10:47:29 ubuntu systemd[1]: Reloading.
+Mar 16 10:47:29 ubuntu systemd[1]: Mounting Mount unit for gnome-42-2204, revision 65...
+Mar 16 10:47:29 ubuntu systemd[1]: Mounted Mount unit for gnome-42-2204, revision 65.
+Mar 16 10:47:30 ubuntu NetworkManager[537]: <info>  [1678934850.2599] device changed (path: /sys/devices/pci0000:00/0000:00:03.0/net/enp0s3, iface: enp0s3)
+Mar 16 10:47:30 ubuntu /usr/lib/gdm3/gdm-x-session[1725]: (!!) vmware(0): New layout.
+Mar 16 10:47:30 ubuntu /usr/lib/gdm3/gdm-x-session[1725]: (!!) vmware(0): 0: 0 0 800 600
+Mar 16 10:47:30 ubuntu /usr/lib/gdm3/gdm-x-session[1725]: (!!) vmware(0):
+Mar 16 10:47:30 ubuntu upowerd[856]: treating change event as add on /sys/devices/pci0000:00/0000:00:06.0/usb2
+Mar 16 10:47:30 ubuntu upowerd[856]: treating change event as add on /sys/devices/pci0000:00/0000:00:06.0/usb2/2-0:1.0
+Mar 16 10:47:30 ubuntu upowerd[856]: treating change event as add on /sys/devices/pci0000:00/0000:00:06.0/usb2/2-1
+Mar 16 10:47:30 ubuntu upowerd[856]: treating change event as add on /sys/devices/pci0000:00/0000:00:06.0/usb2/2-1/2-1:1.0
+Mar 16 10:47:30 ubuntu NetworkManager[537]: <info>  [1678934850.3586] device changed (path: /sys/devices/pci0000:00/0000:00:08.0/net/enp0s8, iface: enp0s8)
+Mar 16 10:47:30 ubuntu upowerd[856]: treating change event as add on /sys/devices/pci0000:00/0000:00:06.0/usb2/2-1/2-1:1.0/0003:80EE:0021.0001
+Mar 16 10:47:30 ubuntu upowerd[856]: treating change event as add on /sys/devices/pci0000:00/0000:00:0b.0/usb1
+Mar 16 10:47:30 ubuntu upowerd[856]: treating change event as add on /sys/devices/pci0000:00/0000:00:0b.0/usb1/1-0:1.0
+Mar 16 10:47:30 ubuntu NetworkManager[537]: <info>  [1678934850.5896] device changed (path: /sys/devices/virtual/net/lo, iface: lo)
+Mar 16 10:47:30 ubuntu gsd-color[2023]: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+Mar 16 10:47:31 ubuntu kernel: [ 1030.361588] kauditd_printk_skb: 2 callbacks suppressed
+Mar 16 10:47:31 ubuntu kernel: [ 1030.361589] audit: type=1400 audit(1678934851.145:131): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/core/14784/usr/lib/snapd/snap-confine" pid=4184 comm="apparmor_parser"
+Mar 16 10:47:31 ubuntu kernel: [ 1030.361591] audit: type=1400 audit(1678934851.145:132): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/core/14784/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=4184 comm="apparmor_parser"
+Mar 16 10:47:31 ubuntu kernel: [ 1030.847479] audit: type=1400 audit(1678934851.405:133): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.gnome-system-monitor.gnome-system-monitor" pid=4187 comm="apparmor_parser"
+Mar 16 10:47:31 ubuntu kernel: [ 1030.969336] audit: type=1400 audit(1678934851.645:134): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.gnome-system-monitor.hook.configure" pid=4188 comm="apparmor_parser"
+Mar 16 10:47:31 ubuntu kernel: [ 1030.979438] audit: type=1400 audit(1678934851.765:135): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap-update-ns.gnome-system-monitor" pid=4186 comm="apparmor_parser"
+Mar 16 10:47:31 ubuntu kernel: [ 1030.987982] audit: type=1400 audit(1678934851.773:136): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.core" pid=4190 comm="apparmor_parser"
+Mar 16 10:47:31 ubuntu kernel: [ 1030.989588] audit: type=1400 audit(1678934851.773:137): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.core.hook.configure" pid=4191 comm="apparmor_parser"
+Mar 16 10:47:30 ubuntu gsd-color[2023]: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+Mar 16 10:47:32 ubuntu NetworkManager[537]: <info>  [1678934852.1804] device changed (path: /sys/devices/pci0000:00/0000:00:03.0/net/enp0s3, iface: enp0s3)
+Mar 16 10:47:32 ubuntu upowerd[856]: treating change event as add on /sys/devices/pci0000:00/0000:00:06.0/usb2
+Mar 16 10:47:32 ubuntu upowerd[856]: treating change event as add on /sys/devices/pci0000:00/0000:00:06.0/usb2/2-0:1.0
+Mar 16 10:47:32 ubuntu NetworkManager[537]: <info>  [1678934852.1957] device changed (path: /sys/devices/pci0000:00/0000:00:08.0/net/enp0s8, iface: enp0s8)
+Mar 16 10:47:32 ubuntu upowerd[856]: treating change event as add on /sys/devices/pci0000:00/0000:00:06.0/usb2/2-1
+Mar 16 10:47:32 ubuntu upowerd[856]: treating change event as add on /sys/devices/pci0000:00/0000:00:0b.0/usb1
+Mar 16 10:47:32 ubuntu upowerd[856]: treating change event as add on /sys/devices/pci0000:00/0000:00:0b.0/usb1/1-0:1.0
+Mar 16 10:47:32 ubuntu upowerd[856]: treating change event as add on /sys/devices/pci0000:00/0000:00:06.0/usb2/2-1/2-1:1.0
+Mar 16 10:47:32 ubuntu upowerd[856]: treating change event as add on /sys/devices/pci0000:00/0000:00:06.0/usb2/2-1/2-1:1.0/0003:80EE:0021.0001
+Mar 16 10:47:32 ubuntu NetworkManager[537]: <info>  [1678934852.3725] device changed (path: /sys/devices/virtual/net/lo, iface: lo)
+Mar 16 10:47:32 ubuntu systemd[1]: Started snap.gnome-system-monitor.hook.configure.19c99e1e-f6d7-460e-8f6e-54abc7ecc825.scope.
+Mar 16 10:47:32 ubuntu kernel: [ 1032.027248] audit: type=1400 audit(1678934852.813:138): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/core/14784/usr/lib/snapd/snap-confine" pid=4275 comm="apparmor_parser"
+Mar 16 10:47:32 ubuntu kernel: [ 1032.027250] audit: type=1400 audit(1678934852.813:139): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/core/14784/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=4275 comm="apparmor_parser"
+Mar 16 10:47:32 ubuntu ModemManager[485]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:03.0': not supported by any plugin
+Mar 16 10:47:32 ubuntu ModemManager[485]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:08.0': not supported by any plugin
+Mar 16 10:47:33 ubuntu kernel: [ 1032.503226] audit: type=1400 audit(1678934853.045:140): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.gnome-characters.gnome-characters" pid=4278 comm="apparmor_parser"
+Mar 16 10:47:33 ubuntu systemd[1]: Started snap.gnome-characters.hook.configure.c93d7ea8-0551-4b3a-bb84-10f254d389ac.scope.
+Mar 16 10:47:37 ubuntu NetworkManager[537]: <info>  [1678934857.2180] device changed (path: /sys/devices/pci0000:00/0000:00:03.0/net/enp0s3, iface: enp0s3)
+Mar 16 10:47:37 ubuntu NetworkManager[537]: <info>  [1678934857.2241] device changed (path: /sys/devices/pci0000:00/0000:00:08.0/net/enp0s8, iface: enp0s8)
+Mar 16 10:47:37 ubuntu upowerd[856]: treating change event as add on /sys/devices/pci0000:00/0000:00:06.0/usb2
+Mar 16 10:47:37 ubuntu upowerd[856]: treating change event as add on /sys/devices/pci0000:00/0000:00:0b.0/usb1
+Mar 16 10:47:37 ubuntu upowerd[856]: treating change event as add on /sys/devices/pci0000:00/0000:00:0b.0/usb1/1-0:1.0
+Mar 16 10:47:37 ubuntu upowerd[856]: treating change event as add on /sys/devices/pci0000:00/0000:00:06.0/usb2/2-0:1.0
+Mar 16 10:47:37 ubuntu upowerd[856]: treating change event as add on /sys/devices/pci0000:00/0000:00:06.0/usb2/2-1
+Mar 16 10:47:37 ubuntu upowerd[856]: treating change event as add on /sys/devices/pci0000:00/0000:00:06.0/usb2/2-1/2-1:1.0
+Mar 16 10:47:37 ubuntu upowerd[856]: treating change event as add on /sys/devices/pci0000:00/0000:00:06.0/usb2/2-1/2-1:1.0/0003:80EE:0021.0001
+Mar 16 10:47:37 ubuntu NetworkManager[537]: <info>  [1678934857.3735] device changed (path: /sys/devices/virtual/net/lo, iface: lo)
+Mar 16 10:47:37 ubuntu kernel: [ 1037.034614] kauditd_printk_skb: 4 callbacks suppressed
+Mar 16 10:47:37 ubuntu kernel: [ 1037.034615] audit: type=1400 audit(1678934857.821:145): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/core/14784/usr/lib/snapd/snap-confine" pid=4396 comm="apparmor_parser"
+Mar 16 10:47:37 ubuntu kernel: [ 1037.034618] audit: type=1400 audit(1678934857.821:146): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/core/14784/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=4396 comm="apparmor_parser"
+Mar 16 10:47:38 ubuntu kernel: [ 1037.329522] audit: type=1400 audit(1678934858.017:147): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.gnome-logs.gnome-logs" pid=4399 comm="apparmor_parser"
+Mar 16 10:47:38 ubuntu kernel: [ 1037.471582] audit: type=1400 audit(1678934858.253:148): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.gnome-logs.hook.configure" pid=4400 comm="apparmor_parser"
+Mar 16 10:47:38 ubuntu kernel: [ 1037.474151] audit: type=1400 audit(1678934858.261:149): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap-update-ns.gnome-logs" pid=4398 comm="apparmor_parser"
+Mar 16 10:47:38 ubuntu kernel: [ 1037.478568] audit: type=1400 audit(1678934858.265:150): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.core" pid=4402 comm="apparmor_parser"
+Mar 16 10:47:38 ubuntu kernel: [ 1037.478842] audit: type=1400 audit(1678934858.265:151): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.core.hook.configure" pid=4403 comm="apparmor_parser"
+Mar 16 10:47:38 ubuntu systemd[1]: Started snap.gnome-logs.hook.configure.17b67c1a-b8bd-4603-93ae-ad61c51bc490.scope.
+Mar 16 10:47:39 ubuntu ModemManager[485]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:03.0': not supported by any plugin
+Mar 16 10:47:39 ubuntu ModemManager[485]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:08.0': not supported by any plugin
+Mar 16 10:47:54 ubuntu systemd[1]: Reloading.
+Mar 16 10:47:54 ubuntu systemd[1]: Mounting Mount unit for gnome-3-38-2004, revision 119...
+Mar 16 10:47:54 ubuntu systemd[1]: Mounted Mount unit for gnome-3-38-2004, revision 119.
+Mar 16 10:48:20 ubuntu NetworkManager[537]: <info>  [1678934900.6196] device changed (path: /sys/devices/pci0000:00/0000:00:03.0/net/enp0s3, iface: enp0s3)
+Mar 16 10:48:20 ubuntu upowerd[856]: treating change event as add on /sys/devices/pci0000:00/0000:00:06.0/usb2
+Mar 16 10:48:20 ubuntu upowerd[856]: treating change event as add on /sys/devices/pci0000:00/0000:00:0b.0/usb1
+Mar 16 10:48:20 ubuntu NetworkManager[537]: <info>  [1678934900.6356] device changed (path: /sys/devices/pci0000:00/0000:00:08.0/net/enp0s8, iface: enp0s8)
+Mar 16 10:48:20 ubuntu upowerd[856]: treating change event as add on /sys/devices/pci0000:00/0000:00:06.0/usb2/2-1
+Mar 16 10:48:20 ubuntu upowerd[856]: treating change event as add on /sys/devices/pci0000:00/0000:00:06.0/usb2/2-0:1.0
+Mar 16 10:48:20 ubuntu upowerd[856]: treating change event as add on /sys/devices/pci0000:00/0000:00:0b.0/usb1/1-0:1.0
+Mar 16 10:48:20 ubuntu upowerd[856]: treating change event as add on /sys/devices/pci0000:00/0000:00:06.0/usb2/2-1/2-1:1.0
+Mar 16 10:48:20 ubuntu upowerd[856]: treating change event as add on /sys/devices/pci0000:00/0000:00:06.0/usb2/2-1/2-1:1.0/0003:80EE:0021.0001
+Mar 16 10:48:20 ubuntu NetworkManager[537]: <info>  [1678934900.7512] device changed (path: /sys/devices/virtual/net/lo, iface: lo)
+Mar 16 10:48:21 ubuntu kernel: [ 1080.371766] audit: type=1400 audit(1678934901.158:152): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/core/14784/usr/lib/snapd/snap-confine" pid=4616 comm="apparmor_parser"
+Mar 16 10:48:21 ubuntu kernel: [ 1080.371768] audit: type=1400 audit(1678934901.158:153): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/core/14784/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=4616 comm="apparmor_parser"
+Mar 16 10:48:21 ubuntu kernel: [ 1080.672367] audit: type=1400 audit(1678934901.282:154): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.gnome-calculator.gnome-calculator" pid=4619 comm="apparmor_parser"
+Mar 16 10:48:21 ubuntu kernel: [ 1080.790261] audit: type=1400 audit(1678934901.518:155): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.gnome-calculator.hook.configure" pid=4620 comm="apparmor_parser"
+Mar 16 10:48:21 ubuntu kernel: [ 1080.841191] audit: type=1400 audit(1678934901.582:156): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap-update-ns.gnome-calculator" pid=4618 comm="apparmor_parser"
+Mar 16 10:48:21 ubuntu kernel: [ 1080.845908] audit: type=1400 audit(1678934901.634:157): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.core" pid=4622 comm="apparmor_parser"
+Mar 16 10:48:21 ubuntu kernel: [ 1080.846981] audit: type=1400 audit(1678934901.634:158): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.core.hook.configure" pid=4623 comm="apparmor_parser"
+Mar 16 10:48:21 ubuntu systemd[1]: Started snap.gnome-calculator.hook.configure.02589810-5b87-44b8-b558-5296e4483916.scope.
+Mar 16 10:48:23 ubuntu ModemManager[485]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:03.0': not supported by any plugin
+Mar 16 10:48:23 ubuntu ModemManager[485]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:08.0': not supported by any plugin
+Mar 16 10:48:26 ubuntu snapd[2644]: storehelpers.go:769: cannot refresh: snap has no updates available: "core", "gnome-3-26-1604", "gnome-calculator", "gnome-characters", "gnome-logs", "gnome-system-monitor", "gtk-common-themes"
+Mar 16 10:49:25 ubuntu systemd[1]: Reloading.
+Mar 16 10:50:13 ubuntu systemd[1]: Started Session 4 of user managed_node_one.
+Mar 16 10:50:32 ubuntu systemd[1]: Started Session 5 of user managed_node_one.
+Mar 16 10:50:46 ubuntu systemd[1]: Started Session 6 of user managed_node_one.
+Mar 16 10:51:14 ubuntu dhclient[668]: DHCPREQUEST of 192.168.56.102 on enp0s3 to 192.168.56.100 port 67 (xid=0x79a16cbf)
+Mar 16 10:51:14 ubuntu dhclient[668]: DHCPACK of 192.168.56.102 from 192.168.56.100
+Mar 16 10:51:14 ubuntu NetworkManager[537]: <info>  [1678935074.6337] dhcp4 (enp0s3):   address 192.168.56.102
+Mar 16 10:51:14 ubuntu NetworkManager[537]: <info>  [1678935074.6337] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Mar 16 10:51:14 ubuntu NetworkManager[537]: <info>  [1678935074.6337] dhcp4 (enp0s3):   lease time 600
+Mar 16 10:51:14 ubuntu NetworkManager[537]: <info>  [1678935074.6338] dhcp4 (enp0s3): state changed bound -> bound
+Mar 16 10:51:14 ubuntu dbus-daemon[499]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.17' (uid=0 pid=537 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 16 10:51:14 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar 16 10:51:14 ubuntu dhclient[668]: bound to 192.168.56.102 -- renewal in 258 seconds.
+Mar 16 10:51:14 ubuntu dbus-daemon[499]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar 16 10:51:14 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar 16 10:51:14 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Mar 16 10:51:14 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Mar 16 10:53:52 ubuntu gnome-shell[1888]: Object .Gjs_AppIndicatorIconActor__1 (0x55b0eb5c25c0), has been already finalized. Impossible to set any property to it.
+Mar 16 10:53:52 ubuntu org.gnome.Shell.desktop[1888]: == Stack trace for context 0x55b0eb014320 ==
+Mar 16 10:53:52 ubuntu org.gnome.Shell.desktop[1888]: #0 0x7ffe85f53e20 b   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7f48083b5de0 @ 87)
+Mar 16 10:53:52 ubuntu org.gnome.Shell.desktop[1888]: #1 0x55b0eb426710 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7f47ca3c1780 @ 58)
+Mar 16 10:53:52 ubuntu org.gnome.Shell.desktop[1888]: #2 0x7ffe85f55180 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 10:53:52 ubuntu org.gnome.Shell.desktop[1888]: #3 0x7ffe85f55240 b   self-hosted:916 (0x7f48083f12b8 @ 367)
+Mar 16 10:53:52 ubuntu org.gnome.Shell.desktop[1888]: #4 0x7ffe85f55330 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f48083d2230 @ 386)
+Mar 16 10:53:52 ubuntu org.gnome.Shell.desktop[1888]: #5 0x55b0eb426688 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7f47ca3b1450 @ 22)
+Mar 16 10:53:52 ubuntu org.gnome.Shell.desktop[1888]: #6 0x7ffe85f56690 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 10:53:52 ubuntu org.gnome.Shell.desktop[1888]: #7 0x55b0eb4265e0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7f47ca3aea28 @ 225)
+Mar 16 10:53:52 ubuntu org.gnome.Shell.desktop[1888]: #8 0x7ffe85f579f0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 10:53:52 ubuntu org.gnome.Shell.desktop[1888]: #9 0x55b0eb426568 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7f47ca383bc0 @ 37)
+Mar 16 10:53:52 ubuntu org.gnome.Shell.desktop[1888]: #10 0x55b0eb4264a8 i   resource:///org/gnome/shell/ui/extensionSystem.js:83 (0x7f48082592b8 @ 441)
+Mar 16 10:53:52 ubuntu org.gnome.Shell.desktop[1888]: #11 0x55b0eb426428 i   resource:///org/gnome/shell/ui/extensionSystem.js:354 (0x7f4808259d58 @ 13)
+Mar 16 10:53:52 ubuntu org.gnome.Shell.desktop[1888]: #12 0x7ffe85f58760 b   self-hosted:251 (0x7f48083c4ab0 @ 223)
+Mar 16 10:53:52 ubuntu org.gnome.Shell.desktop[1888]: #13 0x55b0eb4263a8 i   resource:///org/gnome/shell/ui/extensionSystem.js:353 (0x7f4808259cd0 @ 64)
+Mar 16 10:53:52 ubuntu org.gnome.Shell.desktop[1888]: #14 0x55b0eb426328 i   resource:///org/gnome/shell/ui/extensionSystem.js:371 (0x7f4808259de0 @ 87)
+Mar 16 10:53:52 ubuntu org.gnome.Shell.desktop[1888]: #15 0x7ffe85f59c60 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f48083d2230 @ 386)
+Mar 16 10:53:52 ubuntu org.gnome.Shell.desktop[1888]: #16 0x7ffe85f5a470 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7f480816e5e8 @ 254)
+Mar 16 10:53:52 ubuntu org.gnome.Shell.desktop[1888]: #17 0x7ffe85f5b860 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 10:53:52 ubuntu org.gnome.Shell.desktop[1888]: #18 0x55b0eb4261e8 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7f480816e3c8 @ 40)
+Mar 16 10:53:52 ubuntu org.gnome.Shell.desktop[1888]: #19 0x7ffe85f5cbc0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 10:53:52 ubuntu org.gnome.Shell.desktop[1888]: #20 0x55b0eb426140 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7f4808153a28 @ 188)
+Mar 16 10:53:52 ubuntu org.gnome.Shell.desktop[1888]: #21 0x7ffe85f5df20 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 10:53:52 ubuntu org.gnome.Shell.desktop[1888]: #22 0x55b0eb4260b8 i   resource:///org/gnome/shell/ui/screenShield.js:902 (0x7f4808151b38 @ 18)
+Mar 16 10:53:52 ubuntu org.gnome.Shell.desktop[1888]: #23 0x7ffe85f5f280 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 10:53:52 ubuntu org.gnome.Shell.desktop[1888]: #24 0x7ffe85f5fa90 b   self-hosted:916 (0x7f48083f12b8 @ 367)
+Mar 16 10:53:52 ubuntu org.gnome.Shell.desktop[1888]: #25 0x7ffe85f5fb80 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f48083d2230 @ 386)
+Mar 16 10:53:52 ubuntu org.gnome.Shell.desktop[1888]: #26 0x55b0eb426038 i   resource:///org/gnome/shell/ui/lightbox.js:186 (0x7f4808238a28 @ 29)
+Mar 16 10:53:52 ubuntu org.gnome.Shell.desktop[1888]: #27 0x55b0eb425f98 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:208 (0x7f48083d2b38 @ 54)
+Mar 16 10:53:52 ubuntu org.gnome.Shell.desktop[1888]: #28 0x55b0eb425e78 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:337 (0x7f48083d2bc0 @ 1626)
+Mar 16 10:53:52 ubuntu org.gnome.Shell.desktop[1888]: #29 0x55b0eb425de8 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:350 (0x7f48083d2c48 @ 100)
+Mar 16 10:53:52 ubuntu org.gnome.Shell.desktop[1888]: #30 0x55b0eb425d70 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:365 (0x7f48083d2cd0 @ 10)
+Mar 16 10:53:52 ubuntu org.gnome.Shell.desktop[1888]: #31 0x7ffe85f61d10 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f48083d2230 @ 386)
+Mar 16 10:53:52 ubuntu org.gnome.Shell.desktop[1888]: #32 0x55b0eb425ce0 i   resource:///org/gnome/shell/ui/tweener.js:244 (0x7f48083cf808 @ 159)
+Mar 16 10:53:52 ubuntu org.gnome.Shell.desktop[1888]: #33 0x7ffe85f63070 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 10:53:52 ubuntu org.gnome.Shell.desktop[1888]: #34 0x55b0eb425c60 i   resource:///org/gnome/shell/ui/tweener.js:219 (0x7f48083cf780 @ 15)
+Mar 16 10:53:52 ubuntu gnome-software[2218]: no app for changed ubuntu-appindicators@ubuntu.com
+Mar 16 10:53:52 ubuntu gnome-software[2218]: no app for changed ubuntu-dock@ubuntu.com
+Mar 16 10:55:32 ubuntu dhclient[668]: DHCPREQUEST of 192.168.56.102 on enp0s3 to 192.168.56.100 port 67 (xid=0x79a16cbf)
+Mar 16 10:55:32 ubuntu dhclient[668]: DHCPACK of 192.168.56.102 from 192.168.56.100
+Mar 16 10:55:32 ubuntu NetworkManager[537]: <info>  [1678935332.6204] dhcp4 (enp0s3):   address 192.168.56.102
+Mar 16 10:55:32 ubuntu NetworkManager[537]: <info>  [1678935332.6205] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Mar 16 10:55:32 ubuntu NetworkManager[537]: <info>  [1678935332.6205] dhcp4 (enp0s3):   lease time 600
+Mar 16 10:55:32 ubuntu dbus-daemon[499]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.17' (uid=0 pid=537 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 16 10:55:32 ubuntu NetworkManager[537]: <info>  [1678935332.6205] dhcp4 (enp0s3): state changed bound -> bound
+Mar 16 10:55:32 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar 16 10:55:32 ubuntu dhclient[668]: bound to 192.168.56.102 -- renewal in 282 seconds.
+Mar 16 10:55:32 ubuntu dbus-daemon[499]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar 16 10:55:32 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar 16 10:55:32 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Mar 16 10:55:32 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Mar 16 11:00:14 ubuntu dhclient[668]: DHCPREQUEST of 192.168.56.102 on enp0s3 to 192.168.56.100 port 67 (xid=0x79a16cbf)
+Mar 16 11:00:14 ubuntu dhclient[668]: DHCPACK of 192.168.56.102 from 192.168.56.100
+Mar 16 11:00:14 ubuntu NetworkManager[537]: <info>  [1678935614.0551] dhcp4 (enp0s3):   address 192.168.56.102
+Mar 16 11:00:14 ubuntu NetworkManager[537]: <info>  [1678935614.0551] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Mar 16 11:00:14 ubuntu NetworkManager[537]: <info>  [1678935614.0552] dhcp4 (enp0s3):   lease time 600
+Mar 16 11:00:14 ubuntu NetworkManager[537]: <info>  [1678935614.0552] dhcp4 (enp0s3): state changed bound -> bound
+Mar 16 11:00:14 ubuntu dbus-daemon[499]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.17' (uid=0 pid=537 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 16 11:00:14 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar 16 11:00:14 ubuntu dhclient[668]: bound to 192.168.56.102 -- renewal in 253 seconds.
+Mar 16 11:00:14 ubuntu dbus-daemon[499]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar 16 11:00:14 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar 16 11:00:14 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Mar 16 11:00:14 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Mar 16 11:04:11 ubuntu systemd[1]: Started Run anacron jobs.
+Mar 16 11:04:11 ubuntu anacron[4940]: Anacron 2.3 started on 2023-03-16
+Mar 16 11:04:11 ubuntu anacron[4940]: Normal exit (0 jobs run)
+Mar 16 11:04:27 ubuntu dhclient[668]: DHCPREQUEST of 192.168.56.102 on enp0s3 to 192.168.56.100 port 67 (xid=0x79a16cbf)
+Mar 16 11:04:27 ubuntu dhclient[668]: DHCPACK of 192.168.56.102 from 192.168.56.100
+Mar 16 11:04:27 ubuntu NetworkManager[537]: <info>  [1678935867.9511] dhcp4 (enp0s3):   address 192.168.56.102
+Mar 16 11:04:27 ubuntu NetworkManager[537]: <info>  [1678935867.9512] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Mar 16 11:04:27 ubuntu NetworkManager[537]: <info>  [1678935867.9513] dhcp4 (enp0s3):   lease time 600
+Mar 16 11:04:27 ubuntu NetworkManager[537]: <info>  [1678935867.9513] dhcp4 (enp0s3): state changed bound -> bound
+Mar 16 11:04:27 ubuntu dbus-daemon[499]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.17' (uid=0 pid=537 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 16 11:04:27 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar 16 11:04:27 ubuntu dhclient[668]: bound to 192.168.56.102 -- renewal in 293 seconds.
+Mar 16 11:04:27 ubuntu dbus-daemon[499]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar 16 11:04:27 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar 16 11:04:27 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Mar 16 11:04:27 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Mar 16 11:05:23 ubuntu gnome-software[2218]: no app for changed ubuntu-dock@ubuntu.com
+Mar 16 11:05:23 ubuntu gnome-software[2218]: no app for changed ubuntu-appindicators@ubuntu.com
+Mar 16 11:05:23 ubuntu gnome-shell[1888]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.63/org/ayatana/NotificationItem/livepatch
+Mar 16 11:05:23 ubuntu gvfsd-metadata[2184]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Mar 16 11:05:23 ubuntu gvfsd-metadata[2184]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Mar 16 11:05:27 ubuntu pulseaudio[1901]: [alsa-sink-Intel ICH] alsa-sink.c: ALSA woke us up to write new data to the device, but there was actually nothing to write.
+Mar 16 11:05:27 ubuntu pulseaudio[1901]: [alsa-sink-Intel ICH] alsa-sink.c: Most likely this is a bug in the ALSA driver 'snd_intel8x0'. Please report this issue to the ALSA developers.
+Mar 16 11:05:27 ubuntu pulseaudio[1901]: [alsa-sink-Intel ICH] alsa-sink.c: We were woken up with POLLOUT set -- however a subsequent snd_pcm_avail() returned 0 or another value < min_avail.
+Mar 16 11:09:20 ubuntu dhclient[668]: DHCPREQUEST of 192.168.56.102 on enp0s3 to 192.168.56.100 port 67 (xid=0x79a16cbf)
+Mar 16 11:09:20 ubuntu dhclient[668]: DHCPACK of 192.168.56.102 from 192.168.56.100
+Mar 16 11:09:20 ubuntu NetworkManager[537]: <info>  [1678936160.8068] dhcp4 (enp0s3):   address 192.168.56.102
+Mar 16 11:09:20 ubuntu NetworkManager[537]: <info>  [1678936160.8068] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Mar 16 11:09:20 ubuntu NetworkManager[537]: <info>  [1678936160.8068] dhcp4 (enp0s3):   lease time 600
+Mar 16 11:09:20 ubuntu NetworkManager[537]: <info>  [1678936160.8068] dhcp4 (enp0s3): state changed bound -> bound
+Mar 16 11:09:20 ubuntu dbus-daemon[499]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.17' (uid=0 pid=537 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 16 11:09:20 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar 16 11:09:20 ubuntu dbus-daemon[499]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar 16 11:09:20 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar 16 11:09:20 ubuntu dhclient[668]: bound to 192.168.56.102 -- renewal in 243 seconds.
+Mar 16 11:09:20 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Mar 16 11:09:20 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Mar 16 11:10:24 ubuntu systemd-resolved[344]: Grace period over, resuming full feature set (UDP+EDNS0) for DNS server 10.6.15.200.
+Mar 16 11:10:24 ubuntu systemd-resolved[344]: Using degraded feature set (UDP) for DNS server 10.6.15.200.
+Mar 16 11:10:41 ubuntu gnome-shell[1888]: Object .Gjs_AppIndicatorIconActor__1 (0x55b0eb92fcf0), has been already finalized. Impossible to set any property to it.
+Mar 16 11:10:41 ubuntu org.gnome.Shell.desktop[1888]: == Stack trace for context 0x55b0eb014320 ==
+Mar 16 11:10:41 ubuntu org.gnome.Shell.desktop[1888]: #0 0x7ffe85f54a20 I   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7f48083b5de0 @ 87)
+Mar 16 11:10:41 ubuntu org.gnome.Shell.desktop[1888]: #1 0x55b0eb4267d0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7f47ca3c1780 @ 58)
+Mar 16 11:10:41 ubuntu org.gnome.Shell.desktop[1888]: #2 0x7ffe85f55600 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 11:10:41 ubuntu org.gnome.Shell.desktop[1888]: #3 0x7ffe85f556c0 b   self-hosted:916 (0x7f48083f12b8 @ 367)
+Mar 16 11:10:41 ubuntu org.gnome.Shell.desktop[1888]: #4 0x7ffe85f557b0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f48083d2230 @ 386)
+Mar 16 11:10:41 ubuntu org.gnome.Shell.desktop[1888]: #5 0x55b0eb426748 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7f47ca3b1450 @ 22)
+Mar 16 11:10:41 ubuntu org.gnome.Shell.desktop[1888]: #6 0x7ffe85f56400 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 11:10:41 ubuntu org.gnome.Shell.desktop[1888]: #7 0x55b0eb4266a0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7f47ca3aea28 @ 225)
+Mar 16 11:10:41 ubuntu org.gnome.Shell.desktop[1888]: #8 0x7ffe85f56fe0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 11:10:41 ubuntu org.gnome.Shell.desktop[1888]: #9 0x55b0eb426628 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7f47ca383bc0 @ 37)
+Mar 16 11:10:41 ubuntu org.gnome.Shell.desktop[1888]: #10 0x55b0eb426568 i   resource:///org/gnome/shell/ui/extensionSystem.js:83 (0x7f48082592b8 @ 441)
+Mar 16 11:10:41 ubuntu org.gnome.Shell.desktop[1888]: #11 0x55b0eb4264e8 i   resource:///org/gnome/shell/ui/extensionSystem.js:354 (0x7f4808259d58 @ 13)
+Mar 16 11:10:41 ubuntu org.gnome.Shell.desktop[1888]: #12 0x7ffe85f57ce0 b   self-hosted:251 (0x7f48083c4ab0 @ 223)
+Mar 16 11:10:41 ubuntu org.gnome.Shell.desktop[1888]: #13 0x55b0eb426468 i   resource:///org/gnome/shell/ui/extensionSystem.js:353 (0x7f4808259cd0 @ 64)
+Mar 16 11:10:41 ubuntu org.gnome.Shell.desktop[1888]: #14 0x55b0eb4263e8 i   resource:///org/gnome/shell/ui/extensionSystem.js:371 (0x7f4808259de0 @ 87)
+Mar 16 11:10:41 ubuntu org.gnome.Shell.desktop[1888]: #15 0x7ffe85f591e0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f48083d2230 @ 386)
+Mar 16 11:10:41 ubuntu org.gnome.Shell.desktop[1888]: #16 0x7ffe85f599f0 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7f480816e5e8 @ 254)
+Mar 16 11:10:41 ubuntu org.gnome.Shell.desktop[1888]: #17 0x7ffe85f5ade0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 11:10:41 ubuntu org.gnome.Shell.desktop[1888]: #18 0x55b0eb4262a8 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7f480816e3c8 @ 40)
+Mar 16 11:10:41 ubuntu org.gnome.Shell.desktop[1888]: #19 0x7ffe85f5c140 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 11:10:41 ubuntu org.gnome.Shell.desktop[1888]: #20 0x55b0eb426200 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7f4808153a28 @ 188)
+Mar 16 11:10:41 ubuntu org.gnome.Shell.desktop[1888]: #21 0x7ffe85f5d4a0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 11:10:41 ubuntu org.gnome.Shell.desktop[1888]: #22 0x55b0eb426178 i   resource:///org/gnome/shell/ui/screenShield.js:902 (0x7f4808151b38 @ 18)
+Mar 16 11:10:41 ubuntu org.gnome.Shell.desktop[1888]: #23 0x7ffe85f5e800 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 11:10:41 ubuntu org.gnome.Shell.desktop[1888]: #24 0x55b0eb4260b8 i   self-hosted:916 (0x7f48083f12b8 @ 367)
+Mar 16 11:10:41 ubuntu org.gnome.Shell.desktop[1888]: #25 0x7ffe85f5fb80 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f48083d2230 @ 386)
+Mar 16 11:10:41 ubuntu org.gnome.Shell.desktop[1888]: #26 0x55b0eb426038 i   resource:///org/gnome/shell/ui/lightbox.js:186 (0x7f4808238a28 @ 29)
+Mar 16 11:10:41 ubuntu org.gnome.Shell.desktop[1888]: #27 0x55b0eb425f98 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:208 (0x7f48083d2b38 @ 54)
+Mar 16 11:10:41 ubuntu org.gnome.Shell.desktop[1888]: #28 0x55b0eb425e78 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:337 (0x7f48083d2bc0 @ 1626)
+Mar 16 11:10:41 ubuntu org.gnome.Shell.desktop[1888]: #29 0x55b0eb425de8 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:350 (0x7f48083d2c48 @ 100)
+Mar 16 11:10:41 ubuntu org.gnome.Shell.desktop[1888]: #30 0x55b0eb425d70 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:365 (0x7f48083d2cd0 @ 10)
+Mar 16 11:10:41 ubuntu org.gnome.Shell.desktop[1888]: #31 0x7ffe85f61d10 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f48083d2230 @ 386)
+Mar 16 11:10:41 ubuntu org.gnome.Shell.desktop[1888]: #32 0x55b0eb425ce0 i   resource:///org/gnome/shell/ui/tweener.js:244 (0x7f48083cf808 @ 159)
+Mar 16 11:10:41 ubuntu org.gnome.Shell.desktop[1888]: #33 0x7ffe85f63070 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 11:10:41 ubuntu org.gnome.Shell.desktop[1888]: #34 0x55b0eb425c60 i   resource:///org/gnome/shell/ui/tweener.js:219 (0x7f48083cf780 @ 15)
+Mar 16 11:10:41 ubuntu gnome-software[2218]: no app for changed ubuntu-appindicators@ubuntu.com
+Mar 16 11:10:41 ubuntu gnome-software[2218]: no app for changed ubuntu-dock@ubuntu.com
+Mar 16 11:13:23 ubuntu dhclient[668]: DHCPREQUEST of 192.168.56.102 on enp0s3 to 192.168.56.100 port 67 (xid=0x79a16cbf)
+Mar 16 11:13:23 ubuntu dhclient[668]: DHCPACK of 192.168.56.102 from 192.168.56.100
+Mar 16 11:13:23 ubuntu NetworkManager[537]: <info>  [1678936403.9535] dhcp4 (enp0s3):   address 192.168.56.102
+Mar 16 11:13:23 ubuntu NetworkManager[537]: <info>  [1678936403.9535] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Mar 16 11:13:23 ubuntu dbus-daemon[499]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.17' (uid=0 pid=537 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 16 11:13:23 ubuntu NetworkManager[537]: <info>  [1678936403.9536] dhcp4 (enp0s3):   lease time 600
+Mar 16 11:13:23 ubuntu NetworkManager[537]: <info>  [1678936403.9536] dhcp4 (enp0s3): state changed bound -> bound
+Mar 16 11:13:23 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar 16 11:13:23 ubuntu dhclient[668]: bound to 192.168.56.102 -- renewal in 229 seconds.
+Mar 16 11:13:23 ubuntu dbus-daemon[499]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar 16 11:13:23 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar 16 11:13:23 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Mar 16 11:13:23 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Mar 16 11:17:01 ubuntu CRON[5002]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 16 11:17:12 ubuntu dhclient[668]: DHCPREQUEST of 192.168.56.102 on enp0s3 to 192.168.56.100 port 67 (xid=0x79a16cbf)
+Mar 16 11:17:12 ubuntu dhclient[668]: DHCPACK of 192.168.56.102 from 192.168.56.100
+Mar 16 11:17:12 ubuntu NetworkManager[537]: <info>  [1678936632.8563] dhcp4 (enp0s3):   address 192.168.56.102
+Mar 16 11:17:12 ubuntu NetworkManager[537]: <info>  [1678936632.8565] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Mar 16 11:17:12 ubuntu NetworkManager[537]: <info>  [1678936632.8566] dhcp4 (enp0s3):   lease time 600
+Mar 16 11:17:12 ubuntu NetworkManager[537]: <info>  [1678936632.8566] dhcp4 (enp0s3): state changed bound -> bound
+Mar 16 11:17:12 ubuntu dbus-daemon[499]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.17' (uid=0 pid=537 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 16 11:17:12 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar 16 11:17:12 ubuntu dhclient[668]: bound to 192.168.56.102 -- renewal in 283 seconds.
+Mar 16 11:17:12 ubuntu dbus-daemon[499]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar 16 11:17:12 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar 16 11:17:12 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Mar 16 11:17:12 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Mar 16 11:17:24 ubuntu systemd[1]: Started Session 8 of user managed_node_one.
+Mar 16 11:17:24 ubuntu python3[5083]: ansible-ping Invoked with data=pong
+Mar 16 11:21:55 ubuntu dhclient[668]: DHCPREQUEST of 192.168.56.102 on enp0s3 to 192.168.56.100 port 67 (xid=0x79a16cbf)
+Mar 16 11:21:55 ubuntu dhclient[668]: DHCPACK of 192.168.56.102 from 192.168.56.100
+Mar 16 11:21:55 ubuntu NetworkManager[537]: <info>  [1678936915.3940] dhcp4 (enp0s3):   address 192.168.56.102
+Mar 16 11:21:55 ubuntu NetworkManager[537]: <info>  [1678936915.3941] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Mar 16 11:21:55 ubuntu NetworkManager[537]: <info>  [1678936915.3941] dhcp4 (enp0s3):   lease time 600
+Mar 16 11:21:55 ubuntu NetworkManager[537]: <info>  [1678936915.3941] dhcp4 (enp0s3): state changed bound -> bound
+Mar 16 11:21:55 ubuntu dbus-daemon[499]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.17' (uid=0 pid=537 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 16 11:21:55 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar 16 11:21:55 ubuntu dhclient[668]: bound to 192.168.56.102 -- renewal in 283 seconds.
+Mar 16 11:21:55 ubuntu dbus-daemon[499]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar 16 11:21:55 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar 16 11:21:55 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Mar 16 11:21:55 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Mar 16 11:26:38 ubuntu dhclient[668]: DHCPREQUEST of 192.168.56.102 on enp0s3 to 192.168.56.100 port 67 (xid=0x79a16cbf)
+Mar 16 11:26:38 ubuntu dhclient[668]: DHCPACK of 192.168.56.102 from 192.168.56.100
+Mar 16 11:26:38 ubuntu NetworkManager[537]: <info>  [1678937198.1803] dhcp4 (enp0s3):   address 192.168.56.102
+Mar 16 11:26:38 ubuntu NetworkManager[537]: <info>  [1678937198.1804] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Mar 16 11:26:38 ubuntu NetworkManager[537]: <info>  [1678937198.1804] dhcp4 (enp0s3):   lease time 600
+Mar 16 11:26:38 ubuntu NetworkManager[537]: <info>  [1678937198.1804] dhcp4 (enp0s3): state changed bound -> bound
+Mar 16 11:26:38 ubuntu dbus-daemon[499]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.17' (uid=0 pid=537 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 16 11:26:38 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar 16 11:26:38 ubuntu dhclient[668]: bound to 192.168.56.102 -- renewal in 238 seconds.
+Mar 16 11:26:38 ubuntu dbus-daemon[499]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar 16 11:26:38 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar 16 11:26:38 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Mar 16 11:26:38 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Mar 16 11:30:36 ubuntu dhclient[668]: DHCPREQUEST of 192.168.56.102 on enp0s3 to 192.168.56.100 port 67 (xid=0x79a16cbf)
+Mar 16 11:30:36 ubuntu dhclient[668]: DHCPACK of 192.168.56.102 from 192.168.56.100
+Mar 16 11:30:36 ubuntu NetworkManager[537]: <info>  [1678937436.8999] dhcp4 (enp0s3):   address 192.168.56.102
+Mar 16 11:30:36 ubuntu NetworkManager[537]: <info>  [1678937436.9001] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Mar 16 11:30:36 ubuntu NetworkManager[537]: <info>  [1678937436.9003] dhcp4 (enp0s3):   lease time 600
+Mar 16 11:30:36 ubuntu NetworkManager[537]: <info>  [1678937436.9004] dhcp4 (enp0s3): state changed bound -> bound
+Mar 16 11:30:36 ubuntu dbus-daemon[499]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.17' (uid=0 pid=537 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 16 11:30:36 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar 16 11:30:36 ubuntu dhclient[668]: bound to 192.168.56.102 -- renewal in 261 seconds.
+Mar 16 11:30:36 ubuntu dbus-daemon[499]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar 16 11:30:36 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar 16 11:30:36 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Mar 16 11:30:36 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Mar 16 11:31:01 ubuntu CRON[5128]: (root) CMD (   test -x /etc/cron.daily/popularity-contest && /etc/cron.daily/popularity-contest --crond)
+Mar 16 11:34:57 ubuntu dhclient[668]: DHCPREQUEST of 192.168.56.102 on enp0s3 to 192.168.56.100 port 67 (xid=0x79a16cbf)
+Mar 16 11:34:57 ubuntu dhclient[668]: DHCPACK of 192.168.56.102 from 192.168.56.100
+Mar 16 11:34:57 ubuntu NetworkManager[537]: <info>  [1678937697.4181] dhcp4 (enp0s3):   address 192.168.56.102
+Mar 16 11:34:57 ubuntu NetworkManager[537]: <info>  [1678937697.4181] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Mar 16 11:34:57 ubuntu NetworkManager[537]: <info>  [1678937697.4181] dhcp4 (enp0s3):   lease time 600
+Mar 16 11:34:57 ubuntu NetworkManager[537]: <info>  [1678937697.4182] dhcp4 (enp0s3): state changed bound -> bound
+Mar 16 11:34:57 ubuntu dbus-daemon[499]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.17' (uid=0 pid=537 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 16 11:34:57 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar 16 11:34:57 ubuntu dhclient[668]: bound to 192.168.56.102 -- renewal in 237 seconds.
+Mar 16 11:34:57 ubuntu dbus-daemon[499]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar 16 11:34:57 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar 16 11:34:57 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Mar 16 11:34:57 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Mar 16 11:35:27 ubuntu systemd[1]: Started Session 10 of user managed_node_one.
+Mar 16 11:35:28 ubuntu python3[5224]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mar 16 11:35:29 ubuntu python3[5292]: ansible-ansible.legacy.command Invoked with _raw_params=dpkg --configure -a#012 _uses_shell=True warn=False stdin_add_newline=True strip_empty_ends=True argv=None chdir=None executable=None creates=None removes=None stdin=None
+Mar 16 11:35:29 ubuntu python3[5317]: ansible-apt Invoked with update_cache=True state=present update_cache_retries=5 update_cache_retry_max_delay=12 cache_valid_time=0 purge=False force=False upgrade=no dpkg_options=force-confdef,force-confold autoremove=False autoclean=False fail_on_autoremove=False only_upgrade=False force_apt_get=False allow_unauthenticated=False package=None deb=None default_release=None install_recommends=None policy_rc_d=None
+Mar 16 11:35:30 ubuntu systemd[1]: Starting Update APT News...
+Mar 16 11:35:30 ubuntu systemd[1]: Starting Update the local ESM caches...
+Mar 16 11:35:30 ubuntu systemd[1]: Started Update APT News.
+Mar 16 11:35:32 ubuntu systemd[1]: Started Update the local ESM caches.
+Mar 16 11:35:32 ubuntu python3[5732]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mar 16 11:38:54 ubuntu dhclient[668]: DHCPREQUEST of 192.168.56.102 on enp0s3 to 192.168.56.100 port 67 (xid=0x79a16cbf)
+Mar 16 11:38:54 ubuntu dhclient[668]: DHCPACK of 192.168.56.102 from 192.168.56.100
+Mar 16 11:38:54 ubuntu NetworkManager[537]: <info>  [1678937934.5430] dhcp4 (enp0s3):   address 192.168.56.102
+Mar 16 11:38:54 ubuntu NetworkManager[537]: <info>  [1678937934.5431] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Mar 16 11:38:54 ubuntu NetworkManager[537]: <info>  [1678937934.5431] dhcp4 (enp0s3):   lease time 600
+Mar 16 11:38:54 ubuntu NetworkManager[537]: <info>  [1678937934.5431] dhcp4 (enp0s3): state changed bound -> bound
+Mar 16 11:38:54 ubuntu dbus-daemon[499]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.17' (uid=0 pid=537 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 16 11:38:54 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar 16 11:38:54 ubuntu dbus-daemon[499]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar 16 11:38:54 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar 16 11:38:54 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Mar 16 11:38:54 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Mar 16 11:38:54 ubuntu dhclient[668]: bound to 192.168.56.102 -- renewal in 262 seconds.
+Mar 16 11:39:03 ubuntu systemd[1]: Started Session 11 of user managed_node_one.
+Mar 16 11:39:03 ubuntu python3[5870]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mar 16 11:39:04 ubuntu python3[5938]: ansible-ansible.legacy.command Invoked with _raw_params=dpkg --configure -a#012 _uses_shell=True warn=False stdin_add_newline=True strip_empty_ends=True argv=None chdir=None executable=None creates=None removes=None stdin=None
+Mar 16 11:39:04 ubuntu python3[5963]: ansible-apt Invoked with update_cache=True state=present update_cache_retries=5 update_cache_retry_max_delay=12 cache_valid_time=0 purge=False force=False upgrade=no dpkg_options=force-confdef,force-confold autoremove=False autoclean=False fail_on_autoremove=False only_upgrade=False force_apt_get=False allow_unauthenticated=False package=None deb=None default_release=None install_recommends=None policy_rc_d=None
+Mar 16 11:39:05 ubuntu systemd[1]: Starting Update APT News...
+Mar 16 11:39:05 ubuntu systemd[1]: Starting Update the local ESM caches...
+Mar 16 11:39:05 ubuntu systemd[1]: Started Update APT News.
+Mar 16 11:39:07 ubuntu systemd[1]: Started Update the local ESM caches.
+Mar 16 11:39:07 ubuntu python3[6378]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mar 16 11:39:55 ubuntu python3[6457]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mar 16 11:39:56 ubuntu python3[6525]: ansible-ansible.legacy.command Invoked with _raw_params=dpkg --configure -a#012 _uses_shell=True warn=False stdin_add_newline=True strip_empty_ends=True argv=None chdir=None executable=None creates=None removes=None stdin=None
+Mar 16 11:39:56 ubuntu python3[6550]: ansible-apt Invoked with update_cache=True state=present update_cache_retries=5 update_cache_retry_max_delay=12 cache_valid_time=0 purge=False force=False upgrade=no dpkg_options=force-confdef,force-confold autoremove=False autoclean=False fail_on_autoremove=False only_upgrade=False force_apt_get=False allow_unauthenticated=False package=None deb=None default_release=None install_recommends=None policy_rc_d=None
+Mar 16 11:39:57 ubuntu systemd[1]: Starting Update APT News...
+Mar 16 11:39:57 ubuntu systemd[1]: Starting Update the local ESM caches...
+Mar 16 11:39:57 ubuntu systemd[1]: Started Update APT News.
+Mar 16 11:39:58 ubuntu systemd[1]: Started Update the local ESM caches.
+Mar 16 11:39:59 ubuntu python3[6966]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mar 16 11:40:00 ubuntu python3[7034]: ansible-ansible.legacy.slurp Invoked with src=/var/log/auth.log
+Mar 16 11:40:39 ubuntu python3[7069]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mar 16 11:40:39 ubuntu python3[7137]: ansible-ansible.legacy.command Invoked with _raw_params=dpkg --configure -a#012 _uses_shell=True warn=False stdin_add_newline=True strip_empty_ends=True argv=None chdir=None executable=None creates=None removes=None stdin=None
+Mar 16 11:40:40 ubuntu python3[7162]: ansible-apt Invoked with update_cache=True state=present update_cache_retries=5 update_cache_retry_max_delay=12 cache_valid_time=0 purge=False force=False upgrade=no dpkg_options=force-confdef,force-confold autoremove=False autoclean=False fail_on_autoremove=False only_upgrade=False force_apt_get=False allow_unauthenticated=False package=None deb=None default_release=None install_recommends=None policy_rc_d=None
+Mar 16 11:40:40 ubuntu systemd[1]: Starting Update APT News...
+Mar 16 11:40:40 ubuntu systemd[1]: Starting Update the local ESM caches...
+Mar 16 11:40:40 ubuntu systemd[1]: Started Update APT News.
+Mar 16 11:40:42 ubuntu systemd[1]: Started Update the local ESM caches.
+Mar 16 11:40:43 ubuntu python3[7577]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mar 16 11:40:43 ubuntu python3[7645]: ansible-ansible.legacy.slurp Invoked with src=/var/log/auth.log
+Mar 16 11:43:16 ubuntu dhclient[668]: DHCPREQUEST of 192.168.56.102 on enp0s3 to 192.168.56.100 port 67 (xid=0x79a16cbf)
+Mar 16 11:43:16 ubuntu dhclient[668]: DHCPACK of 192.168.56.102 from 192.168.56.100
+Mar 16 11:43:16 ubuntu NetworkManager[537]: <info>  [1678938196.6771] dhcp4 (enp0s3):   address 192.168.56.102
+Mar 16 11:43:16 ubuntu NetworkManager[537]: <info>  [1678938196.6771] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Mar 16 11:43:16 ubuntu NetworkManager[537]: <info>  [1678938196.6771] dhcp4 (enp0s3):   lease time 600
+Mar 16 11:43:16 ubuntu NetworkManager[537]: <info>  [1678938196.6771] dhcp4 (enp0s3): state changed bound -> bound
+Mar 16 11:43:16 ubuntu dbus-daemon[499]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.17' (uid=0 pid=537 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 16 11:43:16 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar 16 11:43:16 ubuntu dhclient[668]: bound to 192.168.56.102 -- renewal in 244 seconds.
+Mar 16 11:43:16 ubuntu dbus-daemon[499]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar 16 11:43:16 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar 16 11:43:16 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Mar 16 11:43:16 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Mar 16 11:45:32 ubuntu gnome-software[2218]: no app for changed ubuntu-dock@ubuntu.com
+Mar 16 11:45:32 ubuntu gnome-software[2218]: no app for changed ubuntu-appindicators@ubuntu.com
+Mar 16 11:45:32 ubuntu gnome-shell[1888]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.63/org/ayatana/NotificationItem/livepatch
+Mar 16 11:45:32 ubuntu gvfsd-metadata[2184]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Mar 16 11:45:32 ubuntu gvfsd-metadata[2184]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Mar 16 11:47:20 ubuntu dhclient[668]: DHCPREQUEST of 192.168.56.102 on enp0s3 to 192.168.56.100 port 67 (xid=0x79a16cbf)
+Mar 16 11:47:20 ubuntu dhclient[668]: DHCPACK of 192.168.56.102 from 192.168.56.100
+Mar 16 11:47:20 ubuntu NetworkManager[537]: <info>  [1678938440.5651] dhcp4 (enp0s3):   address 192.168.56.102
+Mar 16 11:47:20 ubuntu NetworkManager[537]: <info>  [1678938440.5654] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Mar 16 11:47:20 ubuntu NetworkManager[537]: <info>  [1678938440.5658] dhcp4 (enp0s3):   lease time 600
+Mar 16 11:47:20 ubuntu NetworkManager[537]: <info>  [1678938440.5658] dhcp4 (enp0s3): state changed bound -> bound
+Mar 16 11:47:20 ubuntu dbus-daemon[499]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.17' (uid=0 pid=537 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 16 11:47:20 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar 16 11:47:20 ubuntu dbus-daemon[499]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar 16 11:47:20 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar 16 11:47:20 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Mar 16 11:47:20 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Mar 16 11:47:20 ubuntu dhclient[668]: bound to 192.168.56.102 -- renewal in 287 seconds.
+Mar 16 11:49:11 ubuntu systemd[1]: Started Session 12 of user managed_node_one.
+Mar 16 11:49:12 ubuntu python3[7769]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mar 16 11:49:12 ubuntu python3[7837]: ansible-ansible.legacy.command Invoked with _raw_params=dpkg --configure -a#012 _uses_shell=True warn=False stdin_add_newline=True strip_empty_ends=True argv=None chdir=None executable=None creates=None removes=None stdin=None
+Mar 16 11:49:12 ubuntu python3[7862]: ansible-apt Invoked with update_cache=True state=present update_cache_retries=5 update_cache_retry_max_delay=12 cache_valid_time=0 purge=False force=False upgrade=no dpkg_options=force-confdef,force-confold autoremove=False autoclean=False fail_on_autoremove=False only_upgrade=False force_apt_get=False allow_unauthenticated=False package=None deb=None default_release=None install_recommends=None policy_rc_d=None
+Mar 16 11:49:13 ubuntu systemd[1]: Starting Update APT News...
+Mar 16 11:49:13 ubuntu systemd[1]: Starting Update the local ESM caches...
+Mar 16 11:49:13 ubuntu systemd[1]: Started Update APT News.
+Mar 16 11:49:15 ubuntu systemd[1]: Started Update the local ESM caches.
+Mar 16 11:49:21 ubuntu python3[8326]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mar 16 11:49:22 ubuntu python3[8398]: ansible-ansible.legacy.slurp Invoked with src=/var/log/auth.log
+Mar 16 11:49:22 ubuntu python3[8421]: ansible-ansible.legacy.slurp Invoked with src=/var/log/daemon.log
+Mar 16 11:49:23 ubuntu gnome-software[2218]: Only 0 apps for recent list, hiding
+Mar 16 11:49:23 ubuntu PackageKit: resolve transaction /80_ddcaedbe from uid 1002 finished with success after 321ms
+Mar 16 11:49:24 ubuntu gnome-software[2218]: tried overwriting io.snapcraft.jami-v2dLJDv8AcX1mtod8h5bmJknlYiIKNTJ key GnomeSoftware::FeatureTile-css from border-color: #000000;#012color: transparent;#012font-size: 30px;#012background: url('/home/managed_node_one/.cache/gnome-software/cssresource/f6382ec312737428383b9771f0adb4d9be7bc434-jami-qt-gnulinux-banner-20220504.png') no-repeat;#012background-position: center;#012background-size: contain; to border-color: #000000;#012color: transparent;#012font-size: 30px;#012background: url('https://dashboard.snapcraft.io/site_media/appmedia/2022/05/jami-qt-gnulinux-banner-20220504.png') no-repeat;#012background-position: center;#012background-size: contain;
+Mar 16 11:49:24 ubuntu gnome-software[2218]: Failed to load snap icon: (null): local snap has no icon
+Mar 16 11:49:24 ubuntu gnome-software[2218]: message repeated 2 times: [ Failed to load snap icon: (null): local snap has no icon]
+Mar 16 11:50:38 ubuntu gnome-shell[1888]: Object .Gjs_AppIndicatorIconActor__1 (0x55b0f06ae5b0), has been already finalized. Impossible to set any property to it.
+Mar 16 11:50:38 ubuntu org.gnome.Shell.desktop[1888]: == Stack trace for context 0x55b0eb014320 ==
+Mar 16 11:50:38 ubuntu org.gnome.Shell.desktop[1888]: #0 0x7ffe85f530c0 b   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7f48083b5de0 @ 87)
+Mar 16 11:50:38 ubuntu org.gnome.Shell.desktop[1888]: #1 0x55b0eb426710 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7f47ca3c1780 @ 58)
+Mar 16 11:50:38 ubuntu org.gnome.Shell.desktop[1888]: #2 0x7ffe85f54420 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 11:50:38 ubuntu org.gnome.Shell.desktop[1888]: #3 0x7ffe85f544e0 b   self-hosted:916 (0x7f48083f12b8 @ 367)
+Mar 16 11:50:38 ubuntu org.gnome.Shell.desktop[1888]: #4 0x7ffe85f545d0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f48083d2230 @ 386)
+Mar 16 11:50:38 ubuntu org.gnome.Shell.desktop[1888]: #5 0x55b0eb426688 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7f47ca3b1450 @ 22)
+Mar 16 11:50:38 ubuntu org.gnome.Shell.desktop[1888]: #6 0x7ffe85f55930 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 11:50:38 ubuntu org.gnome.Shell.desktop[1888]: #7 0x55b0eb4265e0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7f47ca3aea28 @ 225)
+Mar 16 11:50:38 ubuntu org.gnome.Shell.desktop[1888]: #8 0x7ffe85f56c90 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 11:50:38 ubuntu org.gnome.Shell.desktop[1888]: #9 0x55b0eb426568 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7f47ca383bc0 @ 37)
+Mar 16 11:50:38 ubuntu org.gnome.Shell.desktop[1888]: #10 0x55b0eb4264a8 i   resource:///org/gnome/shell/ui/extensionSystem.js:83 (0x7f48082592b8 @ 441)
+Mar 16 11:50:38 ubuntu org.gnome.Shell.desktop[1888]: #11 0x55b0eb426428 i   resource:///org/gnome/shell/ui/extensionSystem.js:354 (0x7f4808259d58 @ 13)
+Mar 16 11:50:38 ubuntu org.gnome.Shell.desktop[1888]: #12 0x7ffe85f57a00 b   self-hosted:251 (0x7f48083c4ab0 @ 223)
+Mar 16 11:50:38 ubuntu org.gnome.Shell.desktop[1888]: #13 0x55b0eb4263a8 i   resource:///org/gnome/shell/ui/extensionSystem.js:353 (0x7f4808259cd0 @ 64)
+Mar 16 11:50:38 ubuntu org.gnome.Shell.desktop[1888]: #14 0x55b0eb426328 i   resource:///org/gnome/shell/ui/extensionSystem.js:371 (0x7f4808259de0 @ 87)
+Mar 16 11:50:38 ubuntu org.gnome.Shell.desktop[1888]: #15 0x7ffe85f58f00 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f48083d2230 @ 386)
+Mar 16 11:50:38 ubuntu org.gnome.Shell.desktop[1888]: #16 0x7ffe85f59710 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7f480816e5e8 @ 254)
+Mar 16 11:50:38 ubuntu org.gnome.Shell.desktop[1888]: #17 0x7ffe85f5ab00 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 11:50:38 ubuntu org.gnome.Shell.desktop[1888]: #18 0x55b0eb4261e8 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7f480816e3c8 @ 40)
+Mar 16 11:50:38 ubuntu org.gnome.Shell.desktop[1888]: #19 0x7ffe85f5be60 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 11:50:38 ubuntu org.gnome.Shell.desktop[1888]: #20 0x55b0eb426140 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7f4808153a28 @ 188)
+Mar 16 11:50:38 ubuntu org.gnome.Shell.desktop[1888]: #21 0x7ffe85f5d1c0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 11:50:38 ubuntu org.gnome.Shell.desktop[1888]: #22 0x55b0eb4260b8 i   resource:///org/gnome/shell/ui/screenShield.js:902 (0x7f4808151b38 @ 18)
+Mar 16 11:50:38 ubuntu org.gnome.Shell.desktop[1888]: #23 0x7ffe85f5e520 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 11:50:38 ubuntu org.gnome.Shell.desktop[1888]: #24 0x7ffe85f5ed30 b   self-hosted:916 (0x7f48083f12b8 @ 367)
+Mar 16 11:50:38 ubuntu org.gnome.Shell.desktop[1888]: #25 0x7ffe85f5fb80 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f48083d2230 @ 386)
+Mar 16 11:50:38 ubuntu org.gnome.Shell.desktop[1888]: #26 0x55b0eb426038 i   resource:///org/gnome/shell/ui/lightbox.js:186 (0x7f4808238a28 @ 29)
+Mar 16 11:50:38 ubuntu org.gnome.Shell.desktop[1888]: #27 0x55b0eb425f98 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:208 (0x7f48083d2b38 @ 54)
+Mar 16 11:50:38 ubuntu org.gnome.Shell.desktop[1888]: #28 0x55b0eb425e78 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:337 (0x7f48083d2bc0 @ 1626)
+Mar 16 11:50:38 ubuntu org.gnome.Shell.desktop[1888]: #29 0x55b0eb425de8 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:350 (0x7f48083d2c48 @ 100)
+Mar 16 11:50:38 ubuntu org.gnome.Shell.desktop[1888]: #30 0x55b0eb425d70 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:365 (0x7f48083d2cd0 @ 10)
+Mar 16 11:50:38 ubuntu org.gnome.Shell.desktop[1888]: #31 0x7ffe85f61d10 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f48083d2230 @ 386)
+Mar 16 11:50:38 ubuntu org.gnome.Shell.desktop[1888]: #32 0x55b0eb425ce0 i   resource:///org/gnome/shell/ui/tweener.js:244 (0x7f48083cf808 @ 159)
+Mar 16 11:50:38 ubuntu org.gnome.Shell.desktop[1888]: #33 0x7ffe85f63070 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 11:50:38 ubuntu org.gnome.Shell.desktop[1888]: #34 0x55b0eb425c60 i   resource:///org/gnome/shell/ui/tweener.js:219 (0x7f48083cf780 @ 15)
+Mar 16 11:50:38 ubuntu gnome-software[2218]: no app for changed ubuntu-appindicators@ubuntu.com
+Mar 16 11:50:38 ubuntu gnome-software[2218]: no app for changed ubuntu-dock@ubuntu.com
+Mar 16 11:52:07 ubuntu dhclient[668]: DHCPREQUEST of 192.168.56.102 on enp0s3 to 192.168.56.100 port 67 (xid=0x79a16cbf)
+Mar 16 11:52:07 ubuntu dhclient[668]: DHCPACK of 192.168.56.102 from 192.168.56.100
+Mar 16 11:52:07 ubuntu NetworkManager[537]: <info>  [1678938727.8793] dhcp4 (enp0s3):   address 192.168.56.102
+Mar 16 11:52:07 ubuntu NetworkManager[537]: <info>  [1678938727.8795] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Mar 16 11:52:07 ubuntu NetworkManager[537]: <info>  [1678938727.8795] dhcp4 (enp0s3):   lease time 600
+Mar 16 11:52:07 ubuntu NetworkManager[537]: <info>  [1678938727.8796] dhcp4 (enp0s3): state changed bound -> bound
+Mar 16 11:52:07 ubuntu dbus-daemon[499]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.17' (uid=0 pid=537 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 16 11:52:07 ubuntu dhclient[668]: bound to 192.168.56.102 -- renewal in 230 seconds.
+Mar 16 11:52:07 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar 16 11:52:07 ubuntu dbus-daemon[499]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar 16 11:52:07 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Mar 16 11:52:07 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Mar 16 11:52:07 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar 16 11:53:35 ubuntu systemd[1]: Started Session 13 of user managed_node_one.
+Mar 16 11:53:36 ubuntu python3[8549]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mar 16 11:53:36 ubuntu python3[8617]: ansible-ansible.legacy.command Invoked with _raw_params=dpkg --configure -a#012 _uses_shell=True warn=False stdin_add_newline=True strip_empty_ends=True argv=None chdir=None executable=None creates=None removes=None stdin=None
+Mar 16 11:53:37 ubuntu python3[8642]: ansible-apt Invoked with update_cache=True state=present update_cache_retries=5 update_cache_retry_max_delay=12 cache_valid_time=0 purge=False force=False upgrade=no dpkg_options=force-confdef,force-confold autoremove=False autoclean=False fail_on_autoremove=False only_upgrade=False force_apt_get=False allow_unauthenticated=False package=None deb=None default_release=None install_recommends=None policy_rc_d=None
+Mar 16 11:53:37 ubuntu systemd[1]: Starting Update APT News...
+Mar 16 11:53:37 ubuntu systemd[1]: Starting Update the local ESM caches...
+Mar 16 11:53:37 ubuntu systemd[1]: Started Update APT News.
+Mar 16 11:53:39 ubuntu systemd[1]: Started Update the local ESM caches.
+Mar 16 11:53:40 ubuntu python3[9057]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mar 16 11:53:42 ubuntu python3[9125]: ansible-ansible.legacy.slurp Invoked with src=/var/log/auth.log
+Mar 16 11:53:42 ubuntu python3[9148]: ansible-ansible.legacy.slurp Invoked with src=/var/log/debug
+Mar 16 11:55:57 ubuntu dhclient[668]: DHCPREQUEST of 192.168.56.102 on enp0s3 to 192.168.56.100 port 67 (xid=0x79a16cbf)
+Mar 16 11:55:57 ubuntu dhclient[668]: DHCPACK of 192.168.56.102 from 192.168.56.100
+Mar 16 11:55:57 ubuntu NetworkManager[537]: <info>  [1678938957.2149] dhcp4 (enp0s3):   address 192.168.56.102
+Mar 16 11:55:57 ubuntu NetworkManager[537]: <info>  [1678938957.2152] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Mar 16 11:55:57 ubuntu NetworkManager[537]: <info>  [1678938957.2152] dhcp4 (enp0s3):   lease time 600
+Mar 16 11:55:57 ubuntu NetworkManager[537]: <info>  [1678938957.2153] dhcp4 (enp0s3): state changed bound -> bound
+Mar 16 11:55:57 ubuntu dbus-daemon[499]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.17' (uid=0 pid=537 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 16 11:55:57 ubuntu dhclient[668]: bound to 192.168.56.102 -- renewal in 271 seconds.
+Mar 16 11:55:57 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar 16 11:55:57 ubuntu dbus-daemon[499]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar 16 11:55:57 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Mar 16 11:55:57 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Mar 16 11:55:57 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar 16 11:56:07 ubuntu gnome-shell[1888]: Object Gdm.UserVerifierProxy (0x55b0ef1159e0), has been already deallocated - impossible to access it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs
+Mar 16 11:56:07 ubuntu org.gnome.Shell.desktop[1888]: == Stack trace for context 0x55b0eb014320 ==
+Mar 16 11:56:07 ubuntu org.gnome.Shell.desktop[1888]: #0 0x55b0eb425c60 i   resource:///org/gnome/shell/gdm/util.js:446 (0x7f4808188230 @ 14)
+Mar 16 11:56:07 ubuntu gnome-shell[1888]: g_dbus_proxy_call_finish_internal: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+Mar 16 11:56:11 ubuntu gnome-software[2218]: no app for changed ubuntu-dock@ubuntu.com
+Mar 16 11:56:11 ubuntu gnome-software[2218]: no app for changed ubuntu-appindicators@ubuntu.com
+Mar 16 11:56:11 ubuntu gnome-shell[1888]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.63/org/ayatana/NotificationItem/livepatch
+Mar 16 11:56:11 ubuntu gvfsd-metadata[2184]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Mar 16 11:56:11 ubuntu gvfsd-metadata[2184]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Mar 16 11:58:23 ubuntu systemd[1]: Started Session 14 of user managed_node_one.
+Mar 16 11:58:30 ubuntu python3[9291]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mar 16 11:58:31 ubuntu python3[9359]: ansible-ansible.legacy.command Invoked with _raw_params=dpkg --configure -a#012 _uses_shell=True warn=False stdin_add_newline=True strip_empty_ends=True argv=None chdir=None executable=None creates=None removes=None stdin=None
+Mar 16 11:58:31 ubuntu python3[9384]: ansible-apt Invoked with update_cache=True state=present update_cache_retries=5 update_cache_retry_max_delay=12 cache_valid_time=0 purge=False force=False upgrade=no dpkg_options=force-confdef,force-confold autoremove=False autoclean=False fail_on_autoremove=False only_upgrade=False force_apt_get=False allow_unauthenticated=False package=None deb=None default_release=None install_recommends=None policy_rc_d=None
+Mar 16 11:58:32 ubuntu systemd[1]: Starting Update APT News...
+Mar 16 11:58:32 ubuntu systemd[1]: Starting Update the local ESM caches...
+Mar 16 11:58:32 ubuntu systemd[1]: Started Update APT News.
+Mar 16 11:58:36 ubuntu systemd[1]: Started Update the local ESM caches.
+Mar 16 11:58:36 ubuntu python3[9798]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mar 16 11:58:37 ubuntu python3[9866]: ansible-ansible.legacy.slurp Invoked with src=/var/log/auth.log
+Mar 16 11:58:37 ubuntu python3[9889]: ansible-ansible.legacy.slurp Invoked with src=/var/log/kren.log
+Mar 16 12:00:28 ubuntu dhclient[668]: DHCPREQUEST of 192.168.56.102 on enp0s3 to 192.168.56.100 port 67 (xid=0x79a16cbf)
+Mar 16 12:00:28 ubuntu dhclient[668]: DHCPACK of 192.168.56.102 from 192.168.56.100
+Mar 16 12:00:28 ubuntu NetworkManager[537]: <info>  [1678939228.4071] dhcp4 (enp0s3):   address 192.168.56.102
+Mar 16 12:00:28 ubuntu NetworkManager[537]: <info>  [1678939228.4071] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Mar 16 12:00:28 ubuntu NetworkManager[537]: <info>  [1678939228.4072] dhcp4 (enp0s3):   lease time 600
+Mar 16 12:00:28 ubuntu NetworkManager[537]: <info>  [1678939228.4072] dhcp4 (enp0s3): state changed bound -> bound
+Mar 16 12:00:28 ubuntu dbus-daemon[499]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.17' (uid=0 pid=537 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 16 12:00:28 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar 16 12:00:28 ubuntu dhclient[668]: bound to 192.168.56.102 -- renewal in 296 seconds.
+Mar 16 12:00:28 ubuntu dbus-daemon[499]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar 16 12:00:28 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar 16 12:00:28 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Mar 16 12:00:28 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Mar 16 12:01:11 ubuntu systemd[1]: Started Run anacron jobs.
+Mar 16 12:01:11 ubuntu anacron[9912]: Anacron 2.3 started on 2023-03-16
+Mar 16 12:01:11 ubuntu anacron[9912]: Normal exit (0 jobs run)
+Mar 16 12:03:00 ubuntu gnome-shell[1888]: Object .Gjs_AppIndicatorIconActor__1 (0x55b0eafb6f90), has been already finalized. Impossible to set any property to it.
+Mar 16 12:03:00 ubuntu org.gnome.Shell.desktop[1888]: == Stack trace for context 0x55b0eb014320 ==
+Mar 16 12:03:00 ubuntu org.gnome.Shell.desktop[1888]: #0 0x7ffe85f530c0 b   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7f48083b5de0 @ 87)
+Mar 16 12:03:00 ubuntu org.gnome.Shell.desktop[1888]: #1 0x55b0eb426710 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7f47ca3c1780 @ 58)
+Mar 16 12:03:00 ubuntu org.gnome.Shell.desktop[1888]: #2 0x7ffe85f54420 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 12:03:00 ubuntu org.gnome.Shell.desktop[1888]: #3 0x7ffe85f544e0 b   self-hosted:916 (0x7f48083f12b8 @ 367)
+Mar 16 12:03:00 ubuntu org.gnome.Shell.desktop[1888]: #4 0x7ffe85f545d0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f48083d2230 @ 386)
+Mar 16 12:03:00 ubuntu org.gnome.Shell.desktop[1888]: #5 0x55b0eb426688 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7f47ca3b1450 @ 22)
+Mar 16 12:03:00 ubuntu org.gnome.Shell.desktop[1888]: #6 0x7ffe85f55930 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 12:03:00 ubuntu org.gnome.Shell.desktop[1888]: #7 0x55b0eb4265e0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7f47ca3aea28 @ 225)
+Mar 16 12:03:00 ubuntu org.gnome.Shell.desktop[1888]: #8 0x7ffe85f56c90 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 12:03:00 ubuntu org.gnome.Shell.desktop[1888]: #9 0x55b0eb426568 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7f47ca383bc0 @ 37)
+Mar 16 12:03:00 ubuntu org.gnome.Shell.desktop[1888]: #10 0x55b0eb4264a8 i   resource:///org/gnome/shell/ui/extensionSystem.js:83 (0x7f48082592b8 @ 441)
+Mar 16 12:03:00 ubuntu org.gnome.Shell.desktop[1888]: #11 0x55b0eb426428 i   resource:///org/gnome/shell/ui/extensionSystem.js:354 (0x7f4808259d58 @ 13)
+Mar 16 12:03:00 ubuntu org.gnome.Shell.desktop[1888]: #12 0x7ffe85f57a00 b   self-hosted:251 (0x7f48083c4ab0 @ 223)
+Mar 16 12:03:00 ubuntu org.gnome.Shell.desktop[1888]: #13 0x55b0eb4263a8 i   resource:///org/gnome/shell/ui/extensionSystem.js:353 (0x7f4808259cd0 @ 64)
+Mar 16 12:03:00 ubuntu org.gnome.Shell.desktop[1888]: #14 0x55b0eb426328 i   resource:///org/gnome/shell/ui/extensionSystem.js:371 (0x7f4808259de0 @ 87)
+Mar 16 12:03:00 ubuntu org.gnome.Shell.desktop[1888]: #15 0x7ffe85f58f00 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f48083d2230 @ 386)
+Mar 16 12:03:00 ubuntu org.gnome.Shell.desktop[1888]: #16 0x7ffe85f59710 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7f480816e5e8 @ 254)
+Mar 16 12:03:00 ubuntu org.gnome.Shell.desktop[1888]: #17 0x7ffe85f5ab00 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 12:03:00 ubuntu org.gnome.Shell.desktop[1888]: #18 0x55b0eb4261e8 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7f480816e3c8 @ 40)
+Mar 16 12:03:00 ubuntu org.gnome.Shell.desktop[1888]: #19 0x7ffe85f5be60 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 12:03:00 ubuntu org.gnome.Shell.desktop[1888]: #20 0x55b0eb426140 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7f4808153a28 @ 188)
+Mar 16 12:03:00 ubuntu org.gnome.Shell.desktop[1888]: #21 0x7ffe85f5d1c0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 12:03:00 ubuntu org.gnome.Shell.desktop[1888]: #22 0x55b0eb4260b8 i   resource:///org/gnome/shell/ui/screenShield.js:902 (0x7f4808151b38 @ 18)
+Mar 16 12:03:00 ubuntu org.gnome.Shell.desktop[1888]: #23 0x7ffe85f5e520 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 12:03:00 ubuntu org.gnome.Shell.desktop[1888]: #24 0x7ffe85f5ed30 b   self-hosted:916 (0x7f48083f12b8 @ 367)
+Mar 16 12:03:00 ubuntu org.gnome.Shell.desktop[1888]: #25 0x7ffe85f5fb80 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f48083d2230 @ 386)
+Mar 16 12:03:00 ubuntu org.gnome.Shell.desktop[1888]: #26 0x55b0eb426038 i   resource:///org/gnome/shell/ui/lightbox.js:186 (0x7f4808238a28 @ 29)
+Mar 16 12:03:00 ubuntu org.gnome.Shell.desktop[1888]: #27 0x55b0eb425f98 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:208 (0x7f48083d2b38 @ 54)
+Mar 16 12:03:00 ubuntu org.gnome.Shell.desktop[1888]: #28 0x55b0eb425e78 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:337 (0x7f48083d2bc0 @ 1626)
+Mar 16 12:03:00 ubuntu org.gnome.Shell.desktop[1888]: #29 0x55b0eb425de8 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:350 (0x7f48083d2c48 @ 100)
+Mar 16 12:03:00 ubuntu org.gnome.Shell.desktop[1888]: #30 0x55b0eb425d70 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:365 (0x7f48083d2cd0 @ 10)
+Mar 16 12:03:00 ubuntu org.gnome.Shell.desktop[1888]: #31 0x7ffe85f61d10 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f48083d2230 @ 386)
+Mar 16 12:03:00 ubuntu org.gnome.Shell.desktop[1888]: #32 0x55b0eb425ce0 i   resource:///org/gnome/shell/ui/tweener.js:244 (0x7f48083cf808 @ 159)
+Mar 16 12:03:00 ubuntu org.gnome.Shell.desktop[1888]: #33 0x7ffe85f63070 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 12:03:00 ubuntu org.gnome.Shell.desktop[1888]: #34 0x55b0eb425c60 i   resource:///org/gnome/shell/ui/tweener.js:219 (0x7f48083cf780 @ 15)
+Mar 16 12:03:00 ubuntu gnome-software[2218]: no app for changed ubuntu-appindicators@ubuntu.com
+Mar 16 12:03:00 ubuntu gnome-software[2218]: no app for changed ubuntu-dock@ubuntu.com
+Mar 16 12:04:30 ubuntu gnome-shell[1888]: Object Gdm.UserVerifierProxy (0x55b0ec2b0350), has been already deallocated - impossible to access it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs
+Mar 16 12:04:30 ubuntu org.gnome.Shell.desktop[1888]: == Stack trace for context 0x55b0eb014320 ==
+Mar 16 12:04:30 ubuntu org.gnome.Shell.desktop[1888]: #0 0x55b0eb425c60 i   resource:///org/gnome/shell/gdm/util.js:446 (0x7f4808188230 @ 14)
+Mar 16 12:04:30 ubuntu gnome-shell[1888]: g_dbus_proxy_call_finish_internal: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+Mar 16 12:04:33 ubuntu gnome-software[2218]: no app for changed ubuntu-dock@ubuntu.com
+Mar 16 12:04:33 ubuntu gnome-software[2218]: no app for changed ubuntu-appindicators@ubuntu.com
+Mar 16 12:04:33 ubuntu gnome-shell[1888]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.63/org/ayatana/NotificationItem/livepatch
+Mar 16 12:04:33 ubuntu gvfsd-metadata[2184]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Mar 16 12:04:33 ubuntu gvfsd-metadata[2184]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Mar 16 12:05:24 ubuntu dhclient[668]: DHCPREQUEST of 192.168.56.102 on enp0s3 to 192.168.56.100 port 67 (xid=0x79a16cbf)
+Mar 16 12:05:24 ubuntu dhclient[668]: DHCPACK of 192.168.56.102 from 192.168.56.100
+Mar 16 12:05:24 ubuntu NetworkManager[537]: <info>  [1678939524.2616] dhcp4 (enp0s3):   address 192.168.56.102
+Mar 16 12:05:24 ubuntu NetworkManager[537]: <info>  [1678939524.2617] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Mar 16 12:05:24 ubuntu NetworkManager[537]: <info>  [1678939524.2617] dhcp4 (enp0s3):   lease time 600
+Mar 16 12:05:24 ubuntu NetworkManager[537]: <info>  [1678939524.2617] dhcp4 (enp0s3): state changed bound -> bound
+Mar 16 12:05:24 ubuntu dbus-daemon[499]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.17' (uid=0 pid=537 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 16 12:05:24 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar 16 12:05:24 ubuntu dhclient[668]: bound to 192.168.56.102 -- renewal in 255 seconds.
+Mar 16 12:05:24 ubuntu dbus-daemon[499]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar 16 12:05:24 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar 16 12:05:24 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Mar 16 12:05:24 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Mar 16 12:09:39 ubuntu dhclient[668]: DHCPREQUEST of 192.168.56.102 on enp0s3 to 192.168.56.100 port 67 (xid=0x79a16cbf)
+Mar 16 12:09:39 ubuntu dhclient[668]: DHCPACK of 192.168.56.102 from 192.168.56.100
+Mar 16 12:09:39 ubuntu NetworkManager[537]: <info>  [1678939779.5924] dhcp4 (enp0s3):   address 192.168.56.102
+Mar 16 12:09:39 ubuntu NetworkManager[537]: <info>  [1678939779.5925] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Mar 16 12:09:39 ubuntu NetworkManager[537]: <info>  [1678939779.5925] dhcp4 (enp0s3):   lease time 600
+Mar 16 12:09:39 ubuntu NetworkManager[537]: <info>  [1678939779.5925] dhcp4 (enp0s3): state changed bound -> bound
+Mar 16 12:09:39 ubuntu dbus-daemon[499]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.17' (uid=0 pid=537 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 16 12:09:39 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar 16 12:09:39 ubuntu dhclient[668]: bound to 192.168.56.102 -- renewal in 283 seconds.
+Mar 16 12:09:39 ubuntu dbus-daemon[499]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar 16 12:09:39 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar 16 12:09:39 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Mar 16 12:09:39 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Mar 16 12:10:59 ubuntu gnome-shell[1888]: Object .Gjs_AppIndicatorIconActor__1 (0x55b0ec2baf20), has been already finalized. Impossible to set any property to it.
+Mar 16 12:10:59 ubuntu org.gnome.Shell.desktop[1888]: == Stack trace for context 0x55b0eb014320 ==
+Mar 16 12:10:59 ubuntu org.gnome.Shell.desktop[1888]: #0 0x7ffe85f554a0 I   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7f48083b5de0 @ 87)
+Mar 16 12:10:59 ubuntu org.gnome.Shell.desktop[1888]: #1 0x55b0eb426710 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7f47ca3c1780 @ 58)
+Mar 16 12:10:59 ubuntu org.gnome.Shell.desktop[1888]: #2 0x7ffe85f56080 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 12:10:59 ubuntu org.gnome.Shell.desktop[1888]: #3 0x7ffe85f56140 b   self-hosted:916 (0x7f48083f12b8 @ 367)
+Mar 16 12:10:59 ubuntu org.gnome.Shell.desktop[1888]: #4 0x7ffe85f56230 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f48083d2230 @ 386)
+Mar 16 12:10:59 ubuntu org.gnome.Shell.desktop[1888]: #5 0x55b0eb426688 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7f47ca3b1450 @ 22)
+Mar 16 12:10:59 ubuntu org.gnome.Shell.desktop[1888]: #6 0x7ffe85f56e80 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 12:10:59 ubuntu org.gnome.Shell.desktop[1888]: #7 0x55b0eb4265e0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7f47ca3aea28 @ 225)
+Mar 16 12:10:59 ubuntu org.gnome.Shell.desktop[1888]: #8 0x7ffe85f57a60 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 12:10:59 ubuntu org.gnome.Shell.desktop[1888]: #9 0x55b0eb426568 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7f47ca383bc0 @ 37)
+Mar 16 12:10:59 ubuntu org.gnome.Shell.desktop[1888]: #10 0x55b0eb4264a8 i   resource:///org/gnome/shell/ui/extensionSystem.js:83 (0x7f48082592b8 @ 441)
+Mar 16 12:10:59 ubuntu org.gnome.Shell.desktop[1888]: #11 0x55b0eb426428 i   resource:///org/gnome/shell/ui/extensionSystem.js:354 (0x7f4808259d58 @ 13)
+Mar 16 12:10:59 ubuntu org.gnome.Shell.desktop[1888]: #12 0x7ffe85f58760 b   self-hosted:251 (0x7f48083c4ab0 @ 223)
+Mar 16 12:10:59 ubuntu org.gnome.Shell.desktop[1888]: #13 0x55b0eb4263a8 i   resource:///org/gnome/shell/ui/extensionSystem.js:353 (0x7f4808259cd0 @ 64)
+Mar 16 12:10:59 ubuntu org.gnome.Shell.desktop[1888]: #14 0x55b0eb426328 i   resource:///org/gnome/shell/ui/extensionSystem.js:371 (0x7f4808259de0 @ 87)
+Mar 16 12:10:59 ubuntu org.gnome.Shell.desktop[1888]: #15 0x7ffe85f59c60 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f48083d2230 @ 386)
+Mar 16 12:10:59 ubuntu org.gnome.Shell.desktop[1888]: #16 0x7ffe85f5a470 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7f480816e5e8 @ 254)
+Mar 16 12:10:59 ubuntu org.gnome.Shell.desktop[1888]: #17 0x7ffe85f5b860 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 12:10:59 ubuntu org.gnome.Shell.desktop[1888]: #18 0x55b0eb4261e8 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7f480816e3c8 @ 40)
+Mar 16 12:10:59 ubuntu org.gnome.Shell.desktop[1888]: #19 0x7ffe85f5cbc0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 12:10:59 ubuntu org.gnome.Shell.desktop[1888]: #20 0x55b0eb426140 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7f4808153a28 @ 188)
+Mar 16 12:10:59 ubuntu org.gnome.Shell.desktop[1888]: #21 0x7ffe85f5df20 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 12:10:59 ubuntu org.gnome.Shell.desktop[1888]: #22 0x55b0eb4260b8 i   resource:///org/gnome/shell/ui/screenShield.js:902 (0x7f4808151b38 @ 18)
+Mar 16 12:10:59 ubuntu org.gnome.Shell.desktop[1888]: #23 0x7ffe85f5f280 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 12:10:59 ubuntu org.gnome.Shell.desktop[1888]: #24 0x7ffe85f5fa90 b   self-hosted:916 (0x7f48083f12b8 @ 367)
+Mar 16 12:10:59 ubuntu org.gnome.Shell.desktop[1888]: #25 0x7ffe85f5fb80 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f48083d2230 @ 386)
+Mar 16 12:10:59 ubuntu org.gnome.Shell.desktop[1888]: #26 0x55b0eb426038 i   resource:///org/gnome/shell/ui/lightbox.js:186 (0x7f4808238a28 @ 29)
+Mar 16 12:10:59 ubuntu org.gnome.Shell.desktop[1888]: #27 0x55b0eb425f98 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:208 (0x7f48083d2b38 @ 54)
+Mar 16 12:10:59 ubuntu org.gnome.Shell.desktop[1888]: #28 0x55b0eb425e78 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:337 (0x7f48083d2bc0 @ 1626)
+Mar 16 12:10:59 ubuntu org.gnome.Shell.desktop[1888]: #29 0x55b0eb425de8 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:350 (0x7f48083d2c48 @ 100)
+Mar 16 12:10:59 ubuntu org.gnome.Shell.desktop[1888]: #30 0x55b0eb425d70 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:365 (0x7f48083d2cd0 @ 10)
+Mar 16 12:10:59 ubuntu org.gnome.Shell.desktop[1888]: #31 0x7ffe85f61d10 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f48083d2230 @ 386)
+Mar 16 12:10:59 ubuntu org.gnome.Shell.desktop[1888]: #32 0x55b0eb425ce0 i   resource:///org/gnome/shell/ui/tweener.js:244 (0x7f48083cf808 @ 159)
+Mar 16 12:10:59 ubuntu org.gnome.Shell.desktop[1888]: #33 0x7ffe85f63070 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 12:10:59 ubuntu org.gnome.Shell.desktop[1888]: #34 0x55b0eb425c60 i   resource:///org/gnome/shell/ui/tweener.js:219 (0x7f48083cf780 @ 15)
+Mar 16 12:10:59 ubuntu gnome-software[2218]: no app for changed ubuntu-appindicators@ubuntu.com
+Mar 16 12:10:59 ubuntu gnome-software[2218]: no app for changed ubuntu-dock@ubuntu.com
+Mar 16 12:13:17 ubuntu systemd[1]: Started Session 15 of user managed_node_one.
+Mar 16 12:13:18 ubuntu python3[10050]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mar 16 12:13:18 ubuntu python3[10118]: ansible-ansible.legacy.command Invoked with _raw_params=dpkg --configure -a#012 _uses_shell=True warn=False stdin_add_newline=True strip_empty_ends=True argv=None chdir=None executable=None creates=None removes=None stdin=None
+Mar 16 12:13:19 ubuntu python3[10143]: ansible-apt Invoked with update_cache=True state=present update_cache_retries=5 update_cache_retry_max_delay=12 cache_valid_time=0 purge=False force=False upgrade=no dpkg_options=force-confdef,force-confold autoremove=False autoclean=False fail_on_autoremove=False only_upgrade=False force_apt_get=False allow_unauthenticated=False package=None deb=None default_release=None install_recommends=None policy_rc_d=None
+Mar 16 12:13:19 ubuntu systemd[1]: Starting Update APT News...
+Mar 16 12:13:19 ubuntu systemd[1]: Starting Update the local ESM caches...
+Mar 16 12:13:19 ubuntu systemd[1]: Started Update APT News.
+Mar 16 12:13:21 ubuntu systemd[1]: Started Update the local ESM caches.
+Mar 16 12:13:22 ubuntu python3[10559]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mar 16 12:13:23 ubuntu python3[10627]: ansible-ansible.legacy.slurp Invoked with src=/var/log/*
+Mar 16 12:14:17 ubuntu gnome-shell[1888]: Object Gdm.UserVerifierProxy (0x55b0ef273960), has been already deallocated - impossible to access it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs
+Mar 16 12:14:17 ubuntu org.gnome.Shell.desktop[1888]: == Stack trace for context 0x55b0eb014320 ==
+Mar 16 12:14:17 ubuntu org.gnome.Shell.desktop[1888]: #0 0x55b0eb425c60 i   resource:///org/gnome/shell/gdm/util.js:446 (0x7f4808188230 @ 14)
+Mar 16 12:14:17 ubuntu gnome-shell[1888]: g_dbus_proxy_call_finish_internal: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+Mar 16 12:14:22 ubuntu dhclient[668]: DHCPREQUEST of 192.168.56.102 on enp0s3 to 192.168.56.100 port 67 (xid=0x79a16cbf)
+Mar 16 12:14:22 ubuntu dhclient[668]: DHCPACK of 192.168.56.102 from 192.168.56.100
+Mar 16 12:14:22 ubuntu NetworkManager[537]: <info>  [1678940062.1655] dhcp4 (enp0s3):   address 192.168.56.102
+Mar 16 12:14:22 ubuntu NetworkManager[537]: <info>  [1678940062.1656] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Mar 16 12:14:22 ubuntu NetworkManager[537]: <info>  [1678940062.1656] dhcp4 (enp0s3):   lease time 600
+Mar 16 12:14:22 ubuntu NetworkManager[537]: <info>  [1678940062.1656] dhcp4 (enp0s3): state changed bound -> bound
+Mar 16 12:14:22 ubuntu dbus-daemon[499]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.17' (uid=0 pid=537 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 16 12:14:22 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar 16 12:14:22 ubuntu dhclient[668]: bound to 192.168.56.102 -- renewal in 274 seconds.
+Mar 16 12:14:22 ubuntu dbus-daemon[499]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar 16 12:14:22 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar 16 12:14:22 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Mar 16 12:14:22 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Mar 16 12:14:34 ubuntu gnome-software[2218]: no app for changed ubuntu-dock@ubuntu.com
+Mar 16 12:14:34 ubuntu gnome-software[2218]: no app for changed ubuntu-appindicators@ubuntu.com
+Mar 16 12:14:34 ubuntu gnome-shell[1888]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.63/org/ayatana/NotificationItem/livepatch
+Mar 16 12:14:34 ubuntu gvfsd-metadata[2184]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Mar 16 12:14:34 ubuntu gvfsd-metadata[2184]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Mar 16 12:17:01 ubuntu CRON[10676]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 16 12:18:56 ubuntu dhclient[668]: DHCPREQUEST of 192.168.56.102 on enp0s3 to 192.168.56.100 port 67 (xid=0x79a16cbf)
+Mar 16 12:18:56 ubuntu dhclient[668]: DHCPACK of 192.168.56.102 from 192.168.56.100
+Mar 16 12:18:56 ubuntu NetworkManager[537]: <info>  [1678940336.6795] dhcp4 (enp0s3):   address 192.168.56.102
+Mar 16 12:18:56 ubuntu NetworkManager[537]: <info>  [1678940336.6795] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Mar 16 12:18:56 ubuntu NetworkManager[537]: <info>  [1678940336.6795] dhcp4 (enp0s3):   lease time 600
+Mar 16 12:18:56 ubuntu NetworkManager[537]: <info>  [1678940336.6795] dhcp4 (enp0s3): state changed bound -> bound
+Mar 16 12:18:56 ubuntu dbus-daemon[499]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.17' (uid=0 pid=537 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 16 12:18:56 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar 16 12:18:56 ubuntu dhclient[668]: bound to 192.168.56.102 -- renewal in 248 seconds.
+Mar 16 12:18:56 ubuntu dbus-daemon[499]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar 16 12:18:56 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar 16 12:18:56 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Mar 16 12:18:56 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Mar 16 12:19:40 ubuntu gnome-shell[1888]: Object .Gjs_AppIndicatorIconActor__1 (0x55b0ecc827d0), has been already finalized. Impossible to set any property to it.
+Mar 16 12:19:40 ubuntu org.gnome.Shell.desktop[1888]: == Stack trace for context 0x55b0eb014320 ==
+Mar 16 12:19:40 ubuntu org.gnome.Shell.desktop[1888]: #0 0x7ffe85f533a0 b   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7f48083b5de0 @ 87)
+Mar 16 12:19:40 ubuntu org.gnome.Shell.desktop[1888]: #1 0x55b0eb4267d0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7f47ca3c1780 @ 58)
+Mar 16 12:19:40 ubuntu org.gnome.Shell.desktop[1888]: #2 0x7ffe85f54700 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 12:19:40 ubuntu org.gnome.Shell.desktop[1888]: #3 0x7ffe85f547c0 b   self-hosted:916 (0x7f48083f12b8 @ 367)
+Mar 16 12:19:40 ubuntu org.gnome.Shell.desktop[1888]: #4 0x7ffe85f548b0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f48083d2230 @ 386)
+Mar 16 12:19:40 ubuntu org.gnome.Shell.desktop[1888]: #5 0x55b0eb426748 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7f47ca3b1450 @ 22)
+Mar 16 12:19:40 ubuntu org.gnome.Shell.desktop[1888]: #6 0x7ffe85f55c10 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 12:19:40 ubuntu org.gnome.Shell.desktop[1888]: #7 0x55b0eb4266a0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7f47ca3aea28 @ 225)
+Mar 16 12:19:40 ubuntu org.gnome.Shell.desktop[1888]: #8 0x7ffe85f56f70 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 12:19:40 ubuntu org.gnome.Shell.desktop[1888]: #9 0x55b0eb426628 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7f47ca383bc0 @ 37)
+Mar 16 12:19:40 ubuntu org.gnome.Shell.desktop[1888]: #10 0x55b0eb426568 i   resource:///org/gnome/shell/ui/extensionSystem.js:83 (0x7f48082592b8 @ 441)
+Mar 16 12:19:40 ubuntu org.gnome.Shell.desktop[1888]: #11 0x55b0eb4264e8 i   resource:///org/gnome/shell/ui/extensionSystem.js:354 (0x7f4808259d58 @ 13)
+Mar 16 12:19:40 ubuntu org.gnome.Shell.desktop[1888]: #12 0x7ffe85f57ce0 b   self-hosted:251 (0x7f48083c4ab0 @ 223)
+Mar 16 12:19:40 ubuntu org.gnome.Shell.desktop[1888]: #13 0x55b0eb426468 i   resource:///org/gnome/shell/ui/extensionSystem.js:353 (0x7f4808259cd0 @ 64)
+Mar 16 12:19:40 ubuntu org.gnome.Shell.desktop[1888]: #14 0x55b0eb4263e8 i   resource:///org/gnome/shell/ui/extensionSystem.js:371 (0x7f4808259de0 @ 87)
+Mar 16 12:19:40 ubuntu org.gnome.Shell.desktop[1888]: #15 0x7ffe85f591e0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f48083d2230 @ 386)
+Mar 16 12:19:40 ubuntu org.gnome.Shell.desktop[1888]: #16 0x7ffe85f599f0 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7f480816e5e8 @ 254)
+Mar 16 12:19:40 ubuntu org.gnome.Shell.desktop[1888]: #17 0x7ffe85f5ade0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 12:19:40 ubuntu org.gnome.Shell.desktop[1888]: #18 0x55b0eb4262a8 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7f480816e3c8 @ 40)
+Mar 16 12:19:40 ubuntu org.gnome.Shell.desktop[1888]: #19 0x7ffe85f5c140 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 12:19:40 ubuntu org.gnome.Shell.desktop[1888]: #20 0x55b0eb426200 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7f4808153a28 @ 188)
+Mar 16 12:19:40 ubuntu org.gnome.Shell.desktop[1888]: #21 0x7ffe85f5d4a0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 12:19:40 ubuntu org.gnome.Shell.desktop[1888]: #22 0x55b0eb426178 i   resource:///org/gnome/shell/ui/screenShield.js:902 (0x7f4808151b38 @ 18)
+Mar 16 12:19:40 ubuntu org.gnome.Shell.desktop[1888]: #23 0x7ffe85f5e800 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 12:19:40 ubuntu org.gnome.Shell.desktop[1888]: #24 0x55b0eb4260b8 i   self-hosted:916 (0x7f48083f12b8 @ 367)
+Mar 16 12:19:40 ubuntu org.gnome.Shell.desktop[1888]: #25 0x7ffe85f5fb80 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f48083d2230 @ 386)
+Mar 16 12:19:40 ubuntu org.gnome.Shell.desktop[1888]: #26 0x55b0eb426038 i   resource:///org/gnome/shell/ui/lightbox.js:186 (0x7f4808238a28 @ 29)
+Mar 16 12:19:40 ubuntu org.gnome.Shell.desktop[1888]: #27 0x55b0eb425f98 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:208 (0x7f48083d2b38 @ 54)
+Mar 16 12:19:40 ubuntu org.gnome.Shell.desktop[1888]: #28 0x55b0eb425e78 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:337 (0x7f48083d2bc0 @ 1626)
+Mar 16 12:19:40 ubuntu org.gnome.Shell.desktop[1888]: #29 0x55b0eb425de8 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:350 (0x7f48083d2c48 @ 100)
+Mar 16 12:19:40 ubuntu org.gnome.Shell.desktop[1888]: #30 0x55b0eb425d70 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:365 (0x7f48083d2cd0 @ 10)
+Mar 16 12:19:40 ubuntu org.gnome.Shell.desktop[1888]: #31 0x7ffe85f61d10 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f48083d2230 @ 386)
+Mar 16 12:19:40 ubuntu org.gnome.Shell.desktop[1888]: #32 0x55b0eb425ce0 i   resource:///org/gnome/shell/ui/tweener.js:244 (0x7f48083cf808 @ 159)
+Mar 16 12:19:40 ubuntu org.gnome.Shell.desktop[1888]: #33 0x7ffe85f63070 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 12:19:40 ubuntu org.gnome.Shell.desktop[1888]: #34 0x55b0eb425c60 i   resource:///org/gnome/shell/ui/tweener.js:219 (0x7f48083cf780 @ 15)
+Mar 16 12:19:40 ubuntu gnome-software[2218]: no app for changed ubuntu-appindicators@ubuntu.com
+Mar 16 12:19:40 ubuntu gnome-software[2218]: no app for changed ubuntu-dock@ubuntu.com
+Mar 16 12:20:44 ubuntu gnome-software[2218]: no app for changed ubuntu-dock@ubuntu.com
+Mar 16 12:20:44 ubuntu gnome-software[2218]: no app for changed ubuntu-appindicators@ubuntu.com
+Mar 16 12:20:44 ubuntu gnome-shell[1888]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.63/org/ayatana/NotificationItem/livepatch
+Mar 16 12:20:45 ubuntu gvfsd-metadata[2184]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Mar 16 12:20:45 ubuntu gvfsd-metadata[2184]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Mar 16 12:23:04 ubuntu dhclient[668]: DHCPREQUEST of 192.168.56.102 on enp0s3 to 192.168.56.100 port 67 (xid=0x79a16cbf)
+Mar 16 12:23:04 ubuntu dhclient[668]: DHCPACK of 192.168.56.102 from 192.168.56.100
+Mar 16 12:23:04 ubuntu NetworkManager[537]: <info>  [1678940584.2108] dhcp4 (enp0s3):   address 192.168.56.102
+Mar 16 12:23:04 ubuntu NetworkManager[537]: <info>  [1678940584.2108] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Mar 16 12:23:04 ubuntu dbus-daemon[499]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.17' (uid=0 pid=537 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 16 12:23:04 ubuntu NetworkManager[537]: <info>  [1678940584.2108] dhcp4 (enp0s3):   lease time 600
+Mar 16 12:23:04 ubuntu NetworkManager[537]: <info>  [1678940584.2108] dhcp4 (enp0s3): state changed bound -> bound
+Mar 16 12:23:04 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar 16 12:23:04 ubuntu dhclient[668]: bound to 192.168.56.102 -- renewal in 263 seconds.
+Mar 16 12:23:04 ubuntu dbus-daemon[499]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar 16 12:23:04 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar 16 12:23:04 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Mar 16 12:23:04 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Mar 16 12:25:13 ubuntu systemd[1]: Started Session 17 of user managed_node_one.
+Mar 16 12:25:13 ubuntu python3[10798]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mar 16 12:25:14 ubuntu python3[10866]: ansible-ansible.legacy.command Invoked with _raw_params=dpkg --configure -a#012 _uses_shell=True warn=False stdin_add_newline=True strip_empty_ends=True argv=None chdir=None executable=None creates=None removes=None stdin=None
+Mar 16 12:25:14 ubuntu python3[10891]: ansible-apt Invoked with update_cache=True state=present update_cache_retries=5 update_cache_retry_max_delay=12 cache_valid_time=0 purge=False force=False upgrade=no dpkg_options=force-confdef,force-confold autoremove=False autoclean=False fail_on_autoremove=False only_upgrade=False force_apt_get=False allow_unauthenticated=False package=None deb=None default_release=None install_recommends=None policy_rc_d=None
+Mar 16 12:25:15 ubuntu systemd[1]: Starting Update APT News...
+Mar 16 12:25:15 ubuntu systemd[1]: Starting Update the local ESM caches...
+Mar 16 12:25:15 ubuntu systemd[1]: Started Update APT News.
+Mar 16 12:25:17 ubuntu systemd[1]: Started Update the local ESM caches.
+Mar 16 12:25:21 ubuntu python3[11355]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mar 16 12:25:22 ubuntu python3[11423]: ansible-file Invoked with path=/home/piolo/Desktop/hands_on_7.1/log_files/manage_node_one/ state=directory recurse=False force=False follow=True modification_time_format=%Y%m%d%H%M.%S access_time_format=%Y%m%d%H%M.%S unsafe_writes=False _original_basename=None _diff_peek=None src=None modification_time=None access_time=None mode=None owner=None group=None seuser=None serole=None selevel=None setype=None attributes=None
+Mar 16 12:25:22 ubuntu python3[11446]: ansible-ansible.legacy.slurp Invoked with src=/var/log/"alternatives.log"
+Mar 16 12:25:22 ubuntu python3[11468]: ansible-ansible.legacy.slurp Invoked with src=/var/log/"auth.log"
+Mar 16 12:25:23 ubuntu python3[11490]: ansible-ansible.legacy.slurp Invoked with src=/var/log/"bootstrap.log"
+Mar 16 12:25:23 ubuntu gnome-software[2218]: Only 0 apps for recent list, hiding
+Mar 16 12:25:23 ubuntu python3[11518]: ansible-ansible.legacy.slurp Invoked with src=/var/log/"btmp"
+Mar 16 12:25:23 ubuntu python3[11543]: ansible-ansible.legacy.slurp Invoked with src=/var/log/"dpkg.log"
+Mar 16 12:25:23 ubuntu python3[11565]: ansible-ansible.legacy.slurp Invoked with src=/var/log/"faillog"
+Mar 16 12:25:23 ubuntu python3[11587]: ansible-ansible.legacy.slurp Invoked with src=/var/log/"fontconfig.log"
+Mar 16 12:25:24 ubuntu python3[11609]: ansible-ansible.legacy.slurp Invoked with src=/var/log/"gpu-manager.log"
+Mar 16 12:25:24 ubuntu python3[11631]: ansible-ansible.legacy.slurp Invoked with src=/var/log/"kern.log"
+Mar 16 12:25:24 ubuntu python3[11653]: ansible-ansible.legacy.slurp Invoked with src=/var/log/"lastlog"
+Mar 16 12:25:24 ubuntu python3[11675]: ansible-ansible.legacy.slurp Invoked with src=/var/log/"syslog"
+Mar 16 12:25:24 ubuntu gnome-software[2218]: tried overwriting io.snapcraft.jami-v2dLJDv8AcX1mtod8h5bmJknlYiIKNTJ key GnomeSoftware::FeatureTile-css from border-color: #000000;#012color: transparent;#012font-size: 30px;#012background: url('/home/managed_node_one/.cache/gnome-software/cssresource/f6382ec312737428383b9771f0adb4d9be7bc434-jami-qt-gnulinux-banner-20220504.png') no-repeat;#012background-position: center;#012background-size: contain; to border-color: #000000;#012color: transparent;#012font-size: 30px;#012background: url('https://dashboard.snapcraft.io/site_media/appmedia/2022/05/jami-qt-gnulinux-banner-20220504.png') no-repeat;#012background-position: center;#012background-size: contain;
+Mar 16 12:25:24 ubuntu python3[11697]: ansible-ansible.legacy.slurp Invoked with src=/var/log/"syslog.1"
+Mar 16 12:25:25 ubuntu python3[11720]: ansible-ansible.legacy.slurp Invoked with src=/var/log/"tallylog"
+Mar 16 12:25:25 ubuntu python3[11742]: ansible-ansible.legacy.slurp Invoked with src=/var/log/"ubuntu-advantage.log"
+Mar 16 12:25:25 ubuntu python3[11764]: ansible-ansible.legacy.slurp Invoked with src=/var/log/"ubuntu-advantage-timer.log"
+Mar 16 12:25:25 ubuntu python3[11786]: ansible-ansible.legacy.slurp Invoked with src=/var/log/"vboxpostinstall.log"
+Mar 16 12:25:25 ubuntu python3[11808]: ansible-ansible.legacy.slurp Invoked with src=/var/log/"wtmp"
+Mar 16 12:27:28 ubuntu dhclient[668]: DHCPREQUEST of 192.168.56.102 on enp0s3 to 192.168.56.100 port 67 (xid=0x79a16cbf)
+Mar 16 12:27:28 ubuntu dhclient[668]: DHCPACK of 192.168.56.102 from 192.168.56.100
+Mar 16 12:27:28 ubuntu NetworkManager[537]: <info>  [1678940848.0443] dhcp4 (enp0s3):   address 192.168.56.102
+Mar 16 12:27:28 ubuntu NetworkManager[537]: <info>  [1678940848.0444] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Mar 16 12:27:28 ubuntu NetworkManager[537]: <info>  [1678940848.0444] dhcp4 (enp0s3):   lease time 600
+Mar 16 12:27:28 ubuntu NetworkManager[537]: <info>  [1678940848.0444] dhcp4 (enp0s3): state changed bound -> bound
+Mar 16 12:27:28 ubuntu dbus-daemon[499]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.17' (uid=0 pid=537 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 16 12:27:28 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar 16 12:27:28 ubuntu dhclient[668]: bound to 192.168.56.102 -- renewal in 238 seconds.
+Mar 16 12:27:28 ubuntu dbus-daemon[499]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar 16 12:27:28 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar 16 12:27:28 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Mar 16 12:27:28 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Mar 16 12:28:19 ubuntu systemd[1]: Started Session 18 of user managed_node_one.
+Mar 16 12:28:20 ubuntu python3[11899]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mar 16 12:28:21 ubuntu python3[11967]: ansible-ansible.legacy.command Invoked with _raw_params=dpkg --configure -a#012 _uses_shell=True warn=False stdin_add_newline=True strip_empty_ends=True argv=None chdir=None executable=None creates=None removes=None stdin=None
+Mar 16 12:28:21 ubuntu python3[11992]: ansible-apt Invoked with update_cache=True state=present update_cache_retries=5 update_cache_retry_max_delay=12 cache_valid_time=0 purge=False force=False upgrade=no dpkg_options=force-confdef,force-confold autoremove=False autoclean=False fail_on_autoremove=False only_upgrade=False force_apt_get=False allow_unauthenticated=False package=None deb=None default_release=None install_recommends=None policy_rc_d=None
+Mar 16 12:28:22 ubuntu systemd[1]: Starting Update APT News...
+Mar 16 12:28:22 ubuntu systemd[1]: Starting Update the local ESM caches...
+Mar 16 12:28:22 ubuntu systemd[1]: Started Update APT News.
+Mar 16 12:28:24 ubuntu systemd[1]: Started Update the local ESM caches.
+Mar 16 12:28:24 ubuntu python3[12407]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mar 16 12:28:25 ubuntu python3[12475]: ansible-file Invoked with path=/home/piolo/Desktop/hands_on_7.1/log_files/manage_node_one/ state=directory recurse=False force=False follow=True modification_time_format=%Y%m%d%H%M.%S access_time_format=%Y%m%d%H%M.%S unsafe_writes=False _original_basename=None _diff_peek=None src=None modification_time=None access_time=None mode=None owner=None group=None seuser=None serole=None selevel=None setype=None attributes=None
+Mar 16 12:28:25 ubuntu python3[12498]: ansible-ansible.legacy.slurp Invoked with src=/var/log/"alternatives.log"
+Mar 16 12:28:25 ubuntu python3[12520]: ansible-ansible.legacy.slurp Invoked with src=/var/log/"auth.log"
+Mar 16 12:28:25 ubuntu python3[12542]: ansible-ansible.legacy.slurp Invoked with src=/var/log/"bootstrap.log"
+Mar 16 12:28:26 ubuntu python3[12564]: ansible-ansible.legacy.slurp Invoked with src=/var/log/"btmp"
+Mar 16 12:28:26 ubuntu python3[12586]: ansible-ansible.legacy.slurp Invoked with src=/var/log/"dpkg.log"
+Mar 16 12:28:26 ubuntu python3[12608]: ansible-ansible.legacy.slurp Invoked with src=/var/log/"faillog"
+Mar 16 12:28:26 ubuntu python3[12630]: ansible-ansible.legacy.slurp Invoked with src=/var/log/"fontconfig.log"
+Mar 16 12:28:26 ubuntu python3[12652]: ansible-ansible.legacy.slurp Invoked with src=/var/log/"gpu-manager.log"
+Mar 16 12:28:26 ubuntu python3[12674]: ansible-ansible.legacy.slurp Invoked with src=/var/log/"kern.log"
+Mar 16 12:28:27 ubuntu python3[12696]: ansible-ansible.legacy.slurp Invoked with src=/var/log/"lastlog"
+Mar 16 12:28:27 ubuntu python3[12718]: ansible-ansible.legacy.slurp Invoked with src=/var/log/"syslog"
+Mar 16 12:28:27 ubuntu python3[12740]: ansible-ansible.legacy.slurp Invoked with src=/var/log/"syslog.1"
+Mar 16 12:28:27 ubuntu python3[12762]: ansible-ansible.legacy.slurp Invoked with src=/var/log/"tallylog"
+Mar 16 12:28:27 ubuntu python3[12784]: ansible-ansible.legacy.slurp Invoked with src=/var/log/"ubuntu-advantage.log"
+Mar 16 12:28:28 ubuntu python3[12806]: ansible-ansible.legacy.slurp Invoked with src=/var/log/"ubuntu-advantage-timer.log"
+Mar 16 12:28:28 ubuntu python3[12828]: ansible-ansible.legacy.slurp Invoked with src=/var/log/"vboxpostinstall.log"
+Mar 16 12:28:28 ubuntu python3[12850]: ansible-ansible.legacy.slurp Invoked with src=/var/log/"wtmp"
+Mar 16 12:28:34 ubuntu gnome-shell[1888]: Object .Gjs_AppIndicatorIconActor__1 (0x55b0ef8176a0), has been already finalized. Impossible to set any property to it.
+Mar 16 12:28:34 ubuntu org.gnome.Shell.desktop[1888]: == Stack trace for context 0x55b0eb014320 ==
+Mar 16 12:28:34 ubuntu org.gnome.Shell.desktop[1888]: #0 0x7ffe85f53e20 b   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7f48083b5de0 @ 87)
+Mar 16 12:28:34 ubuntu org.gnome.Shell.desktop[1888]: #1 0x55b0eb426710 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7f47ca3c1780 @ 58)
+Mar 16 12:28:34 ubuntu org.gnome.Shell.desktop[1888]: #2 0x7ffe85f55180 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 12:28:34 ubuntu org.gnome.Shell.desktop[1888]: #3 0x7ffe85f55240 b   self-hosted:916 (0x7f48083f12b8 @ 367)
+Mar 16 12:28:34 ubuntu org.gnome.Shell.desktop[1888]: #4 0x7ffe85f55330 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f48083d2230 @ 386)
+Mar 16 12:28:34 ubuntu org.gnome.Shell.desktop[1888]: #5 0x55b0eb426688 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7f47ca3b1450 @ 22)
+Mar 16 12:28:34 ubuntu org.gnome.Shell.desktop[1888]: #6 0x7ffe85f56690 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 12:28:34 ubuntu org.gnome.Shell.desktop[1888]: #7 0x55b0eb4265e0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7f47ca3aea28 @ 225)
+Mar 16 12:28:34 ubuntu org.gnome.Shell.desktop[1888]: #8 0x7ffe85f579f0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 12:28:34 ubuntu org.gnome.Shell.desktop[1888]: #9 0x55b0eb426568 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7f47ca383bc0 @ 37)
+Mar 16 12:28:34 ubuntu org.gnome.Shell.desktop[1888]: #10 0x55b0eb4264a8 i   resource:///org/gnome/shell/ui/extensionSystem.js:83 (0x7f48082592b8 @ 441)
+Mar 16 12:28:34 ubuntu org.gnome.Shell.desktop[1888]: #11 0x55b0eb426428 i   resource:///org/gnome/shell/ui/extensionSystem.js:354 (0x7f4808259d58 @ 13)
+Mar 16 12:28:34 ubuntu org.gnome.Shell.desktop[1888]: #12 0x7ffe85f58760 b   self-hosted:251 (0x7f48083c4ab0 @ 223)
+Mar 16 12:28:34 ubuntu org.gnome.Shell.desktop[1888]: #13 0x55b0eb4263a8 i   resource:///org/gnome/shell/ui/extensionSystem.js:353 (0x7f4808259cd0 @ 64)
+Mar 16 12:28:34 ubuntu org.gnome.Shell.desktop[1888]: #14 0x55b0eb426328 i   resource:///org/gnome/shell/ui/extensionSystem.js:371 (0x7f4808259de0 @ 87)
+Mar 16 12:28:34 ubuntu org.gnome.Shell.desktop[1888]: #15 0x7ffe85f59c60 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f48083d2230 @ 386)
+Mar 16 12:28:34 ubuntu org.gnome.Shell.desktop[1888]: #16 0x7ffe85f5a470 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7f480816e5e8 @ 254)
+Mar 16 12:28:34 ubuntu org.gnome.Shell.desktop[1888]: #17 0x7ffe85f5b860 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 12:28:34 ubuntu org.gnome.Shell.desktop[1888]: #18 0x55b0eb4261e8 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7f480816e3c8 @ 40)
+Mar 16 12:28:34 ubuntu org.gnome.Shell.desktop[1888]: #19 0x7ffe85f5cbc0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 12:28:34 ubuntu org.gnome.Shell.desktop[1888]: #20 0x55b0eb426140 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7f4808153a28 @ 188)
+Mar 16 12:28:34 ubuntu org.gnome.Shell.desktop[1888]: #21 0x7ffe85f5df20 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 12:28:34 ubuntu org.gnome.Shell.desktop[1888]: #22 0x55b0eb4260b8 i   resource:///org/gnome/shell/ui/screenShield.js:902 (0x7f4808151b38 @ 18)
+Mar 16 12:28:34 ubuntu org.gnome.Shell.desktop[1888]: #23 0x7ffe85f5f280 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 12:28:34 ubuntu org.gnome.Shell.desktop[1888]: #24 0x7ffe85f5fa90 b   self-hosted:916 (0x7f48083f12b8 @ 367)
+Mar 16 12:28:34 ubuntu org.gnome.Shell.desktop[1888]: #25 0x7ffe85f5fb80 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f48083d2230 @ 386)
+Mar 16 12:28:34 ubuntu org.gnome.Shell.desktop[1888]: #26 0x55b0eb426038 i   resource:///org/gnome/shell/ui/lightbox.js:186 (0x7f4808238a28 @ 29)
+Mar 16 12:28:34 ubuntu org.gnome.Shell.desktop[1888]: #27 0x55b0eb425f98 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:208 (0x7f48083d2b38 @ 54)
+Mar 16 12:28:34 ubuntu org.gnome.Shell.desktop[1888]: #28 0x55b0eb425e78 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:337 (0x7f48083d2bc0 @ 1626)
+Mar 16 12:28:34 ubuntu org.gnome.Shell.desktop[1888]: #29 0x55b0eb425de8 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:350 (0x7f48083d2c48 @ 100)
+Mar 16 12:28:34 ubuntu org.gnome.Shell.desktop[1888]: #30 0x55b0eb425d70 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:365 (0x7f48083d2cd0 @ 10)
+Mar 16 12:28:34 ubuntu org.gnome.Shell.desktop[1888]: #31 0x7ffe85f61d10 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f48083d2230 @ 386)
+Mar 16 12:28:34 ubuntu org.gnome.Shell.desktop[1888]: #32 0x55b0eb425ce0 i   resource:///org/gnome/shell/ui/tweener.js:244 (0x7f48083cf808 @ 159)
+Mar 16 12:28:34 ubuntu org.gnome.Shell.desktop[1888]: #33 0x7ffe85f63070 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 12:28:34 ubuntu org.gnome.Shell.desktop[1888]: #34 0x55b0eb425c60 i   resource:///org/gnome/shell/ui/tweener.js:219 (0x7f48083cf780 @ 15)
+Mar 16 12:28:34 ubuntu gnome-software[2218]: no app for changed ubuntu-appindicators@ubuntu.com
+Mar 16 12:28:34 ubuntu gnome-software[2218]: no app for changed ubuntu-dock@ubuntu.com
+Mar 16 12:30:18 ubuntu systemd[1]: Started Session 19 of user managed_node_one.
+Mar 16 12:30:27 ubuntu python3[12963]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mar 16 12:30:27 ubuntu python3[13031]: ansible-ansible.legacy.command Invoked with _raw_params=dpkg --configure -a#012 _uses_shell=True warn=False stdin_add_newline=True strip_empty_ends=True argv=None chdir=None executable=None creates=None removes=None stdin=None
+Mar 16 12:30:27 ubuntu python3[13056]: ansible-apt Invoked with update_cache=True state=present update_cache_retries=5 update_cache_retry_max_delay=12 cache_valid_time=0 purge=False force=False upgrade=no dpkg_options=force-confdef,force-confold autoremove=False autoclean=False fail_on_autoremove=False only_upgrade=False force_apt_get=False allow_unauthenticated=False package=None deb=None default_release=None install_recommends=None policy_rc_d=None
+Mar 16 12:30:28 ubuntu systemd[1]: Starting Update APT News...
+Mar 16 12:30:28 ubuntu systemd[1]: Starting Update the local ESM caches...
+Mar 16 12:30:28 ubuntu systemd[1]: Started Update APT News.
+Mar 16 12:30:30 ubuntu systemd[1]: Started Update the local ESM caches.
+Mar 16 12:30:31 ubuntu python3[13471]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mar 16 12:30:31 ubuntu python3[13539]: ansible-file Invoked with path=/home/piolo/Desktop/hands_on_7.1/log_files/manage_node_one/ state=directory recurse=False force=False follow=True modification_time_format=%Y%m%d%H%M.%S access_time_format=%Y%m%d%H%M.%S unsafe_writes=False _original_basename=None _diff_peek=None src=None modification_time=None access_time=None mode=None owner=None group=None seuser=None serole=None selevel=None setype=None attributes=None
+Mar 16 12:31:26 ubuntu dhclient[668]: DHCPREQUEST of 192.168.56.102 on enp0s3 to 192.168.56.100 port 67 (xid=0x79a16cbf)
+Mar 16 12:31:26 ubuntu dhclient[668]: DHCPACK of 192.168.56.102 from 192.168.56.100
+Mar 16 12:31:26 ubuntu NetworkManager[537]: <info>  [1678941086.7892] dhcp4 (enp0s3):   address 192.168.56.102
+Mar 16 12:31:26 ubuntu NetworkManager[537]: <info>  [1678941086.7892] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Mar 16 12:31:26 ubuntu NetworkManager[537]: <info>  [1678941086.7893] dhcp4 (enp0s3):   lease time 600
+Mar 16 12:31:26 ubuntu NetworkManager[537]: <info>  [1678941086.7893] dhcp4 (enp0s3): state changed bound -> bound
+Mar 16 12:31:26 ubuntu dbus-daemon[499]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.17' (uid=0 pid=537 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 16 12:31:26 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar 16 12:31:26 ubuntu dhclient[668]: bound to 192.168.56.102 -- renewal in 232 seconds.
+Mar 16 12:31:26 ubuntu dbus-daemon[499]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar 16 12:31:26 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar 16 12:31:26 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Mar 16 12:31:26 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Mar 16 12:31:47 ubuntu systemd[1]: Started Session 20 of user managed_node_one.
+Mar 16 12:31:48 ubuntu python3[13633]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mar 16 12:31:48 ubuntu python3[13701]: ansible-ansible.legacy.command Invoked with _raw_params=dpkg --configure -a#012 _uses_shell=True warn=False stdin_add_newline=True strip_empty_ends=True argv=None chdir=None executable=None creates=None removes=None stdin=None
+Mar 16 12:31:49 ubuntu python3[13726]: ansible-apt Invoked with update_cache=True state=present update_cache_retries=5 update_cache_retry_max_delay=12 cache_valid_time=0 purge=False force=False upgrade=no dpkg_options=force-confdef,force-confold autoremove=False autoclean=False fail_on_autoremove=False only_upgrade=False force_apt_get=False allow_unauthenticated=False package=None deb=None default_release=None install_recommends=None policy_rc_d=None
+Mar 16 12:31:49 ubuntu systemd[1]: Starting Update APT News...
+Mar 16 12:31:49 ubuntu systemd[1]: Starting Update the local ESM caches...
+Mar 16 12:31:49 ubuntu systemd[1]: Started Update APT News.
+Mar 16 12:31:51 ubuntu systemd[1]: Started Update the local ESM caches.
+Mar 16 12:31:52 ubuntu python3[14140]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mar 16 12:31:52 ubuntu python3[14208]: ansible-file Invoked with path=/home/piolo/Desktop/hands_on_7.1/log_files/manage_node_one/ state=directory recurse=False force=False follow=True modification_time_format=%Y%m%d%H%M.%S access_time_format=%Y%m%d%H%M.%S unsafe_writes=False _original_basename=None _diff_peek=None src=None modification_time=None access_time=None mode=None owner=None group=None seuser=None serole=None selevel=None setype=None attributes=None
+Mar 16 12:34:57 ubuntu systemd[1]: Started Session 21 of user managed_node_one.
+Mar 16 12:34:58 ubuntu python3[14295]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mar 16 12:34:58 ubuntu python3[14363]: ansible-ansible.legacy.command Invoked with _raw_params=dpkg --configure -a#012 _uses_shell=True warn=False stdin_add_newline=True strip_empty_ends=True argv=None chdir=None executable=None creates=None removes=None stdin=None
+Mar 16 12:34:59 ubuntu python3[14388]: ansible-apt Invoked with update_cache=True state=present update_cache_retries=5 update_cache_retry_max_delay=12 cache_valid_time=0 purge=False force=False upgrade=no dpkg_options=force-confdef,force-confold autoremove=False autoclean=False fail_on_autoremove=False only_upgrade=False force_apt_get=False allow_unauthenticated=False package=None deb=None default_release=None install_recommends=None policy_rc_d=None
+Mar 16 12:34:59 ubuntu systemd[1]: Starting Update APT News...
+Mar 16 12:34:59 ubuntu systemd[1]: Starting Update the local ESM caches...
+Mar 16 12:35:00 ubuntu systemd[1]: Started Update APT News.
+Mar 16 12:35:01 ubuntu systemd[1]: Started Update the local ESM caches.
+Mar 16 12:35:02 ubuntu python3[14804]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mar 16 12:35:02 ubuntu python3[14872]: ansible-file Invoked with path=/home/piolo/Desktop/hands_on_7.1/log_files/manage_node_one/ state=directory recurse=False force=False follow=True modification_time_format=%Y%m%d%H%M.%S access_time_format=%Y%m%d%H%M.%S unsafe_writes=False _original_basename=None _diff_peek=None src=None modification_time=None access_time=None mode=None owner=None group=None seuser=None serole=None selevel=None setype=None attributes=None
+Mar 16 12:35:18 ubuntu dhclient[668]: DHCPREQUEST of 192.168.56.102 on enp0s3 to 192.168.56.100 port 67 (xid=0x79a16cbf)
+Mar 16 12:35:18 ubuntu dhclient[668]: DHCPACK of 192.168.56.102 from 192.168.56.100
+Mar 16 12:35:18 ubuntu NetworkManager[537]: <info>  [1678941318.5647] dhcp4 (enp0s3):   address 192.168.56.102
+Mar 16 12:35:18 ubuntu NetworkManager[537]: <info>  [1678941318.5649] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Mar 16 12:35:18 ubuntu NetworkManager[537]: <info>  [1678941318.5649] dhcp4 (enp0s3):   lease time 600
+Mar 16 12:35:18 ubuntu NetworkManager[537]: <info>  [1678941318.5650] dhcp4 (enp0s3): state changed bound -> bound
+Mar 16 12:35:18 ubuntu dbus-daemon[499]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.17' (uid=0 pid=537 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 16 12:35:18 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar 16 12:35:18 ubuntu dhclient[668]: bound to 192.168.56.102 -- renewal in 261 seconds.
+Mar 16 12:35:18 ubuntu dbus-daemon[499]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar 16 12:35:18 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar 16 12:35:18 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Mar 16 12:35:18 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Mar 16 12:35:38 ubuntu python3[14915]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mar 16 12:35:38 ubuntu python3[14983]: ansible-ansible.legacy.command Invoked with _raw_params=dpkg --configure -a#012 _uses_shell=True warn=False stdin_add_newline=True strip_empty_ends=True argv=None chdir=None executable=None creates=None removes=None stdin=None
+Mar 16 12:35:39 ubuntu python3[15008]: ansible-apt Invoked with update_cache=True state=present update_cache_retries=5 update_cache_retry_max_delay=12 cache_valid_time=0 purge=False force=False upgrade=no dpkg_options=force-confdef,force-confold autoremove=False autoclean=False fail_on_autoremove=False only_upgrade=False force_apt_get=False allow_unauthenticated=False package=None deb=None default_release=None install_recommends=None policy_rc_d=None
+Mar 16 12:35:39 ubuntu systemd[1]: Starting Update APT News...
+Mar 16 12:35:39 ubuntu systemd[1]: Starting Update the local ESM caches...
+Mar 16 12:35:39 ubuntu systemd[1]: Started Update APT News.
+Mar 16 12:35:41 ubuntu systemd[1]: Started Update the local ESM caches.
+Mar 16 12:35:42 ubuntu python3[15422]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mar 16 12:35:42 ubuntu python3[15490]: ansible-file Invoked with path=/home/piolo/Desktop/hands_on_7.1/log_files/manage_node_one/ state=directory recurse=False force=False follow=True modification_time_format=%Y%m%d%H%M.%S access_time_format=%Y%m%d%H%M.%S unsafe_writes=False _original_basename=None _diff_peek=None src=None modification_time=None access_time=None mode=None owner=None group=None seuser=None serole=None selevel=None setype=None attributes=None
+Mar 16 12:35:42 ubuntu python3[15513]: ansible-ansible.legacy.slurp Invoked with src=/var/log/alternatives.log
+Mar 16 12:35:43 ubuntu python3[15536]: ansible-ansible.legacy.slurp Invoked with src=/var/log/auth.log
+Mar 16 12:35:43 ubuntu python3[15559]: ansible-ansible.legacy.slurp Invoked with src=/var/log/bootstrap.log
+Mar 16 12:35:43 ubuntu python3[15582]: ansible-ansible.legacy.slurp Invoked with src=/var/log/btmp
+Mar 16 12:35:43 ubuntu python3[15605]: ansible-ansible.legacy.slurp Invoked with src=/var/log/dpkg.log
+Mar 16 12:35:44 ubuntu python3[15628]: ansible-ansible.legacy.slurp Invoked with src=/var/log/faillog
+Mar 16 12:35:44 ubuntu python3[15651]: ansible-ansible.legacy.slurp Invoked with src=/var/log/fontconfig.log
+Mar 16 12:35:44 ubuntu python3[15674]: ansible-ansible.legacy.slurp Invoked with src=/var/log/gpu-manager.log
+Mar 16 12:35:44 ubuntu python3[15697]: ansible-ansible.legacy.slurp Invoked with src=/var/log/kern.log
+Mar 16 12:35:45 ubuntu python3[15720]: ansible-ansible.legacy.slurp Invoked with src=/var/log/lastlog
+Mar 16 12:35:45 ubuntu python3[15743]: ansible-ansible.legacy.slurp Invoked with src=/var/log/syslog
+Mar 16 12:35:45 ubuntu python3[15766]: ansible-ansible.legacy.slurp Invoked with src=/var/log/syslog.1
+Mar 16 12:35:45 ubuntu python3[15789]: ansible-ansible.legacy.slurp Invoked with src=/var/log/tallylog
+Mar 16 12:35:46 ubuntu python3[15812]: ansible-ansible.legacy.slurp Invoked with src=/var/log/ubuntu-advantage.log
+Mar 16 12:35:46 ubuntu python3[15839]: ansible-ansible.legacy.slurp Invoked with src=/var/log/ubuntu-advantage-timer.log
+Mar 16 12:35:46 ubuntu python3[15862]: ansible-ansible.legacy.slurp Invoked with src=/var/log/vboxpostinstall.log
+Mar 16 12:35:46 ubuntu python3[15885]: ansible-ansible.legacy.slurp Invoked with src=/var/log/wtmp
+Mar 16 12:36:31 ubuntu python3[15914]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mar 16 12:36:31 ubuntu python3[15982]: ansible-ansible.legacy.command Invoked with _raw_params=dpkg --configure -a#012 _uses_shell=True warn=False stdin_add_newline=True strip_empty_ends=True argv=None chdir=None executable=None creates=None removes=None stdin=None
+Mar 16 12:36:32 ubuntu python3[16007]: ansible-apt Invoked with update_cache=True state=present update_cache_retries=5 update_cache_retry_max_delay=12 cache_valid_time=0 purge=False force=False upgrade=no dpkg_options=force-confdef,force-confold autoremove=False autoclean=False fail_on_autoremove=False only_upgrade=False force_apt_get=False allow_unauthenticated=False package=None deb=None default_release=None install_recommends=None policy_rc_d=None
+Mar 16 12:36:32 ubuntu systemd[1]: Starting Update APT News...
+Mar 16 12:36:32 ubuntu systemd[1]: Starting Update the local ESM caches...
+Mar 16 12:36:32 ubuntu systemd[1]: Started Update APT News.
+Mar 16 12:36:34 ubuntu systemd[1]: Started Update the local ESM caches.
+Mar 16 12:36:42 ubuntu python3[16426]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mar 16 12:36:43 ubuntu python3[16494]: ansible-file Invoked with path=/home/piolo/Desktop/hands_on_7.1/log_files/manage_node_one/ state=directory recurse=False force=False follow=True modification_time_format=%Y%m%d%H%M.%S access_time_format=%Y%m%d%H%M.%S unsafe_writes=False _original_basename=None _diff_peek=None src=None modification_time=None access_time=None mode=None owner=None group=None seuser=None serole=None selevel=None setype=None attributes=None
+Mar 16 12:36:43 ubuntu python3[16517]: ansible-ansible.legacy.slurp Invoked with src=/var/log/alternatives.log
+Mar 16 12:36:43 ubuntu python3[16540]: ansible-ansible.legacy.slurp Invoked with src=/var/log/auth.log
+Mar 16 12:36:43 ubuntu python3[16563]: ansible-ansible.legacy.slurp Invoked with src=/var/log/bootstrap.log
+Mar 16 12:36:43 ubuntu python3[16586]: ansible-ansible.legacy.slurp Invoked with src=/var/log/btmp
+Mar 16 12:36:44 ubuntu python3[16609]: ansible-ansible.legacy.slurp Invoked with src=/var/log/dpkg.log
+Mar 16 12:36:44 ubuntu python3[16632]: ansible-ansible.legacy.slurp Invoked with src=/var/log/faillog
+Mar 16 12:36:44 ubuntu python3[16655]: ansible-ansible.legacy.slurp Invoked with src=/var/log/fontconfig.log
+Mar 16 12:36:44 ubuntu python3[16678]: ansible-ansible.legacy.slurp Invoked with src=/var/log/gpu-manager.log
+Mar 16 12:36:45 ubuntu python3[16701]: ansible-ansible.legacy.slurp Invoked with src=/var/log/kern.log
+Mar 16 12:36:45 ubuntu python3[16728]: ansible-ansible.legacy.slurp Invoked with src=/var/log/lastlog
+Mar 16 12:36:45 ubuntu python3[16751]: ansible-ansible.legacy.slurp Invoked with src=/var/log/syslog
+Mar 16 12:36:45 ubuntu python3[16774]: ansible-ansible.legacy.slurp Invoked with src=/var/log/syslog.1
+Mar 16 12:36:46 ubuntu python3[16797]: ansible-ansible.legacy.slurp Invoked with src=/var/log/tallylog
+Mar 16 12:36:46 ubuntu python3[16820]: ansible-ansible.legacy.slurp Invoked with src=/var/log/ubuntu-advantage.log
+Mar 16 12:36:46 ubuntu python3[16843]: ansible-ansible.legacy.slurp Invoked with src=/var/log/ubuntu-advantage-timer.log
+Mar 16 12:36:46 ubuntu python3[16866]: ansible-ansible.legacy.slurp Invoked with src=/var/log/vboxpostinstall.log
+Mar 16 12:36:46 ubuntu python3[16889]: ansible-ansible.legacy.slurp Invoked with src=/var/log/wtmp
+Mar 16 12:39:39 ubuntu dhclient[668]: DHCPREQUEST of 192.168.56.102 on enp0s3 to 192.168.56.100 port 67 (xid=0x79a16cbf)
+Mar 16 12:39:39 ubuntu dhclient[668]: DHCPACK of 192.168.56.102 from 192.168.56.100
+Mar 16 12:39:39 ubuntu NetworkManager[537]: <info>  [1678941579.7913] dhcp4 (enp0s3):   address 192.168.56.102
+Mar 16 12:39:39 ubuntu NetworkManager[537]: <info>  [1678941579.7914] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Mar 16 12:39:39 ubuntu NetworkManager[537]: <info>  [1678941579.7914] dhcp4 (enp0s3):   lease time 600
+Mar 16 12:39:39 ubuntu NetworkManager[537]: <info>  [1678941579.7914] dhcp4 (enp0s3): state changed bound -> bound
+Mar 16 12:39:39 ubuntu dbus-daemon[499]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.17' (uid=0 pid=537 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 16 12:39:39 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar 16 12:39:39 ubuntu dhclient[668]: bound to 192.168.56.102 -- renewal in 234 seconds.
+Mar 16 12:39:39 ubuntu dbus-daemon[499]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar 16 12:39:39 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar 16 12:39:39 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Mar 16 12:39:39 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Mar 16 12:43:33 ubuntu dhclient[668]: DHCPREQUEST of 192.168.56.102 on enp0s3 to 192.168.56.100 port 67 (xid=0x79a16cbf)
+Mar 16 12:43:33 ubuntu dhclient[668]: DHCPACK of 192.168.56.102 from 192.168.56.100
+Mar 16 12:43:33 ubuntu NetworkManager[537]: <info>  [1678941813.7030] dhcp4 (enp0s3):   address 192.168.56.102
+Mar 16 12:43:33 ubuntu NetworkManager[537]: <info>  [1678941813.7031] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Mar 16 12:43:33 ubuntu NetworkManager[537]: <info>  [1678941813.7032] dhcp4 (enp0s3):   lease time 600
+Mar 16 12:43:33 ubuntu NetworkManager[537]: <info>  [1678941813.7032] dhcp4 (enp0s3): state changed bound -> bound
+Mar 16 12:43:33 ubuntu dbus-daemon[499]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.17' (uid=0 pid=537 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 16 12:43:33 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar 16 12:43:33 ubuntu dbus-daemon[499]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar 16 12:43:33 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar 16 12:43:33 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Mar 16 12:43:33 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Mar 16 12:43:33 ubuntu dhclient[668]: bound to 192.168.56.102 -- renewal in 283 seconds.
+Mar 16 12:44:42 ubuntu gnome-shell[1888]: Object Gdm.UserVerifierProxy (0x55b0ede06160), has been already deallocated - impossible to access it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs
+Mar 16 12:44:42 ubuntu org.gnome.Shell.desktop[1888]: == Stack trace for context 0x55b0eb014320 ==
+Mar 16 12:44:42 ubuntu org.gnome.Shell.desktop[1888]: #0 0x55b0eb425c60 i   resource:///org/gnome/shell/gdm/util.js:446 (0x7f4808188230 @ 14)
+Mar 16 12:44:42 ubuntu gnome-shell[1888]: g_dbus_proxy_call_finish_internal: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+Mar 16 12:44:48 ubuntu gnome-software[2218]: no app for changed ubuntu-dock@ubuntu.com
+Mar 16 12:44:48 ubuntu gnome-software[2218]: no app for changed ubuntu-appindicators@ubuntu.com
+Mar 16 12:44:48 ubuntu gnome-shell[1888]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.63/org/ayatana/NotificationItem/livepatch
+Mar 16 12:44:48 ubuntu gvfsd-metadata[2184]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Mar 16 12:44:48 ubuntu gvfsd-metadata[2184]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Mar 16 12:47:00 ubuntu systemd[1]: Started Session 22 of user managed_node_one.
+Mar 16 12:47:01 ubuntu python3[17021]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mar 16 12:47:02 ubuntu python3[17089]: ansible-ansible.legacy.command Invoked with _raw_params=dpkg --configure -a#012 _uses_shell=True warn=False stdin_add_newline=True strip_empty_ends=True argv=None chdir=None executable=None creates=None removes=None stdin=None
+Mar 16 12:47:02 ubuntu python3[17114]: ansible-apt Invoked with update_cache=True state=present update_cache_retries=5 update_cache_retry_max_delay=12 cache_valid_time=0 purge=False force=False upgrade=no dpkg_options=force-confdef,force-confold autoremove=False autoclean=False fail_on_autoremove=False only_upgrade=False force_apt_get=False allow_unauthenticated=False package=None deb=None default_release=None install_recommends=None policy_rc_d=None
+Mar 16 12:47:03 ubuntu snapd[2644]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core", "core20", "core22", "gnome-3-26-1604", "gnome-3-38-2004", "gnome-42-2204", "gnome-calculator", "gnome-characters", "gnome-logs", "gnome-system-monitor", "gtk-common-themes"
+Mar 16 12:47:03 ubuntu snapd[2644]: autorefresh.go:551: auto-refresh: all snaps are up-to-date
+Mar 16 12:47:03 ubuntu systemd[1]: Starting Update APT News...
+Mar 16 12:47:03 ubuntu systemd[1]: Starting Update the local ESM caches...
+Mar 16 12:47:03 ubuntu systemd[1]: Started Update APT News.
+Mar 16 12:47:05 ubuntu systemd[1]: Started Update the local ESM caches.
+Mar 16 12:47:07 ubuntu python3[17528]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mar 16 12:47:07 ubuntu python3[17596]: ansible-file Invoked with path=/home/piolo/Desktop/hands_on_7.1/log_files/manage_node_one/ state=directory recurse=False force=False follow=True modification_time_format=%Y%m%d%H%M.%S access_time_format=%Y%m%d%H%M.%S unsafe_writes=False _original_basename=None _diff_peek=None src=None modification_time=None access_time=None mode=None owner=None group=None seuser=None serole=None selevel=None setype=None attributes=None
+Mar 16 12:47:07 ubuntu python3[17619]: ansible-ansible.legacy.slurp Invoked with src=/var/log/alternatives.log
+Mar 16 12:47:08 ubuntu python3[17642]: ansible-ansible.legacy.slurp Invoked with src=/var/log/auth.log
+Mar 16 12:47:08 ubuntu python3[17665]: ansible-ansible.legacy.slurp Invoked with src=/var/log/bootstrap.log
+Mar 16 12:47:08 ubuntu python3[17688]: ansible-ansible.legacy.slurp Invoked with src=/var/log/btmp
+Mar 16 12:47:08 ubuntu python3[17711]: ansible-ansible.legacy.slurp Invoked with src=/var/log/dpkg.log
+Mar 16 12:47:09 ubuntu python3[17734]: ansible-ansible.legacy.slurp Invoked with src=/var/log/faillog
+Mar 16 12:47:09 ubuntu python3[17757]: ansible-ansible.legacy.slurp Invoked with src=/var/log/fontconfig.log
+Mar 16 12:47:09 ubuntu python3[17780]: ansible-ansible.legacy.slurp Invoked with src=/var/log/gpu-manager.log
+Mar 16 12:47:09 ubuntu python3[17803]: ansible-ansible.legacy.slurp Invoked with src=/var/log/kern.log
+Mar 16 12:47:10 ubuntu python3[17826]: ansible-ansible.legacy.slurp Invoked with src=/var/log/lastlog
+Mar 16 12:47:10 ubuntu python3[17849]: ansible-ansible.legacy.slurp Invoked with src=/var/log/syslog
+Mar 16 12:47:10 ubuntu python3[17872]: ansible-ansible.legacy.slurp Invoked with src=/var/log/syslog.1
+Mar 16 12:47:11 ubuntu python3[17895]: ansible-ansible.legacy.slurp Invoked with src=/var/log/tallylog
+Mar 16 12:47:11 ubuntu python3[17919]: ansible-ansible.legacy.slurp Invoked with src=/var/log/ubuntu-advantage.log
+Mar 16 12:47:11 ubuntu python3[17942]: ansible-ansible.legacy.slurp Invoked with src=/var/log/ubuntu-advantage-timer.log
+Mar 16 12:47:11 ubuntu python3[17965]: ansible-ansible.legacy.slurp Invoked with src=/var/log/vboxpostinstall.log
+Mar 16 12:47:11 ubuntu python3[17988]: ansible-ansible.legacy.slurp Invoked with src=/var/log/wtmp
+Mar 16 12:47:12 ubuntu python3[18011]: ansible-ansible.legacy.slurp Invoked with src=/var/log/apt/*
+Mar 16 12:48:16 ubuntu dhclient[668]: DHCPREQUEST of 192.168.56.102 on enp0s3 to 192.168.56.100 port 67 (xid=0x79a16cbf)
+Mar 16 12:48:16 ubuntu dhclient[668]: DHCPACK of 192.168.56.102 from 192.168.56.100
+Mar 16 12:48:16 ubuntu NetworkManager[537]: <info>  [1678942096.5068] dhcp4 (enp0s3):   address 192.168.56.102
+Mar 16 12:48:16 ubuntu NetworkManager[537]: <info>  [1678942096.5069] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Mar 16 12:48:16 ubuntu NetworkManager[537]: <info>  [1678942096.5070] dhcp4 (enp0s3):   lease time 600
+Mar 16 12:48:16 ubuntu NetworkManager[537]: <info>  [1678942096.5071] dhcp4 (enp0s3): state changed bound -> bound
+Mar 16 12:48:16 ubuntu dbus-daemon[499]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.17' (uid=0 pid=537 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 16 12:48:16 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar 16 12:48:16 ubuntu dhclient[668]: bound to 192.168.56.102 -- renewal in 241 seconds.
+Mar 16 12:48:16 ubuntu dbus-daemon[499]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar 16 12:48:16 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar 16 12:48:16 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Mar 16 12:48:16 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Mar 16 12:50:06 ubuntu gnome-shell[1888]: Object .Gjs_AppIndicatorIconActor__1 (0x55b0eb8e0c80), has been already finalized. Impossible to set any property to it.
+Mar 16 12:50:06 ubuntu org.gnome.Shell.desktop[1888]: == Stack trace for context 0x55b0eb014320 ==
+Mar 16 12:50:06 ubuntu org.gnome.Shell.desktop[1888]: #0 0x7ffe85f54740 I   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7f48083b5de0 @ 87)
+Mar 16 12:50:06 ubuntu org.gnome.Shell.desktop[1888]: #1 0x55b0eb426710 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7f47ca3c1780 @ 58)
+Mar 16 12:50:06 ubuntu org.gnome.Shell.desktop[1888]: #2 0x7ffe85f55320 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 12:50:06 ubuntu org.gnome.Shell.desktop[1888]: #3 0x7ffe85f553e0 b   self-hosted:916 (0x7f48083f12b8 @ 367)
+Mar 16 12:50:06 ubuntu org.gnome.Shell.desktop[1888]: #4 0x7ffe85f554d0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f48083d2230 @ 386)
+Mar 16 12:50:06 ubuntu org.gnome.Shell.desktop[1888]: #5 0x55b0eb426688 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7f47ca3b1450 @ 22)
+Mar 16 12:50:06 ubuntu org.gnome.Shell.desktop[1888]: #6 0x7ffe85f56120 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 12:50:06 ubuntu org.gnome.Shell.desktop[1888]: #7 0x55b0eb4265e0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7f47ca3aea28 @ 225)
+Mar 16 12:50:06 ubuntu org.gnome.Shell.desktop[1888]: #8 0x7ffe85f56d00 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 12:50:06 ubuntu org.gnome.Shell.desktop[1888]: #9 0x55b0eb426568 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7f47ca383bc0 @ 37)
+Mar 16 12:50:06 ubuntu org.gnome.Shell.desktop[1888]: #10 0x55b0eb4264a8 i   resource:///org/gnome/shell/ui/extensionSystem.js:83 (0x7f48082592b8 @ 441)
+Mar 16 12:50:06 ubuntu org.gnome.Shell.desktop[1888]: #11 0x55b0eb426428 i   resource:///org/gnome/shell/ui/extensionSystem.js:354 (0x7f4808259d58 @ 13)
+Mar 16 12:50:06 ubuntu org.gnome.Shell.desktop[1888]: #12 0x7ffe85f57a00 b   self-hosted:251 (0x7f48083c4ab0 @ 223)
+Mar 16 12:50:06 ubuntu org.gnome.Shell.desktop[1888]: #13 0x55b0eb4263a8 i   resource:///org/gnome/shell/ui/extensionSystem.js:353 (0x7f4808259cd0 @ 64)
+Mar 16 12:50:06 ubuntu org.gnome.Shell.desktop[1888]: #14 0x55b0eb426328 i   resource:///org/gnome/shell/ui/extensionSystem.js:371 (0x7f4808259de0 @ 87)
+Mar 16 12:50:06 ubuntu org.gnome.Shell.desktop[1888]: #15 0x7ffe85f58f00 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f48083d2230 @ 386)
+Mar 16 12:50:06 ubuntu org.gnome.Shell.desktop[1888]: #16 0x7ffe85f59710 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7f480816e5e8 @ 254)
+Mar 16 12:50:06 ubuntu org.gnome.Shell.desktop[1888]: #17 0x7ffe85f5ab00 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 12:50:06 ubuntu org.gnome.Shell.desktop[1888]: #18 0x55b0eb4261e8 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7f480816e3c8 @ 40)
+Mar 16 12:50:06 ubuntu org.gnome.Shell.desktop[1888]: #19 0x7ffe85f5be60 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 12:50:06 ubuntu org.gnome.Shell.desktop[1888]: #20 0x55b0eb426140 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7f4808153a28 @ 188)
+Mar 16 12:50:06 ubuntu org.gnome.Shell.desktop[1888]: #21 0x7ffe85f5d1c0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 12:50:06 ubuntu org.gnome.Shell.desktop[1888]: #22 0x55b0eb4260b8 i   resource:///org/gnome/shell/ui/screenShield.js:902 (0x7f4808151b38 @ 18)
+Mar 16 12:50:06 ubuntu org.gnome.Shell.desktop[1888]: #23 0x7ffe85f5e520 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 12:50:06 ubuntu org.gnome.Shell.desktop[1888]: #24 0x7ffe85f5ed30 b   self-hosted:916 (0x7f48083f12b8 @ 367)
+Mar 16 12:50:06 ubuntu org.gnome.Shell.desktop[1888]: #25 0x7ffe85f5fb80 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f48083d2230 @ 386)
+Mar 16 12:50:06 ubuntu org.gnome.Shell.desktop[1888]: #26 0x55b0eb426038 i   resource:///org/gnome/shell/ui/lightbox.js:186 (0x7f4808238a28 @ 29)
+Mar 16 12:50:06 ubuntu org.gnome.Shell.desktop[1888]: #27 0x55b0eb425f98 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:208 (0x7f48083d2b38 @ 54)
+Mar 16 12:50:06 ubuntu org.gnome.Shell.desktop[1888]: #28 0x55b0eb425e78 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:337 (0x7f48083d2bc0 @ 1626)
+Mar 16 12:50:06 ubuntu org.gnome.Shell.desktop[1888]: #29 0x55b0eb425de8 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:350 (0x7f48083d2c48 @ 100)
+Mar 16 12:50:06 ubuntu org.gnome.Shell.desktop[1888]: #30 0x55b0eb425d70 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:365 (0x7f48083d2cd0 @ 10)
+Mar 16 12:50:06 ubuntu org.gnome.Shell.desktop[1888]: #31 0x7ffe85f61d10 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f48083d2230 @ 386)
+Mar 16 12:50:06 ubuntu org.gnome.Shell.desktop[1888]: #32 0x55b0eb425ce0 i   resource:///org/gnome/shell/ui/tweener.js:244 (0x7f48083cf808 @ 159)
+Mar 16 12:50:06 ubuntu org.gnome.Shell.desktop[1888]: #33 0x7ffe85f63070 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f48083b5de0 @ 71)
+Mar 16 12:50:06 ubuntu org.gnome.Shell.desktop[1888]: #34 0x55b0eb425c60 i   resource:///org/gnome/shell/ui/tweener.js:219 (0x7f48083cf780 @ 15)
+Mar 16 12:50:06 ubuntu gnome-software[2218]: no app for changed ubuntu-appindicators@ubuntu.com
+Mar 16 12:50:06 ubuntu gnome-software[2218]: no app for changed ubuntu-dock@ubuntu.com
+Mar 16 12:52:17 ubuntu dhclient[668]: DHCPREQUEST of 192.168.56.102 on enp0s3 to 192.168.56.100 port 67 (xid=0x79a16cbf)
+Mar 16 12:52:17 ubuntu dhclient[668]: DHCPACK of 192.168.56.102 from 192.168.56.100
+Mar 16 12:52:17 ubuntu NetworkManager[537]: <info>  [1678942337.8820] dhcp4 (enp0s3):   address 192.168.56.102
+Mar 16 12:52:17 ubuntu NetworkManager[537]: <info>  [1678942337.8821] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Mar 16 12:52:17 ubuntu NetworkManager[537]: <info>  [1678942337.8821] dhcp4 (enp0s3):   lease time 600
+Mar 16 12:52:17 ubuntu NetworkManager[537]: <info>  [1678942337.8821] dhcp4 (enp0s3): state changed bound -> bound
+Mar 16 12:52:17 ubuntu dbus-daemon[499]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.17' (uid=0 pid=537 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 16 12:52:17 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar 16 12:52:17 ubuntu dbus-daemon[499]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar 16 12:52:17 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar 16 12:52:17 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Mar 16 12:52:17 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Mar 16 12:52:17 ubuntu dhclient[668]: bound to 192.168.56.102 -- renewal in 245 seconds.
+Mar 16 12:56:22 ubuntu dhclient[668]: DHCPREQUEST of 192.168.56.102 on enp0s3 to 192.168.56.100 port 67 (xid=0x79a16cbf)
+Mar 16 12:56:22 ubuntu dhclient[668]: DHCPACK of 192.168.56.102 from 192.168.56.100
+Mar 16 12:56:22 ubuntu NetworkManager[537]: <info>  [1678942582.6695] dhcp4 (enp0s3):   address 192.168.56.102
+Mar 16 12:56:22 ubuntu NetworkManager[537]: <info>  [1678942582.6695] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Mar 16 12:56:22 ubuntu NetworkManager[537]: <info>  [1678942582.6695] dhcp4 (enp0s3):   lease time 600
+Mar 16 12:56:22 ubuntu NetworkManager[537]: <info>  [1678942582.6695] dhcp4 (enp0s3): state changed bound -> bound
+Mar 16 12:56:22 ubuntu dbus-daemon[499]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.17' (uid=0 pid=537 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 16 12:56:22 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar 16 12:56:22 ubuntu dhclient[668]: bound to 192.168.56.102 -- renewal in 292 seconds.
+Mar 16 12:56:22 ubuntu dbus-daemon[499]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar 16 12:56:22 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar 16 12:56:22 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Mar 16 12:56:22 ubuntu nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Mar 16 12:57:01 ubuntu systemd[1]: Starting Message of the Day...
+Mar 16 12:57:01 ubuntu systemd[1]: Started Message of the Day.
+Mar 16 12:57:44 ubuntu systemd[1]: Started Session 23 of user managed_node_one.
+Mar 16 12:57:44 ubuntu python3[18152]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mar 16 12:57:45 ubuntu python3[18220]: ansible-ansible.legacy.command Invoked with _raw_params=dpkg --configure -a#012 _uses_shell=True warn=False stdin_add_newline=True strip_empty_ends=True argv=None chdir=None executable=None creates=None removes=None stdin=None
+Mar 16 12:57:45 ubuntu python3[18245]: ansible-apt Invoked with update_cache=True state=present update_cache_retries=5 update_cache_retry_max_delay=12 cache_valid_time=0 purge=False force=False upgrade=no dpkg_options=force-confdef,force-confold autoremove=False autoclean=False fail_on_autoremove=False only_upgrade=False force_apt_get=False allow_unauthenticated=False package=None deb=None default_release=None install_recommends=None policy_rc_d=None
+Mar 16 12:57:46 ubuntu systemd[1]: Starting Update APT News...
+Mar 16 12:57:46 ubuntu systemd[1]: Starting Update the local ESM caches...
+Mar 16 12:57:46 ubuntu systemd[1]: Started Update APT News.
+Mar 16 12:57:48 ubuntu systemd[1]: Started Update the local ESM caches.
+Mar 16 12:57:50 ubuntu python3[18660]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mar 16 12:57:51 ubuntu python3[18728]: ansible-file Invoked with path=/home/piolo/Desktop/hands_on_7.1/log_files/manage_node_one/ state=directory recurse=False force=False follow=True modification_time_format=%Y%m%d%H%M.%S access_time_format=%Y%m%d%H%M.%S unsafe_writes=False _original_basename=None _diff_peek=None src=None modification_time=None access_time=None mode=None owner=None group=None seuser=None serole=None selevel=None setype=None attributes=None
+Mar 16 12:57:51 ubuntu python3[18751]: ansible-ansible.legacy.slurp Invoked with src=/var/log/alternatives.log
+Mar 16 12:57:51 ubuntu python3[18775]: ansible-ansible.legacy.slurp Invoked with src=/var/log/auth.log
+Mar 16 12:57:52 ubuntu python3[18798]: ansible-ansible.legacy.slurp Invoked with src=/var/log/bootstrap.log
+Mar 16 12:57:52 ubuntu python3[18821]: ansible-ansible.legacy.slurp Invoked with src=/var/log/btmp
+Mar 16 12:57:52 ubuntu python3[18844]: ansible-ansible.legacy.slurp Invoked with src=/var/log/dpkg.log
+Mar 16 12:57:52 ubuntu python3[18867]: ansible-ansible.legacy.slurp Invoked with src=/var/log/faillog
+Mar 16 12:57:53 ubuntu python3[18890]: ansible-ansible.legacy.slurp Invoked with src=/var/log/fontconfig.log
+Mar 16 12:57:53 ubuntu python3[18913]: ansible-ansible.legacy.slurp Invoked with src=/var/log/gpu-manager.log
+Mar 16 12:57:53 ubuntu python3[18936]: ansible-ansible.legacy.slurp Invoked with src=/var/log/kern.log
+Mar 16 12:57:53 ubuntu python3[18959]: ansible-ansible.legacy.slurp Invoked with src=/var/log/lastlog
+Mar 16 12:57:54 ubuntu python3[18982]: ansible-ansible.legacy.slurp Invoked with src=/var/log/syslog

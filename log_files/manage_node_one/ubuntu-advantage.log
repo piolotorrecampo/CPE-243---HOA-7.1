@@ -1,0 +1,83 @@
+2023-03-14 11:31:11,341 - system.py:(362) [DEBUG]: Reading file: /etc/os-release
+2023-03-14 11:31:11,341 - system.py:(362) [DEBUG]: Reading file: /proc/version_signature
+2023-03-14 11:31:11,362 - system.py:(362) [DEBUG]: Reading file: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-03-14 11:31:11,362 - files.py:(56) [DEBUG]: File does not exist: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-03-14 11:31:11,362 - system.py:(389) [DEBUG]: Writing file /var/lib/ubuntu-advantage/apt-esm/etc/apt/sources.list.d/ubuntu-esm-apps.list atomically via tempfile /var/lib/ubuntu-advantage/apt-esm/etc/apt/sources.list.d/tmpyi1wkz2j
+2023-03-14 11:31:11,362 - gpg.py:(18) [DEBUG]: Exporting GPG key /usr/share/keyrings/ubuntu-advantage-esm-apps.gpg
+2023-03-16 10:25:32,763 - system.py:(362) [DEBUG]: Reading file: /etc/os-release
+2023-03-16 10:25:32,763 - system.py:(362) [DEBUG]: Reading file: /proc/version_signature
+2023-03-16 10:25:32,787 - system.py:(362) [DEBUG]: Reading file: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-03-16 10:25:32,787 - files.py:(56) [DEBUG]: File does not exist: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-03-16 10:25:32,794 - system.py:(362) [DEBUG]: Reading file: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-03-16 10:25:32,794 - files.py:(56) [DEBUG]: File does not exist: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-03-16 10:25:34,413 - system.py:(362) [DEBUG]: Reading file: /run/ubuntu-advantage//aptnews.json
+2023-03-16 10:25:34,423 - apt_news.py:(151) [DEBUG]: msg dates don't apply: AptNewsMessage{'begin': datetime.datetime(2023, 2, 7, 0, 0, tzinfo=datetime.timezone.utc), 'end': None, 'selectors': None, 'lines': ['"Phased updates" allow careful rollout of deb package changes at scale.', 'You may see these as packages that have been "kept back". Learn more at', 'https://ubuntu.com/server/docs/about-apt-upgrade-and-phased-updates']}
+2023-03-16 10:25:34,425 - apt_news.py:(178) [DEBUG]: using msg: None
+2023-03-16 11:35:30,369 - system.py:(362) [DEBUG]: Reading file: /etc/os-release
+2023-03-16 11:35:30,370 - system.py:(362) [DEBUG]: Reading file: /proc/version_signature
+2023-03-16 11:35:30,385 - system.py:(362) [DEBUG]: Reading file: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-03-16 11:35:30,385 - files.py:(56) [DEBUG]: File does not exist: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-03-16 11:39:05,423 - system.py:(362) [DEBUG]: Reading file: /etc/os-release
+2023-03-16 11:39:05,423 - system.py:(362) [DEBUG]: Reading file: /proc/version_signature
+2023-03-16 11:39:05,439 - system.py:(362) [DEBUG]: Reading file: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-03-16 11:39:05,439 - files.py:(56) [DEBUG]: File does not exist: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-03-16 11:39:57,168 - system.py:(362) [DEBUG]: Reading file: /etc/os-release
+2023-03-16 11:39:57,169 - system.py:(362) [DEBUG]: Reading file: /proc/version_signature
+2023-03-16 11:39:57,187 - system.py:(362) [DEBUG]: Reading file: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-03-16 11:39:57,188 - files.py:(56) [DEBUG]: File does not exist: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-03-16 11:40:40,901 - system.py:(362) [DEBUG]: Reading file: /etc/os-release
+2023-03-16 11:40:40,902 - system.py:(362) [DEBUG]: Reading file: /proc/version_signature
+2023-03-16 11:40:40,917 - system.py:(362) [DEBUG]: Reading file: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-03-16 11:40:40,917 - files.py:(56) [DEBUG]: File does not exist: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-03-16 11:49:13,935 - system.py:(362) [DEBUG]: Reading file: /etc/os-release
+2023-03-16 11:49:13,935 - system.py:(362) [DEBUG]: Reading file: /proc/version_signature
+2023-03-16 11:49:13,955 - system.py:(362) [DEBUG]: Reading file: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-03-16 11:49:13,955 - files.py:(56) [DEBUG]: File does not exist: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-03-16 11:53:37,930 - system.py:(362) [DEBUG]: Reading file: /etc/os-release
+2023-03-16 11:53:37,931 - system.py:(362) [DEBUG]: Reading file: /proc/version_signature
+2023-03-16 11:53:37,949 - system.py:(362) [DEBUG]: Reading file: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-03-16 11:53:37,949 - files.py:(56) [DEBUG]: File does not exist: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-03-16 11:58:32,221 - system.py:(362) [DEBUG]: Reading file: /etc/os-release
+2023-03-16 11:58:32,221 - system.py:(362) [DEBUG]: Reading file: /proc/version_signature
+2023-03-16 11:58:32,237 - system.py:(362) [DEBUG]: Reading file: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-03-16 11:58:32,237 - files.py:(56) [DEBUG]: File does not exist: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-03-16 12:13:19,747 - system.py:(362) [DEBUG]: Reading file: /etc/os-release
+2023-03-16 12:13:19,748 - system.py:(362) [DEBUG]: Reading file: /proc/version_signature
+2023-03-16 12:13:19,766 - system.py:(362) [DEBUG]: Reading file: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-03-16 12:13:19,766 - files.py:(56) [DEBUG]: File does not exist: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-03-16 12:25:15,446 - system.py:(362) [DEBUG]: Reading file: /etc/os-release
+2023-03-16 12:25:15,446 - system.py:(362) [DEBUG]: Reading file: /proc/version_signature
+2023-03-16 12:25:15,459 - system.py:(362) [DEBUG]: Reading file: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-03-16 12:25:15,459 - files.py:(56) [DEBUG]: File does not exist: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-03-16 12:28:22,268 - system.py:(362) [DEBUG]: Reading file: /etc/os-release
+2023-03-16 12:28:22,269 - system.py:(362) [DEBUG]: Reading file: /proc/version_signature
+2023-03-16 12:28:22,282 - system.py:(362) [DEBUG]: Reading file: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-03-16 12:28:22,282 - files.py:(56) [DEBUG]: File does not exist: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-03-16 12:30:28,602 - system.py:(362) [DEBUG]: Reading file: /etc/os-release
+2023-03-16 12:30:28,602 - system.py:(362) [DEBUG]: Reading file: /proc/version_signature
+2023-03-16 12:30:28,617 - system.py:(362) [DEBUG]: Reading file: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-03-16 12:30:28,617 - files.py:(56) [DEBUG]: File does not exist: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-03-16 12:31:49,892 - system.py:(362) [DEBUG]: Reading file: /etc/os-release
+2023-03-16 12:31:49,892 - system.py:(362) [DEBUG]: Reading file: /proc/version_signature
+2023-03-16 12:31:49,907 - system.py:(362) [DEBUG]: Reading file: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-03-16 12:31:49,908 - files.py:(56) [DEBUG]: File does not exist: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-03-16 12:35:00,049 - system.py:(362) [DEBUG]: Reading file: /etc/os-release
+2023-03-16 12:35:00,049 - system.py:(362) [DEBUG]: Reading file: /proc/version_signature
+2023-03-16 12:35:00,063 - system.py:(362) [DEBUG]: Reading file: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-03-16 12:35:00,063 - files.py:(56) [DEBUG]: File does not exist: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-03-16 12:35:39,687 - system.py:(362) [DEBUG]: Reading file: /etc/os-release
+2023-03-16 12:35:39,687 - system.py:(362) [DEBUG]: Reading file: /proc/version_signature
+2023-03-16 12:35:39,702 - system.py:(362) [DEBUG]: Reading file: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-03-16 12:35:39,702 - files.py:(56) [DEBUG]: File does not exist: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-03-16 12:36:32,878 - system.py:(362) [DEBUG]: Reading file: /etc/os-release
+2023-03-16 12:36:32,879 - system.py:(362) [DEBUG]: Reading file: /proc/version_signature
+2023-03-16 12:36:32,896 - system.py:(362) [DEBUG]: Reading file: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-03-16 12:36:32,896 - files.py:(56) [DEBUG]: File does not exist: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-03-16 12:47:03,576 - system.py:(362) [DEBUG]: Reading file: /etc/os-release
+2023-03-16 12:47:03,577 - system.py:(362) [DEBUG]: Reading file: /proc/version_signature
+2023-03-16 12:47:03,605 - system.py:(362) [DEBUG]: Reading file: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-03-16 12:47:03,605 - files.py:(56) [DEBUG]: File does not exist: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-03-16 12:57:46,318 - system.py:(362) [DEBUG]: Reading file: /etc/os-release
+2023-03-16 12:57:46,318 - system.py:(362) [DEBUG]: Reading file: /proc/version_signature
+2023-03-16 12:57:46,334 - system.py:(362) [DEBUG]: Reading file: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-03-16 12:57:46,334 - files.py:(56) [DEBUG]: File does not exist: /var/lib/ubuntu-advantage/private/machine-token.json
